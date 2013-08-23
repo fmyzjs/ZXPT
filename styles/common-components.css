@@ -1,0 +1,260 @@
+.msgalert{
+	display:inline-block;
+	padding: 8px 35px;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.msgalert.red{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.msgalert.orange{
+  color: #c09853;
+  background-color: #fcf8e3;
+}
+.msgalert.gray{
+	background-color:#aaaaaa;
+	color:#000000;
+	border-color:#777777;
+}
+.msgalert.black{
+	background-color:#333333;
+	color:#f7f7f7;
+	border-color:#000000;
+}
+.msgalert.green{
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.msgalert.blue{
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+i.icon{
+	display:inline-block;
+	background:url("/pic/info_block_icons.png") no-repeat;
+	margin-top:2px;
+	margin-right:2px;
+	float:left;
+}
+i.upload-black{
+	background-position:-16px 0px;
+	width:16px;
+	height:16px;
+}
+i.download-black{
+	background-position:0px 0px;
+	width:16px;
+	height:16px;
+}
+i.upload-white{
+	background-position:-48px 0px;
+	width:16px;
+	height:16px;
+}
+i.download-white{
+	background-position:-32px 0px;
+	width:16px;
+	height:16px;
+}
+i.cheat{
+	background-position:-64px 0px;
+	width:20px;
+	height:20px;
+}
+i.alert{
+	background-position:-84px 0px;
+	width:20px;
+	height:20px;
+}
+i.important{
+	background-position:-104px 0px;
+	width:20px;
+	height:20px;
+}
+i.setup{
+	background-position:-124px 0px;
+	width:20px;
+	height:20px;
+}
+i.panel{
+	background-position:-144px 0px;
+	width:20px;
+	height:20px;
+}
+i.favorite{
+	background-position:-164px 0px;
+	width:16px;
+	height:16px;
+}
+i.rss{
+	background-position:-48px -16px;
+	width:16px;
+	height:16px;
+	float:right;
+	margin-left:5px;
+}
+i.friend{
+	background-position:-180px 0px;
+	width:16px;
+	height:16px;
+}
+i.mail{
+	background-position:0px -16px;
+	width:48px;
+	height:48px;
+}
+
+.info_block_{
+	height:64px;
+	background-color:#f4f4f4;
+	color:#333333;
+	font-size:13px;
+	line-height:20px;
+	overflow:hidden;
+	font-family: "Microsoft YaHei",tahoma, arial, helvetica, sans-serif;
+}
+.info_block_ a{
+	color:#333333;
+	text-decoration:none;
+}
+.info_block_ a:hover{
+	text-decoration:underline;
+}
+.info_block_ > div {
+	border-right:1px solid #cccccc;
+}
+.info_block_ span.margin-top{
+	display:inline-block;
+	margin-top:3px;
+	vertical-align:top;
+}
+.info_block_ .span{
+	display:inline-block;
+	float:left;
+	padding:8px 10px;
+	height:48px;
+}
+.info_block_ .span-right{
+	display:inline-block;
+	float:right;
+	padding:8px 10px;
+	height:48px;
+	border-right:none;
+	border-left:1px solid #cccccc;
+}
+.info_block_ .big{
+	font-size:16px;
+}
+
+.info_block_ .center{
+	text-align:center;
+}
+.info_block_ .div-center{
+	display:block;
+	float:none;
+}
+.info_block_ .black font{
+	color:white;
+}
+.info_block_ .float-right{
+	float:right;
+}
+
+.info_block_ .animation{
+	display:inline-block;
+	float:left;
+	height:128px;
+	margin-top:0px;
+	-moz-transition: margin-top 0.2s ease-in;
+    -webkit-transition: margin-top 0.2s ease-in;
+    -o-transition: margin-top 0.2s ease-in;
+    transition: margin-top 0.2s ease-in;
+}
+.info_block_ .animation:hover{
+	margin-top:-64px;
+}
+.info_block_ .animation .container{
+	clear:left;
+	width:100%;
+}
+.info_block_ .animation .container.black{
+	background-color:#333333;
+	color:white;
+}
+.info_block_ .animation .container.black a{
+	color:white;
+}
+.info_block_ .animation .container.black a:hover{
+	text-decoration:underline;
+}
+
+.info_block_ .user_avatar .avatar{
+	height:48px;
+	width:48px;
+	float:left;
+	margin-right:8px;
+	border:none;
+}
+.info_block_ .user_avatar a span{
+	margin-right:8px;
+}
+.info_block_ .favorite-friends{
+	float:right;
+	border-right:none;
+	border-left:1px solid #cccccc;
+}
+.info_block_ .favorite-friends div{
+	height:16px;
+	padding:6px 10px 10px 8px;
+}
+.info_block_ .favorite-friends div:first-child{
+	border-bottom:1px solid #cccccc;
+}
+.info_block_ .mail{
+	position:relative;
+}
+.info_block_ .mail .head-tip{
+	position:absolute;
+	top:4px;
+	right:4px;
+	height:20px;
+	width:20px;
+	text-align:center;
+	color:white;
+	background-color:#e74c3c;
+	z-index:1;
+	padding:2px;
+	border-radius:24px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.info_block_ .admin-pannel i{
+	margin:8px 5px 5px 5px;
+}

@@ -1,0 +1,54 @@
+img.f_reply
+{
+width:87px;
+height:28px;
+background:url(forum.png) 0 0;
+}
+img.f_new
+{
+width:87px;
+height:28px;
+background:url(forum.png) -87px 0;
+}
+img.f_delete
+{
+width:69px;
+height:25px;
+background:url(forum.png) 0 -27px;
+}
+img.f_edit
+{
+width:62px;
+height:25px;
+background:url(forum.png) -69px -27px;
+}
+img.f_pm
+{
+width:30px;
+height:25px;
+background:url(forum.png) -131px -27px;
+}
+img.f_offline
+{
+width:35px;
+height:25px;
+background:url(forum.png) -161px -27px;
+}
+img.f_quote
+{
+width:69px;
+height:25px;
+background:url(forum.png) 0 -51px;
+}
+img.f_report
+{
+width:69px;
+height:25px;
+background:url(forum.png) -69px -51px;
+}
+img.f_online
+{
+width:33px;
+height:25px;
+background:url(forum.png) -139px -51px;
+}
