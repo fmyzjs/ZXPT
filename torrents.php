@@ -6,6 +6,84 @@ loggedinorreturn();
 parked();
 if ($showextinfo['imdb'] == 'yes')
 	require_once ("imdb/imdb.class.php");
+
+ //批量设置功能
+ if($_POST["torrentdeletebycheck"])
+ {
+ 	$pm_messages = $_POST['box'];
+ 	if (!$pm_messages)
+ 	stderr("错误", "没有选择种子");
+ 	// Delete multiple messages
+ 	foreach ($pm_messages as $id)
+ 	{
+ 	if(get_user_class() > $torrentmanage_class)
+ 		echo "<iframe style='display:none;' src=fastdelete.php?id=".((int)$id)."&sure=1></iframe>";
+ 	}
+ 	stderr("完成", "你已经成功删除选中的种子");
+ }
+ if($_POST["torrentspbycheck"])
+ {
+ 	$pm_messages = $_POST['box'];
+ 	if (!$pm_messages)
+ 	stderr("错误", "没有选择种子");
+ 	foreach ($pm_messages as $id)
+ 	{
+ 	if(get_user_class() > $torrentmanage_class)
+ 		 sql_query("UPDATE torrents SET pos_state = 'sticky' WHERE id=" . sqlesc((int) $id));
+ 	}
+ 	write_log($CURUSER["username"]."批量置顶了种子",'normal');
+ 	stderr("完成", "你已经成功将选中的种子置顶");
+ } 
+ if ($_POST["torrentnmbycheck"])
+ { 
+ 	$pm_messages = $_POST['box'];
+ 	if (!$pm_messages)
+ 	stderr("错误", "没有选择种子");
+ 	foreach ($pm_messages as $id)
+ 	{
+ 	if(get_user_class() > $torrentmanage_class)
+ 		 sql_query("UPDATE torrents SET pos_state = 'normal' WHERE id=" . sqlesc((int) $id));
+ 	}
+ 	write_log($CURUSER["username"]."批量取消了置顶",'normal');
+ 	stderr("完成", "你已经成功取消了选中的置顶种子");
+ } 
+ if ($_POST["torrent1bycheck"]||$_POST["torrent2bycheck"]||$_POST["torrent3bycheck"]||$_POST["torrent4bycheck"]||$_POST["torrent5bycheck"]||$_POST["torrent6bycheck"]||$_POST["torrent7bycheck"])
+ {
+ 	$pm_messages = $_POST['box'];
+ 	if (!$pm_messages)
+ 	stderr("错误", "没有选择种子");
+ 	switch(true)
+  	{
+    		case $_POST["torrent1bycheck"] :
+  			$a=1;
+ 		break;
+ 		case $_POST["torrent2bycheck"] :
+ 			$a=2;
+ 		break;
+ 		case $_POST["torrent3bycheck"] :
+ 			$a=3;
+ 		break;
+ 		case $_POST["torrent4bycheck"] :
+ 			$a=4;
+ 		break;
+ 		case $_POST["torrent5bycheck"] :
+ 			$a=5;
+ 		break;
+ 		case $_POST["torrent6bycheck"] :
+ 			$a=6;
+ 		break;
+ 		case $_POST["torrent7bycheck"] :
+ 			$a=7;
+ 		break;
+ 	}
+ 	foreach ($pm_messages as $id)
+ 	{
+ 	if(get_user_class() > $torrentmanage_class)
+ 		 sql_query("UPDATE torrents SET sp_state = ".$a." WHERE id=" . sqlesc((int) $id));
+ 	}
+ 	write_log($CURUSER["username"]."批量设置了种子优惠",'normal');
+ 	stderr("完成", "你已经成功设置了选中种子的优惠");
+ }   
 //check searchbox
 $sourcelid = (int)$_GET['cat'];
 $sectiontype = $browsecatmode;

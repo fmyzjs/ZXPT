@@ -3255,6 +3255,7 @@ function torrenttable($res, $variant = "torrent") {
 	}
 ?>
 <table class="torrents" cellspacing="0" cellpadding="5" width="100%">
+	<form id="form_torrent" name="form_torrent" method="post" action="">
 <tr>
 <?php
 $count_get = 0;
@@ -3283,6 +3284,9 @@ for ($i=1; $i<=9; $i++){
 		$link[$i] = ($_GET['type'] == "desc" ? "asc" : "desc");
 	else $link[$i] = ($i == 1 ? "asc" : "desc");
 }
+if(get_user_class() > $torrentmanage_class)
+ echo("<td class=\"colhead\" style=\"padding: 0px\"><input id='box' value=boxed type=checkbox  onclick=\"ChkAllClick('box[]','box');torrentbycheck();\"></td>");
+
 ?>
 <td class="colhead" style="padding: 0px"><?php echo $lang_functions['col_type'] ?></td>
 <td class="colhead"><a href="?<?php echo $oldlink?>sort=1&amp;type=<?php echo $link[1]?>"><?php echo $lang_functions['col_name'] ?></a></td>
@@ -3321,6 +3325,8 @@ while ($row = mysql_fetch_assoc($res))
 	$id = $row["id"];
 	$sphighlight = get_torrent_bg_color($row['sp_state']);
 	print("<tr" . $sphighlight . ">\n");
+ 	if(get_user_class() > $torrentmanage_class)
+ 	print("<td class=\"rowfollow nowrap\" valign=\"middle\" style='padding: 0px'><input id='box' onclick=\"ChkSonClick('box[]','box');torrentbycheck();\" class=box type=checkbox name=box[] value=".$id."></td>");
 
 	print("<td class=\"rowhead_center\" valign=\"middle\" style='padding: 0px'>");
 	if (isset($row["category"])) {
@@ -3539,7 +3545,8 @@ while ($row = mysql_fetch_assoc($res))
 print("</table>");
 if ($CURUSER['appendpromotion'] == 'highlight')
 	print("<p align=\"center\"> ".$lang_functions['text_promoted_torrents_note']."</p>\n");
-
+if(get_user_class()> $torrentmanage_class) 
+   echo("<div id=torrentbycheck style=\"background-color: #EAEAEA; border: 2px solid #CCCCCC; padding: 4px;display:none;position:absolute;background-color:#fff;z-index:999;\"><p><input class=btn type=button name=chkall id=chkall value=全不选 onclick=\"this.value=check(form,'全选','全不选')\"><input class=btn type=button name=fanchk id=fanchk value=反选 onclick=\"ChkOppClick('box[]')\"></p><p><input class=btn type=submit name=torrentdeletebycheck value=删除种子 onclick=\"return confirm('您确认？');\"></p><p><input class=btn type=submit name=torrentspbycheck value='设置置顶' onclick=\"return confirm('您确认？');\"><input class=btn type=submit name=torrentnmbycheck value='取消置顶' onclick=\"return confirm('您确认？');\"></p><p><input class=btn type=submit  name=torrent1bycheck value='设置正常' onclick=\"return confirm('您确认？');\"><input class=btn type=submit  name=torrent2bycheck value='设置免费' onclick=\"return confirm('您确认？');\"></p><p><input class=btn type=submit name=torrent3bycheck value='设置2x' onclick=\"return confirm('您确认？');\"><input class=btn type=submit name=torrent4bycheck value='设置2x免费' onclick=\"return confirm('您确认？');\"></p><p><input class=btn type=submit name=torrent5bycheck value='设置50%' onclick=\"return confirm('您确认？');\"><input class=btn type=submit name=torrent6bycheck value='设置2x 50%' onclick=\"return confirm('您确认？');\"></p><p><input class=btn type=submit name=torrent7bycheck value='设置30%' onclick=\"return confirm('您确认？');\"></p></div></form>");
 if($enabletooltip_tweak == 'yes' && (!isset($CURUSER) || $CURUSER['showlastcom'] == 'yes'))
 create_tooltip_container($lastcom_tooltip, 400);
 create_tooltip_container($torrent_tooltip, 500);

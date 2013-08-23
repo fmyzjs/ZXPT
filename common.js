@@ -380,3 +380,54 @@ document.getElementById("giftselect").disabled = true;
 document.getElementById("giftcustom").disabled = false;
 }
 }
+
+
+//悬浮框代码
+
+function torrentbycheck() {
+ var arrSon = document.getElementsByName('box[]');
+ for(var i=0; i<arrSon.length; i++) {
+     if(arrSon[i].checked) {
+     document.getElementById("torrentbycheck").style.display = '';
+	 return;
+    }
+}
+document.getElementById("torrentbycheck").style.display = 'none';
+}
+
+//随鼠标移动窗口
+window.onscroll=function(){
+clientHeight = (document.documentElement.clientHeight?document.documentElement.clientHeight:document.body.clientHeight);
+ey = (document.documentElement.scrollTop || document.body.scrollTop);
+document.getElementById("torrentbycheck").style.top=(clientHeight/2+ey)+'px';
+document.getElementById("torrentbycheck").style.left='0px';
+};
+
+function ChkAllClick(sonName, cbAllId){
+ var arrSon = document.getElementsByName(sonName);
+ var cbAll = document.getElementById(cbAllId);
+ var tempState=cbAll.checked;
+ for(i=0;i<arrSon.length;i++) {
+ if(arrSon[i].checked!=tempState)
+           arrSon[i].click();
+ }
+}
+// --子项复选框被单击---
+function ChkSonClick(sonName, cbAllId) {
+ var arrSon = document.getElementsByName(sonName);
+ var cbAll = document.getElementById(cbAllId);
+ for(var i=0; i<arrSon.length; i++) {
+     if(!arrSon[i].checked) {
+     cbAll.checked = false;
+	 return;
+     }
+ }
+ cbAll.checked = true;
+}
+// --反选被单击---
+function ChkOppClick(sonName){
+ var arrSon = document.getElementsByName(sonName);
+ for(i=0;i<arrSon.length;i++) {
+  arrSon[i].click();
+ }
+}
