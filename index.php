@@ -323,7 +323,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 <h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
 <table width="100%" border="1" cellspacing="0" cellpadding="5"><tr>
 	<td class="text">
-		<div class="demo">"
+		<div class="demo">
 <?php
 	if($count > 9) 
 	{

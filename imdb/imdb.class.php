@@ -472,10 +472,15 @@ $responseBody = $response->getBody();
 #    $rate_s = strpos ($this->page["Title"], '/ratings">');
     if ( $rate_s == 0 )	return FALSE;
     if (strpos ($this->page["Title"], "awaiting 5 votes")) return false;
-    $rate_s = strpos ($this->page["Title"], 'class="rating">');
-    $rate_e = strpos ($this->page["Title"], "/", $rate_s);
-    $this->main_rating = substr ($this->page["Title"], $rate_s + 3, $rate_e - $rate_s - 3);
-    if ($rate_e - $rate_s > 7) $this->main_rating = "";
+    // $rate_s = strpos ($this->page["Title"], 'ratingValue">');
+    // $rate_e = strpos ($this->page["Title"], "</span>", $rate_s);
+    // $this->main_rating = substr ($this->page["Title"], $rate_s + 1, $rate_e -$rate_s -1 );
+    // if ($rate_e - $rate_s > 7) $this->main_rating = "";
+if (preg_match('!<span itemprop="ratingValue">(\d{1,2}\.\d)!i',$this->page["Title"],$match)){
+      $this->main_rating = $match[1];
+    } else {
+      $this->main_rating = 0;
+    }
     return $this->main_rating;
    }
   }
@@ -509,16 +514,19 @@ $responseBody = $response->getBody();
   function votes () {
    if ($this->main_votes == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $vote_s = strpos ($this->page["Title"], "User Rating:");
+    $vote_s = strpos ($this->page["Title"], "User Ratings");
     if ( $vote_s == 0) return false;
     if (strpos ($this->page["Title"], "awaiting 5 votes")) return false;
 //    $vote_s = strpos ($this->page["Title"], "<a", $vote_s);
 //    $vote_e = strpos ($this->page["Title"], "votes", $vote_s);
 //    $this->main_votes = substr ($this->page["Title"], $vote_s, $vote_e - $vote_s);
-    preg_match('/href=\"ratings\".*>([0-9,][0-9,]*)/', $this->page["Title"], $matches);
-    $this->main_votes = $matches[1];
+    if (preg_match('!<span itemprop="ratingCount">([\d\.,]+)</span!i',$this->page["Title"],$match)){
+        $this->main_votes = $match[1];
+    }else{
+        $this->main_votes = 0;
+    }
     $this->main_votes = "<a href=\"http://".$this->imdbsite."/title/tt".$this->imdbID."/ratings\">" . $this->main_votes . "</a>";
-   }
+    }
    return $this->main_votes;
   }
 
@@ -545,20 +553,16 @@ $responseBody = $response->getBody();
   function languages () {
    if ($this->main_languages == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $lang_s = 0;
-    $lang_e = 0;
-    $i = 0;
-    $this->main_languages = array();
-    while (strpos($this->page["Title"], "/Sections/Languages/", $lang_e) > $lang_s) {
-	$lang_s = strpos ($this->page["Title"], "/Sections/Languages/", $lang_s);
-	$lang_s = strpos ($this->page["Title"], ">", $lang_s);
-	$lang_e = strpos ($this->page["Title"], "<", $lang_s);
-	$this->main_languages[$i] = substr ($this->page["Title"], $lang_s + 1, $lang_e - $lang_s - 1);
-	$i++;
+        if (preg_match_all('!href="/language/(.*?)"[^>]*>\s*(.*?)\s*</a>(\s+\((.*?)\)|)!m',$this->page["Title"],$matches)) {
+     $this->main_languages = $matches[2];
+      $mc = count($matches[2]);
+      for ($i=0;$i<$mc;$i++) {
+       $this->main_languages_full[] = array('name'=>$matches[2][$i],'code'=>$matches[1][$i],'comment'=>$matches[4][$i]);
+      }
     }
-   }
    return $this->main_languages;
   }
+}
 
   /** Get the movies main genre
    * @method genre
@@ -567,10 +571,10 @@ $responseBody = $response->getBody();
   function genre () {
    if ($this->main_genre == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $genre_s = strpos ($this->page["Title"], "/Sections/Genres/");
+    $genre_s = strpos ($this->page["Title"], "Genres:");
     if ( $genre_s === FALSE )	return FALSE;
-    $genre_s = strpos ($this->page["Title"], ">", $genre_s);
-    $genre_e = strpos ($this->page["Title"], "<", $genre_s);
+    $genre_s = strpos ($this->page["Title"], "tt_stry_gnr\" >", $genre_s);
+    $genre_e = strpos ($this->page["Title"], "</a", $genre_s);
     $this->main_genre = substr ($this->page["Title"], $genre_s + 1, $genre_e - $genre_s - 1);
    }
    return $this->main_genre;
@@ -583,26 +587,21 @@ $responseBody = $response->getBody();
   function genres () {
    if ($this->main_genres == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $this->main_genres = array();
-    $genre_s = strpos($this->page["Title"],"/Sections/Genres/") -5;
-    if ($genre_s === FALSE) return array(); // no genre found
-    if ($genre_s < 0) return array(); // no genre found
-    $genre_e = strpos($this->page["Title"],"/rg/title-tease/",$genre_s);
-    $block = substr($this->page["Title"],$genre_s,$genre_e-$genre_s);
-    $diff = $genre_e-$genre_s;
-    $genre_s = 0;
-    $genre_e = 0;
-    $i = 0;
-    while (strpos($block, "/Sections/Genres/", $genre_e) > $genre_s) {
-	$genre_s = strpos ($block, "/Sections/Genres/", $genre_s);
-	$genre_s = strpos ($block, ">", $genre_s);
-	$genre_e = strpos ($block, "<", $genre_s);
-	$this->main_genres[$i] = substr ($block, $genre_s + 1, $genre_e - $genre_s - 1);
-	$i++;
-    }
-   }
-   return $this->main_genres;
+        if (preg_match_all('!<a href="/genre/[^>]+?>(.*?)\</a>!',$this->page["Title"],$matches)) {
+        $this->main_genres = $matches[1];
+      } elseif (preg_match('!<div class="infobar">(.*?)</div>!ims',$this->page['Title'],$match)) {
+        if (preg_match_all('!href="/genre/.*?"\s*>(.*?)<!ims',$match[1],$matches)) {
+          $this->main_genres = $matches[1];
+        }
+      }
+
   }
+    foreach ($this->main_genres as $i => $val) {
+    $this->main_genres[$i] = trim(strip_tags($this->main_genres[$i]));
+    }
+    $this->main_genres = array_merge(array_unique($this->main_genres));
+    return $this->main_genres;
+}
 
   /** Get colors
    * @method colors
@@ -1037,9 +1036,12 @@ $responseBody = $response->getBody();
     if ($this->page["Title"] == "") $this->openpage ("Title");
     $country_s = strpos ($this->page["Title"], "/country/");
     if ( $country_s == 0) return FALSE;
-    $country_s = strpos ($this->page["Title"], ">", $country_s);
-    $country_e = strpos ($this->page["Title"], "<", $country_s);
-    $this->main_country = substr ($this->page["Title"], $country_s + 1, $country_e);
+    // $country_s = strpos ($this->page["Title"], ">", $country_s);
+    // $country_e = strpos ($this->page["Title"], "<", $country_s);
+    // $this->main_country = substr ($this->page["Title"], $country_s + 1, $country_e);
+    $this->main_country = array();
+    if (preg_match_all('!/country/.+?>(.*?)<\/a!m',$this->page["Title"],$matches))
+      for ($i=0;$i<count($matches[0]);++$i) $this->main_country[$i] = $matches[1][$i];
    }
    return $this->main_country;
   }
@@ -1050,11 +1052,11 @@ $responseBody = $response->getBody();
   function alsoknow () {
    if ($this->main_alsoknow == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $ak_s = strpos ($this->page["Title"], "Also Known As:</h5>");
+    $ak_s = strpos ($this->page["Title"], "Also Known As:</h4>");
     if ($ak_s>0) $ak_s += 19;
     if ($ak_s == 0) $ak_s = strpos ($this->page["Title"], "Alternativ:");
     if ($ak_s == 0) return array();
-    $alsoknow_end = strpos ($this->page["Title"], "</div>", $ak_s);
+    $alsoknow_end = strpos ($this->page["Title"], "<span", $ak_s);
     $alsoknow_all = strip_tags(substr($this->page["Title"], $ak_s, $alsoknow_end - $ak_s), '<br>');
     $alsoknow_arr = explode ( "<br>", $alsoknow_all);
     $j=0;

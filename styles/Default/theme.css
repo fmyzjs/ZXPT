@@ -14,7 +14,7 @@ body
 	-moz-background-size: cover !important;
 	background-size: cover !important;
 	padding-top: 25px;
-	background-image: url(/styles/BambooGreen/1680x1050.jpg);
+	background-image: url(/styles/Default/1680x1050.jpg);
 }
 body.inframe
 {
