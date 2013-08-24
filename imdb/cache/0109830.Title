@@ -13,8 +13,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                     var ue_mid = "A1EVAM02EL8SFB"; 
                     var ue_sn = "www.imdb.com";  
                     var ue_furl = "fls-na.amazon.com";
-                    var ue_sid = "448-2132340-6894864";
-                    var ue_id = "1B1Z1SSWS0TWA34GTPB1";
+                    var ue_sid = "144-5864468-6982704";
+                    var ue_id = "1EF190FGQB1B61SWN257";
                     (function(e){var c=e,a={q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-7a20c193d015b9ae7a8d73679a2d1c44._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
                 </script>
  
@@ -49,10 +49,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             <meta name="description" content="Directed by Robert Zemeckis.  With Tom Hanks, Robin Wright, Gary Sinise, Sally Field. Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him." />
             <meta property="og:description" content="Directed by Robert Zemeckis.  With Tom Hanks, Robin Wright, Gary Sinise, Sally Field. Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him." />
             <meta name="keywords" content="Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits" />
-            <meta name="request_id" content="1B1Z1SSWS0TWA34GTPB1" />
+            <meta name="request_id" content="1EF190FGQB1B61SWN257" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-1e-i-4b632c3a.us-east-1 -->
+<!-- h=ics-1a-i-8d63b8fc.us-east-1 -->
 <link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/collections/title-3126643902._V359090620_.css" />
 <link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/site/consumer-navbar-3762303147._V379390806_.css" />
 <!--[if IE]><link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/collections/ie-2022001760._V377744162_.css" /><![endif]-->
@@ -105,13 +105,13 @@ generic.monitoring.set_forester_info("title");
 generic.monitoring.set_twilight_info(
 "title",
 "CN",
-"64b9bc7534d6c2b2fbe0726e69b8203689b274ba",
-"2013-08-23T06%3A22%3A13GMT",
+"bf8596c0ceb8f59657ee8c1ab0e497e3fd07f93f",
+"2013-08-23T15%3A28%3A00GMT",
 "http://s.media-imdb.com/twilight/?");
 generic.send_csm_head_metrics && generic.send_csm_head_metrics();
 generic.monitoring.start_timing("page_load");
-generic.seconds_to_midnight = 2267;
-generic.days_to_midnight = 0.026238426566124;
+generic.seconds_to_midnight = 55920;
+generic.days_to_midnight = 0.6472222208976746;
 },"Generic not defined, skipping twilight setup.");
 doWithAds(function(){
 custom.full_page.data_url = "http://z-ecx.images-amazon.com/images/G/01/imdbads/js/graffiti_data-1968622827._V360498668_.js";
@@ -124,12 +124,7 @@ _gaq.push(['_setCustomVar', 4, 'ads_abtest_treatment', 'b']);
 </script>
 <script>
 doWithAds(function(){
-ad_utils.register_punt_ad("top_ad","728","90"," \r\n\r\n<a target=\"_blank\" href=\"http://aax-us-east.amazon-adsystem.com/x/c/RfitVIewrfJsIa71CCMuOA/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWu.R6daL8rgP70OKvixFXXmPkbhTDV3kT7tX8Dj.o-xsR.1Bm0e1xv58X3Q7ox-VaqAeFPRcuRjNR03xZB0yBbA88eKRc3A68mHi9owf06LTcpdM5OEt5bp1K7WpW-onEKc3FB-Mw.RoxUdUwfaQgU7xlYVQqyNbulFFwJGhvhBDmJGXcv-9aO9EXsU14OqKs-haUQ6IxS277leuqEuoZWv2Mk..qG7xRCzaGU0LyeQWgeeNbavNW2h3xpUcGb0HRn-EdHVUJxlXV0JSy0gZZQQ7EkxRc8V.lgnwGqV-Iq5xwMnjRYXA9qdXghNBWMnJTtw-R3qXghCZZNVVj1NJGLXJkKxmAW3p1YpjqT22jHATgKt1UnLfFBTk3QFbmSooLYgdEAI6yEab1ULM6xNOY7FXbc-vc-DlJUJlnaOiSk9kQ5LWBbf5RIDiBPj5NwZ4RIS5rSTqH6lXFOamNzFuh2OlY6IEt.9U1ckzshflA2HT6Z7xAZ762SxN7oWxPfCH3Gc7nw6oWTxS-sWQUGjAv13XQ-zjeCwkNAPFMH.ZgOSzJ0Xx2DSA-fanyME.XsGH6BDnW07et801QLChXWMK-MEb7O8eoF5KBcAlpygtsNkfctGy-WTCRMhcKb2GUdbqF6-pPTrYQV4TGDXFwF7gSjsDyWRyOS2pzgcvUwH-jYwwgCQWjhHAGzX3QNl5.-CV2NQ195SNamBOnFGm.dlAG8gIrT7ZSNQqyTORFYCE19D2MsFnTuo8V54dywa56mFM5Zek89OjFKutnCho3s0zP3mXQlk8ALkE-dRddWJHx2ZlioLk1Tm0uhgaklpvjBIznUOHPZF2kr65fFO9yuKWpTzkjRdBCanBmjC-0QIFO-G9hvPwEwRLLyRL4jkDlLUTMIGUkyosdfz7RpcqsJvPgxS.CfvGeBfllm2mXb50uGbUHbMewoqnHgoxJiG2rSqvtgroksM3OqBD-URqgQ2WP4jN.XrSF5zHS3-T9GvJ3vN4a-cJRe.MAuH-FRPkx2rpglD.IoL7DaOEiKM9i7C8oRsl4NvjJAgmWngpXLRdDku9E0BHCapx9QcMT08e47oB5AuiCEDorwLBJtkCPIEM3WPM.y.6f-29Hhg.ajQza9IO-f6EGJFLMkURAtJ8UBk3DE7q.KKfu5NRedwJp3bHD4UfgatT-3omA9uTbOYDnhcrlosA6c6ICigS7WzYKYCltZwGZntcpGVqCFIbM85xKCZeK9XTXWMSxOfHk0gKNIhFc050CriJA.WKaXkPW7YQdhtzYLhraxMgkBLc4vKB-pfazgHOSpDRihvOWZOhXN3eeo-6OQDzbvA10c.HipruiQ__\"><img src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1367612083386/mp3_foty_live-amazon_728x90.jpg\" alt=\"\" title=\"\" width=\"728\" height=\"90\" border=\"0\"></a>\r\n\r\n<\!-- creativeModDate = 1370664703000 --\>\n <div id=\"top_ad_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=e9ef3ed3-069b-4509-b203-38e276ad5996&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
-}, "ad_utils not defined, skipping punt ad data setup.");
-</script>
-<script>
-doWithAds(function(){
-ad_utils.register_punt_ad("top_rhs","300","250"," \r\n\r\n<script type=\"text/javascript\">\r\n\r\nvar clickURL = \"http://aax-us-east.amazon-adsystem.com/x/c/Egj-i7NzydiPyDF9KjU4Ug/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWgXfpW8I8xyrwiPqRuR-NvBKjoRIAbx0sVhui4praUNX5aVl6PZjlS6e6xI3QchNWh7ANrAtIBrMZ3j99lZsogEY5hASmGmAGCF9QIZyOcwuk2ntYLhdrrlbDudWYIKatUH9hKOrPRBMHQX8xjUukQhApJ5V3ty3yaIPSHfMze0H00P9DfqyTFWyjHBZLxlqhWhBI51zV.uYhkP1uR1CBuALmyMDoMh7uIpBCvra2McS68fttnnJsq8JXDXhUScEHdNvcf4Mo8VE-6TV0tIMiXwv8Sf.VLbsBoQuHAlmsGrwtR7Dwoy.ofGC0ccZJiVgclTXZ2skbt4HrVBKGWw1Q.g4xd16oOjrK7mbGg2q0N1tkefalSxBouuLH.lOi82gyCSmt0YA8V3bLzfxnVTuBdturhS6-cdTx2QfDnbm6V-ECgSn9oWz9AZeDb91UUh2UevdUULpZWsVpP0Ew1AgcfXGTiK5Vqarz84D3VYcRPLMw9kmtTKuWLslmdaRKSlVAwWjk4TNIISLJHgQZIJEBUyKJea8Vf4bJm-yb-tSLEUFvixn8dMwx0DMPkcqTZLdrW01n9hJ6eraD5-v5arjElfqUmW5n7uazkrZh4DnSY-H41Mfm2-OcNI.YJoBrWaxuHTe1ewNOgbucFe9YtCfTJ2oqZME9E0-lBOAYF3dwcY5WdJDIqk0C0UGMqdFQPqsTuxNgCnW9Os.U6Q9VRme3hIoctYduZSMqVGX.03giq-0soRs960wd6qddyT67NaA96IgOBC8IzGKFu2PJ5wNohugpm5faAdrV7.sRIMmnRfdknF-wRpznlWc7DYEktdAY3t8RMcggFdvoRGQl89rcE.CHlQotJSmR-nfzG8L36NYiqaVrhc1fJeQV2TmtA5EVXP.Jn2kHj.ZDpbaGCkDScUlnmx0oPQbNdlxsh9b5aopqEzb0wXaIr2qmHax9d4-078koZvfzQSiBbUBwNK1HKPoUNxPUgPoCD3225T.o6mH4h-cMZHBcMb4myXCzrNHXoFHB-VF-klzXRALPq7DylEFYvSvEf-vHweKMDoC6Gj5tHVoqN4zr0N4gntkuLrq9eS3ocx6phZAru5U9VhXi-UBs-W7FobE0j6rKniA4ZBinnqu-Zc2Gq9wPFNflhK0pTrgBKU2C0JGmIoeVt9bHa7Bj1UeI4MzBr1UBG37P8BmL4FozE4L-Bez86pEecD1qfq3tMBtsUG8Jo92dufVXSagcp9mmmc1uTBP8jfDeRmLNwXX9-JVT4vI1w41UIGiACJQUW5R2DLnjG3yKE6N-O4UPyiic8UmTWxXHWLzp2rU\";\r\n\r\nfunction getFlashVer() {\r\n var i,a,o,p,s=\"Shockwave\",f=\"Flash\",t=\" 2.0\",u=s+\" \"+f,v=s+f+\".\",rSW=RegExp(\"^\"+u+\" (\\\\d+)\");\r\n\r\n if ((o=navigator.plugins) && (p=o[u]||o[u+t]) && (a=p.description.match(rSW))) {\r\n return a[1];\r\n }\r\n else if (!!(window.ActiveXObject)) {\r\n for (i=10; i>0; i--) {\r\n try {\r\n if (!!(new ActiveXObject(v+v+i)))\r\n return i\r\n }\r\n catch(e) {\r\n }\r\n }\r\n }\r\n return 0;\r\n}\r\n\r\nfunction get3pPixed() {\r\n var code = \'\';\r\n return code;\r\n}\r\n\r\nfunction getFlashVarsStr() {\r\n var str = \"clickTag=\" + escape(\"http://aax-us-east.amazon-adsystem.com/x/c/Egj-i7NzydiPyDF9KjU4Ug/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWpJq1r6R9I26baGAMVtXM7gdUZmxb.2e159ZtmTfzZE-jfLwF0OQdegyVytl454R4yXzYG4Zc93y1O6kJWrawH5W-QlMfgZpYUfW3LRyzQC37tMOPxqcJ66LD0EVyi-iTPK87kIM9Dha0DfcYbV0pWAdZRTt-4xiud.--go0kZXUWHvZefJTSNSkomSAoFO.ZZzP.HIOVD8YpyW4JP3pPXkb3xi.URkmm-dLku9knLHdLJhE7EeE24nHzOXOJAWWzkF4XB-Q3ojbJ6czpM2IgWZRtlM0NrdQLxwd8X3URqoZMbR0LbVRp-p6wEAQWqmU2NOHAfEeMCJQzleA1cSp31REtXf-cLoI50WjG-BS9EPn8kEM9sahr6uuwAp3Jvwg1HWnXVOg8ZRFY8rPrWpbIsaF0X-uuN8gRoXPxeed1rN2p7-oob54a-Wyqwd9IPoHVcnROiDPJESk7A1hHtXgyZ6QGMc63OHYo1ZB4djtgbbQnfZbb6VaY6QL30ip63D45lceSbYiYIRKE2mmZodlFSP3yhOH.sR4r4rb3K4e0hXxEks7dRGEk.Ff3mLOW4f6pgq5AiN08s8PHeYxAzetk-9xPzhm0IVIc83cyiglLzejVJRV59Rhx2-eRfugktNvHIyVuo6M4X8g-fhBhj9C.p1b7VkQccK1jHx-s.mkCZOwQ.NYsmlJpe-5MIyEKlmSJH-CnpceMblfUn1pgnMoYiy4F1jPiGYQYN7gQV3XWr3rX.ND4nGKR3qBTcPh.McopCy4toJ6B6Ht54ynbr0y6Ep.G2RIWmiXaA9rsBFVOwe5RGubYbADfRlzggfFePD7.kBqC1.hKDP.-8oxn8vBuRcC0N05irS9nmmxm1V3.2dwcZm8A1yBosqcINS-aHd9IusgLWXFyrRh-HHMwoFmDS5Ljs8ceWxFpYx4Ufh-PDI91ggj7c13mL-FQAHmee8aIpMY53PRRgFyFnEQ0i1Uti0ywNHwYhXsiiqJ6cxRDyo6WYHdbco39DpF3maRprlFQs9vvlR0UkogQC7vXxM92r-SJVeSoIj3stpxKHDczFuaUk8JKP.aYTEG3uqw2umeZtdCv6AW0xIkdo8F-Td3Qeb5pdW4priYmUAMVjr64f19RdM461Zu1hdHuiR8PiIL2UqW7XI-DMzGWPXOinS1kMM-lk2N2QhBHFUiIfTxbK-LtE2WMkKGu1xMLT85B.Ae1V.ZgtsOETwR10sfPUhEeIfmjuJif2NbOAgLIbRp6ou-FMxGR4NAvowbcal5AKKdOhXI0o6UH31RW7amxxqou8i075GG.jY1ga27zuqyDv6Q\");\r\n return str;\r\n}\r\n\r\nvar adcode;\r\nif ((0+6) <= getFlashVer()) {\r\n var flashVars = getFlashVarsStr();\r\n adcode = get3pPixed();\r\n adcode += \'<OBJECT classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" ID=FLASH_AD WIDTH=\"300\" HEIGHT=\"250\"><PARAM NAME=movie VALUE=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341466908/Convenience_A.swf\"><param name=\"flashvars\" value=\"\'+ flashVars + \'\"><PARAM NAME=quality VALUE=high><PARAM NAME=bgcolor VALUE=#FFFFFF><PARAM NAME=wmode VALUE=opaque><PARAM NAME=\"AllowScriptAccess\" VALUE=\"always\"><EMBED src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341466908/Convenience_A.swf?\' + flashVars + \'\" quality=high wmode=opaque swLiveConnect=TRUE WIDTH=\"300\" HEIGHT=\"250\" bgcolor=#FFFFFF TYPE=\"application/x-shockwave-flash\" AllowScriptAccess=\"always\"></EMBED></OBJECT>\';\r\n document.write(adcode);\r\n}\r\nelse {\r\n adcode = get3pPixed();\r\n adcode += \'<A TARGET=\"_blank\" HREF=\"\' + clickURL + \'\"><IMG SRC=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341467222/Convenience_A.jpg\" alt=\"\" width=\"300\" height=\"250\" BORDER=0></A>\';\r\n document.write(adcode);\r\n}\r\n<\/script>\r\n<noscript>\r\n <a target=\"_blank\" href=\"http://aax-us-east.amazon-adsystem.com/x/c/Egj-i7NzydiPyDF9KjU4Ug/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWmZ.gzVxe7dFXw8LRW7BEF4RR3farzVf0kt3sIZsHwscbdNp6iD6t7fOdjpEH6i0MMgxFZ0i10yvRN0.Lml.tCLWnaSQdeobOqlp5-XY9BG0C8TiUvd-h-O8202woRXQ-uOvlpVZ.211iVFVrhPoVM1dE33UH7-2bQDI.EU84nz8p4aIUcEYJtugNqPbINUam8ixtR18ZZeVxe-RxoFKZh1ScJWE4hiWzX7AzkdJPdfNgQ32Rq2KdOsYUJP414Y3peQSNgeGqHMtJq8F1AEXVhUY.fd.jBa.1ioMs3y9SH6gvVvfp55rudzBdyxPe3Ao5bmaJ-gkalzwafyf0O3HQfmOLZ0BByXgdyFIUthB9xgt3CI0ebPooWtKn9gfw2VMSr-AiLE9wyfhoOfEFTAsJh15eaPWfQJ89SmsA3laEJSfG9SOCBdgdp4vQnu9PUDEZAfeG0ex8PTePGWzfgyJPABS1sXBs15ah7yhxO9cGYtejkcBdt9dY4TTLOHlew2gt84jl4FxSeMcg05Uo42FILFvrYHmHKJvzG0TmXRTADxx4iqWRVBcRGpRCFvs9wGotQq9PMzQBrUnJ.iHwq5PkM6Smb29mpdqGdn96azn.MRQwFp1ZLGnLcvQzcF.hSRXks2gbRM5nWLy6mR1qJyW06A2PmQTVXnGBWdfQ3SRdCZ5R3Jk78wHtSzIW5vEAUHDFch2d2tZSQ-jrb3EObaq7jp2anOAAn6kqgKL0q6q6lQ0nYnPWGxzpd9WN5j-T1NXjHcvaDmn7NcZh.tsbhrmnO0Qeqa0V3UiB5kta4pugeBJr2r3UesdmyXBd3r5rpkmy81fP.ey9ozpku5YHQGqDGVaGj-c7ifiBMnK8z3u9QSTFZob1nBWB9bWvg9yJWxc11XSymWMQhEh87CIMxf3blYAVU0i9X7aUUadcmGkbRSFjAnguubrR9tilr346uqez1HHPfY8NllHMu0XPJ4weaQw2yToBFkEqFuqoNSHKt66e8DM1WqJ2HYbWYdwoDbX-XAFAjoXX6UtqAjiajhmCmVr7iiw6qJ4NsdIKmJcM1ih-4x.ahJr8V-lxam8bnI0udXX.fBbvhIu3ACZ6ZtBEYQA4EqWGJhQjwDe1T7USSS73sic.xryhIKvF1m56fVutS-Mu7p5v-5A1abpCvPYXNWvx.m4Zcs-aWmqmBT.c8B59njQEtdU4fEYDtY34k4acKaIh-k2gtI9r1dYNLg1aJ-c2ExZKkrmdBzRwa45GqwPti1Wx9d7ruPS36YNgh.MI75szAa3.TtkYWCQu.2InzcZn9ihG6ZpzUqvmjm8lQj0\"><img src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341467222/Convenience_A.jpg\" alt=\"\" width=\"300\" height=\"250\" border=\"0\"></a>\r\n</noscript><\!-- creativeModDate = 1361901860000 --\>\n <div id=\"top_rhs_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=cd3dcc0b-cca2-4b98-971c-13cc4631ed37&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
+ad_utils.register_punt_ad("top_ad","728","90"," \r\n\r\n<a target=\"_blank\" href=\"http://aax-us-east.amazon-adsystem.com/x/c/zjp5V270XklZiXLphRhWiw/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWgmv.K3fBJQZ8IMa9KFDvs89nosc1iOaMpbvFPZT9JTbcZg1i1FL5Nv7XKr3Hmo.jJ15yvi6Ch9a2x3aUPisP8AktGzHOlV0TB.ieBZQ7VNNVYz7rCvhBAe5jnLXQtl6IffNTdxs1t-1B1AzGdLfIF0BA26muefTNO3rOW6YNOexZVstkpOrh0h7lK2WxccDVlYGZr1DCNRD4p1coR7llWtEm5GhAZFgTsY05Om1R.EHDXI3fLPkDlNdvcKeaEqno8B07tfrkazD1XYYPENoUsOuroKALWo930.VnlgNQGSoMdex.W5G3EZdZOBrKkXJ1.fjnJTdGZW2ekk4PJqEbu-eE1sWzZ6Pnm4JlGl1dgkO2TdgaXbBI8ja3P6k2f1iEBG7JX-M6L8OrgFvFT1r5.ZUgi87Waady.0z0-AQbJebZmdA6rUCgAZaeYY6fxJOOOUcQOmxmIA-ncU7Mv0.Ml4RPxfzW35KC3cbMZuBlYOhIuKbk9uMOQptekXg3olXxNUBwmdgZRDNzBm6YDxFUukIEM9edFz1d1zlno.oVyMDihTRXnGF45ZFCaUWSrD3pHlXzvJG0mFp8SVT6a49vDat648Uun53XCHnjJg.pjOU34XoIg7zmWboIYRie.Oh-WjwVfvzAn7PKv4Zc3pSfA6PzqhrruRnmaxTJovy9tQZIclUpNZPrljEW8iXfWzgrjhEYcZxxTG7mu5uQz59bDEJBytMDv9TXJQf0hL75Xn61yC12Q4YVwakQLxYnUDhjN9uvNH6YaNBRIsnG9BTh.vUHKH4ZNpAKz6kDV5iOdnA6tFKr1GTZ8-RKm3uRbLHpb5X9HHe44J9JJKch0XXh3o.EHkpa5dbR86c7lrepeRZiOejY3-8VU9RZD6Ish0YQ.VTgkhh8zcLL7oyee3ZzEqF6rYLe5yDQiO2UW-sKFusL5wqQA-KA68DT80hirqGC16Y39zNXVWMBg2mGBnah.9GkcjZVuOl4Lj2o.WPEXPLmhNYO.nAGxK0ikUCXGl14l-JOODKm1e4UewP0fg3B67XCNC.oVOvE1PnF9Y-.3-bZKyLl38Ei29ToE8Hbsw6L2j2ewDqj7qVlI.Hd-LTBn7h6FRlXNL2eR9Gcm8cr43ImcwYQOwhyIRbej27V6m5t4JIgyXQRp72RFjXFmlgQqaEqJOZJkof9t6xO.oXdIP3XI0KvKZox06BfgU-3iaNTiRGP6w276bY3Caj9L2nOqwbp0EKGpZhkLMr630J07.coBnC.Dke8pPtnH3hPrHkYrrmx6Zs9TLBd9Ad-iZzCIGIP9y7MnJq9fjAiwuSHAiWe9jbCmpmCnJKcjGNh8aybQ__\"><img src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1367612083386/mp3_foty_live-amazon_728x90.jpg\" alt=\"\" title=\"\" width=\"728\" height=\"90\" border=\"0\"></a>\r\n\r\n<\!-- creativeModDate = 1370664703000 --\>\n <div id=\"top_ad_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=c9d752cd-91fe-48d5-a57c-ece379fe9ade&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
 }, "ad_utils not defined, skipping punt ad data setup.");
 </script>
 <script>
@@ -189,7 +184,7 @@ ad_utils.register_ad('top_ad');
 });
 </script>
 <iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_ad" name="top_ad" class="yesScript" width="0" height="0" data-original-width="0" data-original-height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" border="0" alt="advertisement" /></a></noscript>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="top_ad_reflow_helper"></div>
 <script>
@@ -477,7 +472,7 @@ href="/r/tt_moviemeter_why/title/tt0109830"
     <div class="star-box-rating-widget">
             <span class="star-box-rating-label">Your rating:</span>
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0109830|imdb|0|0|title-maindetails" data-ga-identifier=""
-title="Users rated this 8.7/10 (677,894 votes) - click stars to rate" >
+title="Users rated this 8.7/10 (677,965 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 0px">&nbsp;</span>
 <span class="rating-stars">
@@ -498,7 +493,7 @@ title="Users rated this 8.7/10 (677,894 votes) - click stars to rate" >
     </div> 
     <div class="star-box-details" itemtype="http://schema.org/AggregateRating" itemscope itemprop="aggregateRating">
             Ratings:
-<strong><span itemprop="ratingValue">8.7</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="677,894 IMDb users have given a weighted average vote of 8.7/10" > <span itemprop="ratingCount">677,894</span> users
+<strong><span itemprop="ratingValue">8.7</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="677,965 IMDb users have given a weighted average vote of 8.7/10" > <span itemprop="ratingCount">677,965</span> users
 </a>&nbsp;
             Metascore: <a href="criticreviews?ref_=tt_ov_rt" title="82 review excerpts provided by Metacritic.com" > 82/100
 </a>            <br/>
@@ -605,7 +600,7 @@ href="https://secure.imdb.com/register-imdb/sharing?ref=tt_checkin_share"
             </div>
         </div>
     </div>
-    <input type="hidden" name="49e6c" value="34a6">
+    <input type="hidden" name="49e6c" value="defe">
 </div>
 </div>
 <span class="btn2_wrapper"><a onclick='' class="btn2 large btn2_text_on launch-share-popover"><span class="btn2_glyph">0</span><span class="btn2_text">Share...</span></a></span><div id="share-popover">
@@ -709,7 +704,7 @@ ad_utils.register_ad('top_rhs');
 });
 </script>
 <iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,300x600,300x300,11x1;p=tr;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_rhs" name="top_rhs" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" border="0" alt="advertisement" /></a></noscript>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="top_rhs_reflow_helper"></div>
 <script>
@@ -1005,7 +1000,7 @@ ad_utils.render_ad_fast('top_rhs');
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  12 hours ago
+                                  21 hours ago
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
@@ -1343,7 +1338,7 @@ ad_utils.register_ad('btf_rhs2');
 });
 </script>
 <iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,16x1;p=br2;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="btf_rhs2" name="btf_rhs2" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" border="0" alt="advertisement" /></a></noscript>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="btf_rhs2_reflow_helper"></div>
 <script>
@@ -1478,9 +1473,9 @@ ad_utils.render_ad_fast('btf_rhs2');
                 
 <a href="/media/rm2486343680/tt0109830?ref_=tt_pv_md_1" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks in Forrest Gump" title="Still of Tom Hanks in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTQ3NzAzNjUxMl5BMl5BanBnXkFtZTYwMTcxMzg2._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
 <a href="/media/rm2469566464/tt0109830?ref_=tt_pv_md_2" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Sally Field in Forrest Gump" title="Still of Sally Field in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE4MTE4OTA4NV5BMl5BanBnXkFtZTYwMzcxMzg2._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm4162748416/tt0109830?ref_=tt_pv_md_3" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks in Forrest Gump" title="Still of Tom Hanks in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTMxMjExNTU0NV5BMl5BanBnXkFtZTcwNzM2NDY3Mw@@._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm2503120896/tt0109830?ref_=tt_pv_md_4" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks in Forrest Gump" title="Still of Tom Hanks in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE5OTg0MDQwOF5BMl5BanBnXkFtZTYwOTYxMzg2._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm3340664832/tt0109830?ref_=tt_pv_md_5" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks and Sally Field in Forrest Gump" title="Still of Tom Hanks and Sally Field in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM0NzMzNDYyOV5BMl5BanBnXkFtZTcwODM2NDY3Mw@@._V1_SY105_CR26,0,105,105_.jpg" itemprop='image' /></a>        </div>
+<a href="/media/rm2503120896/tt0109830?ref_=tt_pv_md_3" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks in Forrest Gump" title="Still of Tom Hanks in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjE5OTg0MDQwOF5BMl5BanBnXkFtZTYwOTYxMzg2._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm3340664832/tt0109830?ref_=tt_pv_md_4" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks and Sally Field in Forrest Gump" title="Still of Tom Hanks and Sally Field in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM0NzMzNDYyOV5BMl5BanBnXkFtZTcwODM2NDY3Mw@@._V1_SY105_CR26,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm2193600256/tt0109830?ref_=tt_pv_md_5" itemprop='thumbnailUrl'><img height="105" width="105" alt="Still of Tom Hanks and Robert Zemeckis in Forrest Gump" title="Still of Tom Hanks and Robert Zemeckis in Forrest Gump"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTc2NDA0OTc2Ml5BMl5BanBnXkFtZTcwMzI1Njc2OA@@._V1_SY105_CR27,0,105,105_.jpg" itemprop='image' /></a>        </div>
                 </div>
             <div class="combined-see-more see-more">
 <a href="/title/tt0109830/mediaindex?ref_=tt_pv_mi_sm" ><span class="titlePageSprite showAllVidsAndPics"></span></a>
@@ -1732,7 +1727,7 @@ ad_utils.render_ad_fast('btf_rhs2');
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -1772,7 +1767,7 @@ ad_utils.render_ad_fast('btf_rhs2');
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt1010048|imdb|8.1|8.1|p13nsims-title" data-ga-identifier=""
-title="Users rated this 8.1/10 (406,017 votes) - click stars to rate" >
+title="Users rated this 8.1/10 (406,061 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 113.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -1852,7 +1847,7 @@ Saurabh Shukla</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -1889,7 +1884,7 @@ Saurabh Shukla</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0108550|imdb|7.7|7.7|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.7/10 (114,193 votes) - click stars to rate" >
+title="Users rated this 7.7/10 (114,206 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 107.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -1968,7 +1963,7 @@ Juliette Lewis</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2008,7 +2003,7 @@ Juliette Lewis</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt1193138|imdb|7.5|7.5|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.5/10 (190,707 votes) - click stars to rate" >
+title="Users rated this 7.5/10 (190,728 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 105px">&nbsp;</span>
 <span class="rating-stars">
@@ -2087,7 +2082,7 @@ Anna Kendrick</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2126,7 +2121,7 @@ Anna Kendrick</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0976051|imdb|7.6|7.6|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.6/10 (128,821 votes) - click stars to rate" >
+title="Users rated this 7.6/10 (128,843 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 106.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -2205,7 +2200,7 @@ Bruno Ganz</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2244,7 +2239,7 @@ Bruno Ganz</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0332280|imdb|7.9|7.9|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.9/10 (247,832 votes) - click stars to rate" >
+title="Users rated this 7.9/10 (247,869 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 110.6px">&nbsp;</span>
 <span class="rating-stars">
@@ -2323,7 +2318,7 @@ Rachel McAdams</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2362,7 +2357,7 @@ Rachel McAdams</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0446755|imdb|7.5|7.5|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.5/10 (56,943 votes) - click stars to rate" >
+title="Users rated this 7.5/10 (56,954 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 105px">&nbsp;</span>
 <span class="rating-stars">
@@ -2441,7 +2436,7 @@ Liev Schreiber</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2479,7 +2474,7 @@ Liev Schreiber</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0397535|imdb|7.2|7.2|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.2/10 (87,986 votes) - click stars to rate" >
+title="Users rated this 7.2/10 (88,000 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 100.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -2558,7 +2553,7 @@ Michelle Yeoh</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2598,7 +2593,7 @@ Michelle Yeoh</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt1185836|imdb|7.1|7.1|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.1/10 (19,881 votes) - click stars to rate" >
+title="Users rated this 7.1/10 (19,893 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 99.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -2677,7 +2672,7 @@ Peter Gallagher</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2714,7 +2709,7 @@ Peter Gallagher</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0223897|imdb|6.9|6.9|p13nsims-title" data-ga-identifier=""
-title="Users rated this 6.9/10 (70,791 votes) - click stars to rate" >
+title="Users rated this 6.9/10 (70,814 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 96.6px">&nbsp;</span>
 <span class="rating-stars">
@@ -2793,7 +2788,7 @@ Helen Hunt</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2832,7 +2827,7 @@ Helen Hunt</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0959337|imdb|7.3|7.3|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.3/10 (106,775 votes) - click stars to rate" >
+title="Users rated this 7.3/10 (106,792 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 102.2px">&nbsp;</span>
 <span class="rating-stars">
@@ -2911,7 +2906,7 @@ Christopher Fitzgerald</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -2950,7 +2945,7 @@ Christopher Fitzgerald</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0112471|imdb|8|8|p13nsims-title" data-ga-identifier=""
-title="Users rated this 8/10 (93,836 votes) - click stars to rate" >
+title="Users rated this 8/10 (93,861 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 112px">&nbsp;</span>
 <span class="rating-stars">
@@ -3029,7 +3024,7 @@ Andrea Eckert</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="34a6">
+             <input type="hidden" name="49e6c" value="defe">
        </div>
        
        <div class="rec_details">
@@ -3069,7 +3064,7 @@ Andrea Eckert</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0401711|imdb|7.3|7.3|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.3/10 (49,451 votes) - click stars to rate" >
+title="Users rated this 7.3/10 (49,454 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 102.2px">&nbsp;</span>
 <span class="rating-stars">
@@ -3676,12 +3671,12 @@ itemprop='url'>IMDbPro</a>&nbsp;&raquo;
         <h4>Trivia</h4>
 
 
-In the 1988 movie Punchline, Sally Field plays a love interest for Tom Hanks's character; in this movie, released six years later, she plays his character's mother.        <a href="trivia?ref_=tt_trv_trv" class="nobr" >See more</a>  &raquo;
+<a href="/name/nm0000709/?ref_=tt_trv_trv">Robert Zemeckis</a> decided to leave out several planned effects shots. One shot in particular involved Forrest running into Dr. <a href="/name/nm0455052/?ref_=tt_trv_trv">Martin Luther King</a> Jr. and his supporters. Forrest distracts several dogs trying to attack King and his supporters by playing fetch with them and rendering them harmless to King and himself as well as his supporters.        <a href="trivia?ref_=tt_trv_trv" class="nobr" >See more</a>  &raquo;
     </div>
                 <hr />
      <div id="goofs"  class="txt-block">
         <h4>Goofs</h4>
-When Forrest runs Tex out of the Vietnam forest, he is holding onto to a leg in one shot, his arm in the next shot, and then his leg again in the last shot.        <a href="trivia?tab=gf&ref_=tt_trv_gf" class="nobr" >See more</a>  &raquo;
+When the bullies first throw rocks at Forrest, the second one clearly hits him below his eye, but he starts to bleed up on the top of his forehead.        <a href="trivia?tab=gf&ref_=tt_trv_gf" class="nobr" >See more</a>  &raquo;
     </div>   
                 <hr />
     <div id="quotes" class="text-block">
@@ -3694,7 +3689,7 @@ Hello. My name's Forrest, Forrest Gump. You want a chocolate?
                 <hr />
     <div id="connections" class="text-block">
         <h4>Connections</h4>
-        Referenced in <a href="/title/tt0447016/?ref_=tt_trv_cnn">Emmanuel's Gift</a>&nbsp;(2005)
+        Referenced in <a href="/title/tt2040799/?ref_=tt_trv_cnn">Family Guy: Viewer Mail #2</a>&nbsp;(2012)
 
 
         <a href="trivia?tab=mc&ref_=tt_trv_cnn" class="nobr" >See more</a> &raquo;
@@ -3702,12 +3697,11 @@ Hello. My name's Forrest, Forrest Gump. You want a chocolate?
                 <hr />
     <div id="soundtracks" class="text-block">
         <h4>Soundtracks</h4>
-Against The Wind<br />
-(1980)<br />
-Written by <a href="/name/nm1169432/?ref_=tt_trv_snd">Bob Seger</a><br />
-Performed by <a href="/name/nm4666613/?ref_=tt_trv_snd">Bob Seger & The Silver Bullet Band</a><br />
-Courtesy of Capitol Records<br />
-under license from CEMA Special Markets<br />        <a href="soundtrack?ref_=tt_trv_snd" class="nobr" >See more</a> &raquo;
+Love Her Madly<br />
+(1971)<br />
+Written and Performed by <a href="/name/nm1401980/?ref_=tt_trv_snd">The Doors</a><br />
+Courtesy of Elektra Entertainment<br />
+by arrangement with Warner Special Products<br />        <a href="soundtrack?ref_=tt_trv_snd" class="nobr" >See more</a> &raquo;
     </div>
     </div>
   <script>
@@ -3746,15 +3740,15 @@ under license from CEMA Special Markets<br />        <a href="soundtrack?ref_=tt
             <div class="faq" >
                     <div class="odd">
                     <b>Q:</b>
-<a href="/title/tt0109830/faq?ref_=tt_faq_1#.2.1.9" > How much sex, violence, and profanity are in this movie?</a>
+<a href="/title/tt0109830/faq?ref_=tt_faq_1#.2.1.13" > Forrest receives the Congressional Medal of Honor - what is it? What did he receive it for?</a>
                     </div>
                     <div class="even">
                     <b>Q:</b>
-<a href="/title/tt0109830/faq?ref_=tt_faq_2#.2.1.13" > Forrest receives the Congressional Medal of Honor - what is it? What did he receive it for?</a>
+<a href="/title/tt0109830/faq?ref_=tt_faq_2#.2.1.12" > How closely does the film follow the book?</a>
                     </div>
                     <div class="odd">
                     <b>Q:</b>
-<a href="/title/tt0109830/faq?ref_=tt_faq_3#.2.1.6" > What is a "Million-Dollar Wound" ?</a>
+<a href="/title/tt0109830/faq?ref_=tt_faq_3#.2.1.9" > How much sex, violence, and profanity are in this movie?</a>
                     </div>
             </div>
         
@@ -3795,28 +3789,28 @@ under license from CEMA Special Markets<br />        <a href="soundtrack?ref_=tt
                         <div style="width: 100px;">&nbsp;</div>
                     </div>
                 <span itemprop="review" itemscope itemtype="http://schema.org/Review">  
-                    <strong itemprop="name">Forrest Gump is a movie masterpiece that won&#39;t be forgotten and will continue to inspire</strong>
+                    <strong itemprop="name">Let's see the world through the eyes of Forrest Gump</strong>
                     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                         <meta itemprop="worstRating" content = "1" />
                         <meta itemprop="ratingValue" content="10" />
                         <meta itemprop="bestRating" content="10" />
                     </span>
                     <div class="comment-meta">
-                        15 December 2007 | by <a href="/user/ur15148249/?ref_=tt_urv" ><span itemprop="author">blairgallop7</span></a>
-                        <meta itemprop="datePublished" content="2007-12-15" />
-                              (Australia)
-                        &ndash; <a href="/user/ur15148249/comments?ref_=tt_urv" >See all my reviews</a>
+                        10 June 2002 | by <a href="/user/ur1293485/?ref_=tt_urv" ><span itemprop="author">Kristine (kristinedrama14@msn.com)</span></a>
+                        <meta itemprop="datePublished" content="2002-06-10" />
+                              (Chicago, Illinois)
+                        &ndash; <a href="/user/ur1293485/comments?ref_=tt_urv" >See all my reviews</a>
                     </div>
                     <div>
-                        <p itemprop="reviewBody">He may have been good in Philadelphia but be is excellent in Forrest Gump.Tom Hanks delivers another great performance in his career by portraying the lovable,king yet not so intelligent character Forrest Gump.It is also Tom Hanks&#39; second straight win for the Best Actor Oscar which he becomes the second man to do said accomplishment after Spencer Tracy.Whilst not as dramatic as Philadelphia,Tom Hanks&#39; performance is just as great in this movie and this movie could possibly be the film of Tom Hanks&#39; career as he used to be a comedy guy who turned to drama in a way which would paved for future stars such as Jim Carrey(The Truman Show),Reese Witherspoon(Walk the Line) and Will Ferrell(Stranger Than Fiction) to name a few.Also staring in this great movie classic are Robin Wright-Penn who plays Jenny,Gary Sinise who was nominated for an Academy Award for his portrayal of Lieutenant Dan Taylor,Mykelti Williamson as Forrest&#39;s best friend and shrimper Benjamin Buford&quot;Bubba&quot; Blue and Sally Field as Mrs.Gump.This film was nominated for a total of thirteen Academy Awards but won six of them which include Best Film Editing,Best Visual Effects,Best Adapted Screenplay,Best Picture,Best Director-Robert Zemeckis and Best Actor-Tom Hanks.This is one masterpiece of a movie that will not be forgotten about in a long time.Bravo!</p>
+                        <p itemprop="reviewBody">&quot;I've made about 20 films and 5 of them are pretty good&quot;-Tom Hanks.<br /><br />&quot;Forrest Gump&quot; is one of the best movies of all time, guaranteed. I really just love this movie and it has such a special place in my heart. The performances are just so unforgettable and never get out of your head. The characters, I mean the actors turned into them and that's what got to me. The lines are so memorable, touching, and sometimes hilarious.<br /><br />We have Forrest Gump(Tom Hanks), not the sharpest tool in the box, his I.Q. is right below the average scores. But his mama(Sally Field) believes that her boy has the same opportunities as anyone else and lets Forrest know that there's nothing that could hold him back. As a boy he is put into braces for his legs since he has a crooked back and really doesn't have too many friends. When he gets on a school bus for his first day of school, NO ONE will let him sit next to them. This scene is so heart breaking until you hear a little angel's voice &quot;You can sit here if you want&quot;. Jenny, Forrest's best friend and crush, she looks so incredibly innocent and you love her because her and Forrest are like pea's and carrots. But we find out that there is an extremely unfortunate side to her life, she has a father that's &quot;always kissing and touching her and her sisters&quot;. Forrest just assumes that it's a father's love since he doesn't have a dad that could show him that it's wrong.<br /><br />Forrest and Jenny together walk every day from school and when these kids start throwing rocks at Forrest calling him stupid, Jenny just tells Forrest &quot;Run, Forrest! Run!&quot;. He miraculously breaks the braces off his legs and run like the wind blows. Forrest meets many celebrities from his life that just happened to be there: Elvis Presley visited his house before hitting it big, President Kennedy honored him with a all American football award, President Johnson who honored him with a medal of honor for his actions in Vietnam, President Nixon(in which Forrest happens to discover a problem in the Water Gate Hotel because some people seem to be flashing lights around), and John Lennon through a talk show to talk about his medal of honor.<br /><br />Forrest meets some interesting people along the way too that are even better than these celebrities combined; Bubba his Vietnam war friend who dreams of owning a shrimp boat one day and was born with big gums. He is just so wonderful and charming and won't stop talking about shrimp. Luteniet Dan, a leader of Forrest's army in Vietnam who gets saved by Forrest during a huge attack and looses his legs as a result. Luteniet Dan was by far my favorite character, he has so much pride and wants to die in Vietnam due to his family history tradition of dying in every single American war. He and Forrest make quite a pair. And of course there's Jenny, a very tragic figure, she gets more mean as she grows up because she knows that Forrest loves her, in some ways you can't blame her really. She was obviously abused and I think she felt that Forrest was too good for her or that he couldn't really give her the love she wanted. Robin Wright, what a beautiful and wonderful actress.<br /><br />This movie is incredible and should be seen by everyone. I am not kidding, &quot;Forrest Gump&quot; is a remarkable movie and inspires everyone. It's not just about someone stupid who happens to be in great places and historic events just because of being in the right place at the right time. This story is beautiful and will inspire everyone to go the distance and see the world like Forrest did and will never give up on their dreams.<br /><br />10/10</p>
                     </div>
                 </span>
                 <hr />
-                <div class="yn" id="ynd_1781127">
-                    63 of 79 people found this review helpful.&nbsp;
+                <div class="yn" id="ynd_339201">
+                    117 of 137 people found this review helpful.&nbsp;
                     Was this review helpful to you?
-                    <button class="btn small" value="Yes" name="ynb_1781127_yes" onclick="CS.TMD.user_review_vote(1781127, 'tt0109830', 'yes');" >Yes</button>
-                    <button class="btn small" value="No" name="ynb_1781127_no" onclick="CS.TMD.user_review_vote(1781127, 'tt0109830', 'no');" >No</button>
+                    <button class="btn small" value="Yes" name="ynb_339201_yes" onclick="CS.TMD.user_review_vote(339201, 'tt0109830', 'yes');" >Yes</button>
+                    <button class="btn small" value="No" name="ynb_339201_no" onclick="CS.TMD.user_review_vote(339201, 'tt0109830', 'no');" >No</button>
                 </div>
             <div class="see-more">
                 
@@ -4245,7 +4239,7 @@ ad_utils.register_ad('bottom_ad');
 });
 </script>
 <iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,2x1;p=b;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="bottom_ad" name="bottom_ad" class="yesScript" width="728" height="90" data-original-width="728" data-original-height="90" data-config-width="728" data-config-height="90" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=177609720875?" border="0" alt="advertisement" /></a></noscript>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=ro;g=dr;tt=f;m=PG13;mh=PG13;ml=PG13;coo=us;b=t25;b=t250;fv=1;id=tt0109830;ab=b;bpx=1;s=3074;s=3075;s=32;ord=567929477246?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="bottom_ad_reflow_helper"></div>
 <script>
@@ -4278,13 +4272,13 @@ jQuery(document).ready(function(){
             params_sis3 = [
               "d=imdb.com",
               "a1=",
-              "a2=0101a0bf7a913ea51354f6d60f7f7a7ce524f4dc988b3002e0218feb222b0365e2c9",
+              "a2=01019fbcdfd4fd56f33f9de2961cfc1a2dafc945fa9e3a81b8c553eeceab17f36d7d",
               "pId=tt0109830",
               "r=1",
               "rP=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0109830%2F",
               "ex-hargs=v=1.0;c=IMDB;p=tt0109830;t=imdb_title_view;",
               "encoding=server",
-              "cb=177609720875"  
+              "cb=567929477246"  
             ];
         (document.getElementById('sis_pixel_3')).src = url_sis3 + params_sis3.join('&');
       }
@@ -4350,7 +4344,7 @@ c15:""
 </script>
 <!-- end ads footer -->
 
-<div id="servertime" time="125"/>
+<div id="servertime" time="222"/>
 
 
 

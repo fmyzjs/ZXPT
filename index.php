@@ -165,66 +165,19 @@ echo $Cache->next_row();
 // ------------- end: recent news ------------------//
 // ------------- start: hot and classic movies ------------------//
 ?>
-		<link rel="stylesheet" href="jquerylib/jquery.infinite-carousel.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="jquerylib/jquery.infinite-carousel.js">
-		</script>
-		<script type="text/javascript">
-			jQuery(document).ready(function(){
-				jQuery('#slider-stage').carousel('#previous', '#next');
-				jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
-			});
-		</script>
+<link rel="stylesheet" href="jquerylib/jquery.infinite-carousel.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquerylib/jquery.infinite-carousel.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('#slider-stage').carousel('#previous', '#next');
+	jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
+});
+jQuery(document).ready(function(){
+	jQuery('#slider-stage2').carousel('#previous2', '#next2');
+	jQuery('#viewport2').carousel('#simplePrevious2', '#simpleNext2');  
+});
+</script>
 <?
-$type = array();
-if ($showmovies['hot'] == "yes")
-	$type[] = 'hot';
-if ($showmovies['classic'] == "yes")
-	$type[] = 'classic';
-$Cache->new_page('hotclassic_index', 600, true);
-if (!$Cache->get_page())
-{
-	$countnum = 0;
-	$Cache->add_whole_row();
-	print ("<h2>".$lang_index['text_hotmovies'].$lang_index['text_classicmovies']."</h2>");
-	print ("<table width=\"100%\" border=\"1\" cellspacing=\"0\" cellpadding=\"5\"><tr><td class=\"text\">\n");
-	print("<div class=\"demo\">");
-	print("<div style=\"width: 100%\" id=\"sliderBloc\">");
-	print("<a id=\"previous\">Previous</a>");
-	print("<div style=\"width: 95%\" id=\"slider-stage\">");
-	print("<div style=\"width: 100%;\" id=\"slider-list\">");
-	foreach($type as $type_each)
-	{
-			$result = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND instr(descr,'[attach]') AND seeders >0 ORDER BY Rand() LIMIT 10") or sqlerr(__FILE__, __LINE__);
-			if(mysql_num_rows($result) != 0 )
-			{
-				while( $row = mysql_fetch_assoc($result) )
-				{
-					$picdescr = htmlspecialchars($row['descr']);
-					$piclocale = stripos($picdescr, "[attach]");
-					$pic = substr($picdescr,$piclocale + 8,32);
-					$picresult = sql_query("SELECT location,thumb FROM attachments WHERE dlkey = ".sqlesc($pic)) or sqlerr(__FILE__, __LINE__);
-					$picrow = mysql_fetch_assoc($picresult);
-					if($picrow['thumb'] == "1")
-					print ("<a class=\"theme\" href=\"details.php?id=". $row['id'] ."&amp;hit=1\" title=\"".htmlspecialchars($row['name'])."\"><img src=\"attachments/".$picrow['location'].".thumb.jpg\" height=120px width=100px></a>");
-					else
-					print ("<a class=\"theme\" href=\"details.php?id=". $row['id'] ."&amp;hit=1\" title=\"".htmlspecialchars($row['name'])."\"><img src=\"attachments/".$picrow['location']."\" height=120px width=100px></a>");
-					$countnum++;
-				}
-			}
-	}
-	if(!$countnum)
-		print ("<a class=\"theme\" href=\"#\"><img src=\"pic/imdb_pic/nophoto.gif\" height=120px width=100px></a>");
-	print("</div>");
-	print("</div>");
-	print("<a id=\"next\">Next</a>");
-	print("</div>");
-	print("</div>");
-	print ("</td></tr></table>");
-	$Cache->end_whole_row();
-	$Cache->cache_page();
-}
-echo $Cache->next_row();
-/*
 if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies['classic'] == "yes"))
 {
 	$type = array('hot', 'classic');
@@ -268,8 +221,16 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 					}
 ?>
 <h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
-<table width="100%" border="1" cellspacing="0" cellpadding="5"><tr><td class="text nowrap" align="center">
-<?php echo $movies_list ?></td></tr></table>
+<table width="100%" border="1" cellspacing="0" cellpadding="5">
+<tr>
+<td class="text ">
+<div class="demo">
+<div style="width: 100%;" id="sliderBloc">
+<a id="previous">Previous</a>
+<div style="width: 95%;" id="slider-stage">
+<div style="width: 100%;" id="slider-list">
+<?php echo $movies_list ?></a></div>
+</div><a id="next">Next</a></div></td></tr></table>
 <?php
 				}
 				$Cache->end_whole_row();
@@ -279,7 +240,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 		}
 	}
 }
-*/
+
 
 // ------------- end: hot and classic movies ------------------//
 // ------------- start: funbox ------------------//

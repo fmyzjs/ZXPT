@@ -13,8 +13,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                     var ue_mid = "A1EVAM02EL8SFB"; 
                     var ue_sn = "www.imdb.com";  
                     var ue_furl = "fls-na.amazon.com";
-                    var ue_sid = "328-1732591-9632638";
-                    var ue_id = "1WT0GYE4ZEEM2BY00DJF";
+                    var ue_sid = "368-0875151-3397646";
+                    var ue_id = "1CA1Q57D0EGF79AMZYKV";
                     (function(e){var c=e,a={q:[],t0:c.ue_t0||+new Date(),d:g};function g(h){return +new Date()-(h?0:a.t0)}function d(h){return function(){a.q.push({n:h,a:arguments,t:a.d()})}}function b(k,j,h){var i={m:k,f:j,l:h,fromOnError:1,args:arguments};c.ueLogError(i);return false}b.skipTrace=1;e.onerror=b;function f(){c.uex("ld")}if(e.addEventListener){e.addEventListener("load",f,false)}else{if(e.attachEvent){e.attachEvent("onload",f)}}a.tag=d("tag");a.log=d("log");a.reset=d("rst");c.ue_csm=c;c.ue=a;c.ueLogError=d("err");c.ues=d("ues");c.uet=d("uet");c.uex=d("uex");c.uet("ue")})(window);(function(e,d){var a=e.ue||{};function c(g){if(!g){return}var f=d.head||d.getElementsByTagName("head")[0]||d.documentElement,h=d.createElement("script");h.async="async";h.src=g;f.insertBefore(h,f.firstChild)}function b(){var k=e.ue_cdn||"z-ecx.images-amazon.com",g=e.ue_cdns||"images-na.ssl-images-amazon.com",j="/images/G/01/csminstrumentation/",h=e.ue_file||"ue-full-7a20c193d015b9ae7a8d73679a2d1c44._V1_.js",f,i;if(h.indexOf("NSTRUMENTATION_FIL")>=0){return}if("ue_https" in e){f=e.ue_https}else{f=e.location&&e.location.protocol=="https:"?1:0}i=f?"https://":"http://";i+=f?g:k;i+=j;i+=h;c(i)}if(!e.ue_inline){b()}a.uels=c;e.ue=a})(window,document);
                 </script>
  
@@ -49,10 +49,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             <meta name="description" content="Directed by Hayao Miyazaki.  With Daveigh Chase, Suzanne Pleshette, Miyu Irino, Susan Egan. In the middle of her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and monsters; where humans are changed into animals; and a bathhouse for these creatures." />
             <meta property="og:description" content="Directed by Hayao Miyazaki.  With Daveigh Chase, Suzanne Pleshette, Miyu Irino, Susan Egan. In the middle of her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and monsters; where humans are changed into animals; and a bathhouse for these creatures." />
             <meta name="keywords" content="Reviews, Showtimes, DVDs, Photos, Message Boards, User Ratings, Synopsis, Trailers, Credits" />
-            <meta name="request_id" content="1WT0GYE4ZEEM2BY00DJF" />
+            <meta name="request_id" content="1CA1Q57D0EGF79AMZYKV" />
         
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- h=ics-1a-i-02ac4272.us-east-1 -->
+<!-- h=ics-1e-i-f5602f84.us-east-1 -->
 <link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/collections/title-3126643902._V359090620_.css" />
 <link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/site/consumer-navbar-3762303147._V379390806_.css" />
 <!--[if IE]><link rel="stylesheet" type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/imdb/css/collections/ie-2022001760._V377744162_.css" /><![endif]-->
@@ -62,7 +62,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <script>(function(t){ (t.events = t.events || {})["csm_head_pre_ads"] = new Date().getTime(); })(IMDbTimer);</script>
         <!-- begin ads header -->
 <script>window.ads_js_start = new Date().getTime();</script>
-<script src="http://z-ecx.images-amazon.com/images/G/01/imdbads/js/collections/ads-3223995457._V359049407_.js"></script>
+<script src="http://z-ecx.images-amazon.com/images/G/01/imdbads/js/collections/ads-759926853._V359288245_.js"></script>
 <script>
 doWithAds = function(){};
 </script>
@@ -105,31 +105,31 @@ generic.monitoring.set_forester_info("title");
 generic.monitoring.set_twilight_info(
 "title",
 "CN",
-"ac6dd29ae938e47471d3c622dafcb26782907f7a",
-"2013-08-23T07%3A09%3A12GMT",
+"eb71f8f3d7f3da9a0b98023395c3f8108ee635c7",
+"2013-08-24T06%3A39%3A14GMT",
 "http://s.media-imdb.com/twilight/?");
 generic.send_csm_head_metrics && generic.send_csm_head_metrics();
 generic.monitoring.start_timing("page_load");
-generic.seconds_to_midnight = 85848;
-generic.days_to_midnight = 0.9936110973358154;
+generic.seconds_to_midnight = 1246;
+generic.days_to_midnight = 0.0144212963059545;
 },"Generic not defined, skipping twilight setup.");
 doWithAds(function(){
-custom.full_page.data_url = "http://z-ecx.images-amazon.com/images/G/01/imdbads/js/graffiti_data-1968622827._V360498668_.js";
+custom.full_page.data_url = "http://z-ecx.images-amazon.com/images/G/01/imdbads/js/graffiti_data-1073743115._V358927439_.js";
 },"custom not defined, skipping graffiti data setup.");
 doWithAds(function(){
 consoleLog('advertising initialized','ads');
 });
 var _gaq = _gaq || [];
-_gaq.push(['_setCustomVar', 4, 'ads_abtest_treatment', 'd']);
+_gaq.push(['_setCustomVar', 4, 'ads_abtest_treatment', 'b']);
 </script>
 <script>
 doWithAds(function(){
-ad_utils.register_punt_ad("top_rhs","300","250"," \r\n\r\n<script type=\"text/javascript\">\r\n\r\nvar clickURL = \"http://aax-us-east.amazon-adsystem.com/x/c/o5zrXHwPmrKqg4.fLdtJaw/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWgbtOX7myF5TUoxseAA904NxT77vtodP5CstWcHKBGsh.DlHnBqzQECOQsZ1epjbPHXQQnNBIP9gD-szAIj5r-j4jgtixXGyE6P6lskmPcC76.m.Torp5-U41r0vGUrop0vc0hsqxtoff90B6DgIseWAZelRFwHy57maeqBCWW-oAOtsAyOKiDbImXolxsYg5yAiTkK-La2XijRhSwMrZsDt2RU59Sq2GvILHSkCtZky4fvkVxOv.ruahGKR0HhIpMQiHwl9dock05gLyjl3G22hBH30.nvH7oJVpBW.BAk-UJKw6AFIGsTK8IlTxX.k3WHEjQGpGYltZ58xmyQPVVZq8esQ7uUPj7BK91GdcbVUory9075if10StVSKdeYYNCyPEP7PrMYUqGTH3r8pn-CciDHAMCqKNj-Rd8M37FS4OUsZplo10M8l7rmzTIvbd56o248BqJ.eF-zcXTMwfAo6U00nRevZKzY5iDLEr2pC9Gt8zCabW8DyLUyLo8DDJQ0Cf2YvxOL7VSJBRJIxddu6aMZW4ds-RSbTJAmex6A5iCW522RBR9AyI8AY7fZAZ2VV8g.ZjxUFOQPyUVEOCbBHcw06Yjll3K-o-tz5eubP.dItm2hp.Rmx09C8ODu4HM1iRY10Y0QbCGgVRMRww.CAe6lvMwNqd0jnV3W4hRTCmUeej9dTwrp1WmdEpXdQsRpFWeg0YOWfDeD6XzyR.xy2sfLFw9bWGvCnkVVE.qH.G-y3Jh1fjQ7Z.rutF0ObsDNuv7Cf-FkGtR61p5wy7gHW3Q5jlXvSkJpi2BPwUZuaZzXZJcOeOSiaC2qmf7HdO07nQ1Zm8I-aAPecmJa2n2W9KGqTRNq3Ao.ve4Xtoa9O.XQj7lpMRfTGBB-XVyGbCOm8zySDC0cQl2x11hmk0a159OWNwMC0q3wgg-vWMi37atAkb-jAPTC-0VatJP5S7EcXmfvlTph.OMjeOYbRbVUk1xuOO91So5VH-ulgjFPpG6h.FLO-by9epOmku4ySOlvTzey5j0m2iycP.yJQtVkeMAmhrmirWoaV93vMGiw1DegZCEe4bkGZ6KqUdB.6u6j0WN-FlkiRC-fmK5h7JWYNyefpcqauqNgD4SF-XlXzbuMzQgLw7xyJzsUOTFmnzuNMsXW9JUvfPFasYsmMyPbRnnTbNQs0Z1CMnomLZX5.uSwEaUXt7JmQVmBPmscEMDDRLE9.ppSiPs-1L04OWaZ0fSAn7PMtEWYBPuGADT8erO1Rtxfr06GqXczwazRNXV56EJZOY2lV1OChM-TWzgCXNDnR8kWwzYTUvX2xFnIT\";\r\n\r\nfunction getFlashVer() {\r\n var i,a,o,p,s=\"Shockwave\",f=\"Flash\",t=\" 2.0\",u=s+\" \"+f,v=s+f+\".\",rSW=RegExp(\"^\"+u+\" (\\\\d+)\");\r\n\r\n if ((o=navigator.plugins) && (p=o[u]||o[u+t]) && (a=p.description.match(rSW))) {\r\n return a[1];\r\n }\r\n else if (!!(window.ActiveXObject)) {\r\n for (i=10; i>0; i--) {\r\n try {\r\n if (!!(new ActiveXObject(v+v+i)))\r\n return i\r\n }\r\n catch(e) {\r\n }\r\n }\r\n }\r\n return 0;\r\n}\r\n\r\nfunction get3pPixed() {\r\n var code = \'\';\r\n return code;\r\n}\r\n\r\nfunction getFlashVarsStr() {\r\n var str = \"clickTag=\" + escape(\"http://aax-us-east.amazon-adsystem.com/x/c/o5zrXHwPmrKqg4.fLdtJaw/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWp-tQRCehcRUfQb9SvgPGhTbVPFTSuUmdJtDKXQpbgvdRQuF4Wqoiy6qUWybz9ss02a-98xp4XIMTsX5.nJBFdfu8D1BNXrPRT0l4YIMzjZuxdRWbr8TcCWRmo1pp3hBuv07wFrbzNw40iu9kAGi9S--gr-Aw2aBtQZUmPeUyV-RzCWfvxcsTxL.IxKp7TBJHs4zOcQzfzZxrajDwFIbbZk2PZrvVGz9IPSP5Kka5SWW9THf.QhXZeRDDDcuMraQop7jUJB0s3N8YCH-vvCuES7A.FX98TRk1cZ9w.noSAIa9wORwW5JDQhkr9sa6n2n48JLSMr1enQdKnGgf.PS.bJutsus9mpGMZ5I99RPE9FCY0.ttgwlCEatYOPcarqRrTyzP.UemTV1KIcTuaDFSi8.D8AFW.3P5myUqOdWHau9cn9BngPt3BLa6.WZPmLn4IqkOArZNA5PeVeKH5RXq9qpBmBQrv9XN2Fuf7mi1TOMYF8ZkgvFo3pt3T367qcHntbr88lIdYNvKtakmXvlElESVBNwl9F8bHMSBshiaE3p-mP2QbCFXFH1MX.birmtgUG4zCcNC4D3vvfWsnNaymSI4Iu7iqotHDVWn6cId8UaYBzgmo3XNm7yvuwJXYw9GMquPJzMx5bBR47bVYrsQ7mgwUOFIqIE0ZcUu8QFV-kxms7.LF6oBW4aV302Ky4IfDi5GEmFaHA65udLlOolMmZQHB.RSI6Unc0nlnv9blo0VHAZrhVOC-Z-tCoYRxJXZc-guzD2cYbDeGVq8WqQKOiBwysJOdX7-fOgx6gGiC0oXdo0mL5kaeDIwUukcMYB1zWuLrLDEUNoD.kWxdi02Aoc2jzBXGOTq3eAXLsUNik04yBtbbo4zKbV9W0gHeNMbxXXM1m7Kui1iMm16Qnf95J96kFbIk7p.GpyrZhecW.ZYGJxaqMJ5earuUDK-tHVWqVyEosl.4H7Bf3x0ifeCM0GXl-q8T2Dcx1QeOAkHUOXJvP7eaJoU1wMXjoTmwOAv8DcDElvzGPoRRBOQqD-lUj9pkuNOgtYPRTStfDaxdI3D6jeb1g-iZYejjNcZ-EKJmA248PSG.anPoEN4SodCh1m25nTvoYQyjxJsrfu0n8N6gAoGA4aBcQ2QVGEZBOJt-O.fe.ponCUV3psGje4l1t4h.Dqdr91PIZzSZdADpTTJBgtKMA9whOGeklBlOpXSa.trHrtT-h46kS9armUg1RVmNmpc1VXkgFKK589JPlV-KrVqC6MS-Er5SEaK57hHiPLgNoOCdgsgC9AWt840T97ET8INIojiiUsMKQlQJf-\");\r\n return str;\r\n}\r\n\r\nvar adcode;\r\nif ((0+6) <= getFlashVer()) {\r\n var flashVars = getFlashVarsStr();\r\n adcode = get3pPixed();\r\n adcode += \'<OBJECT classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" ID=FLASH_AD WIDTH=\"300\" HEIGHT=\"250\"><PARAM NAME=movie VALUE=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341219419/Shipping_B.swf\"><param name=\"flashvars\" value=\"\'+ flashVars + \'\"><PARAM NAME=quality VALUE=high><PARAM NAME=bgcolor VALUE=#FFFFFF><PARAM NAME=wmode VALUE=opaque><PARAM NAME=\"AllowScriptAccess\" VALUE=\"always\"><EMBED src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341219419/Shipping_B.swf?\' + flashVars + \'\" quality=high wmode=opaque swLiveConnect=TRUE WIDTH=\"300\" HEIGHT=\"250\" bgcolor=#FFFFFF TYPE=\"application/x-shockwave-flash\" AllowScriptAccess=\"always\"></EMBED></OBJECT>\';\r\n document.write(adcode);\r\n}\r\nelse {\r\n adcode = get3pPixed();\r\n adcode += \'<A TARGET=\"_blank\" HREF=\"\' + clickURL + \'\"><IMG SRC=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341219746/Shipping_B.jpg\" alt=\"\" width=\"300\" height=\"250\" BORDER=0></A>\';\r\n document.write(adcode);\r\n}\r\n<\/script>\r\n<noscript>\r\n <a target=\"_blank\" href=\"http://aax-us-east.amazon-adsystem.com/x/c/o5zrXHwPmrKqg4.fLdtJaw/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWiAgHGWdbKBtKAw3J7j3u-WPPixe4AwxaU9jUxxeGnzmJ4OMhr5kBM9EknUBrfr8Z221d9ln6c8ujfG4Vh6asE7Uix6Jwn1cpjp.ejcasNYUBzjov90XYAcbpqM6MeVT55Lt9bZUDyOkKr-2TNrtO3puHpWShwxIjdWQpYrEvORf7PAk3W0AFKUCMEHzcD2kQOnORjePX2JFUMTi3s50yZcwKeKAk-YMWTNqttriBaMC7yR0o3IEM7j-gBhh-VN.-zkZVePLnRf.FRJchpS0UYZfGOxMd1KPGTlHn0rlwGiyEDyaxlKCN63OcUFIoQlKJ8XIBlx8CFLtB7y2j.kfCAfC.wtcURYx3nHVRWBqBOSEJR72RJrFl2PPnxU78O0FQ0KowkD9d22gYG7KezcpHW7D48A4R2kh90MgR21J0vt6Wv-hPwRBf-qeQJyzN6N209RFAwd29GDKn1un18eBvvllKofEn..tJEG-noDvZQPjxY7yOtjvYCfzkJT6NTsCmu8zR.GBqHO6ahwcbyoneu.EyEp54VMVO9.ahrtPRRHrS..m0W1tLk.VgPA7fum3o2cl4-wpZLmrCfSjRkvGj3mF7dAt1xrPG9-MVcJjdSrLuYfbZr1BZF5AOO5Qxb8WTGkP-sSYGfEzMgES.lTa6ki2vG-RpzyDakEfn-gsfX9L2qNM0V9EF8JOOPbfnQdXEptc4WgscX1Qwsxp0QpcR4oMe7-5V-x5cNG6LALOOTWArOJPlRNIvx34vgYw-IH2y538CUaQO1Ai2omw-mOEEeBM3cshPF0Fb84rpSM8QA823wGz1oqbOs84SlemTaJAi8I2aS1D-C-hHxv5jg.QoaeYQ6qrftoB93IE6GRPjoprToseo60VGbVruun4sglRWUU8b7emLGQhNmJcNVwNYMfcA1D1P--T4LfHVyoaGLCoEP-z6e495R5fPI9OCP3Y9bkn.OK8hbjc2VrYmQkTlTdE038iH.1HNCC-YCTsym1hN5DxqT-mOz2nLq9UEkThZKbRlyPTdRt-68wPTPJzi5JPFPQ0Xx055MNVprBhQFiom7CMZ-ZgIegdiypNqcDLlke-6HsqvHbY.LHYnThpyJAvv8YqBG9B-BCD7AlR3oIwu-8oCOrIbyJwaP5s25PNKzyEN-c7aPjK8CeFREpriwPcQeGqbtxp8.ZsPsgUWR6bcJHu2fMmUGK0-4g1nBDQMJSOaIr9h5APO3d5783oYVy-9d7xJ8BwExv9MiUMYYeyozrPSipU5s9ykyAnJTB.i98.--5Ot4zTcxUPotEUkUMFHV1LNb-uLRPIp1Vj6dN6\"><img src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341219746/Shipping_B.jpg\" alt=\"\" width=\"300\" height=\"250\" border=\"0\"></a>\r\n</noscript><\!-- creativeModDate = 1362196062000 --\>\n <div id=\"top_rhs_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=a38f69f6-4d39-4a9b-963b-6f52a3e04250&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
+ad_utils.register_punt_ad("top_rhs","300","250"," \r\n\r\n<script type=\"text/javascript\">\r\n\r\nvar clickURL = \"http://aax-us-east.amazon-adsystem.com/x/c/tYnbsGMinSLJxPX6Pjw4jA/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWsfrdpSvvUJxBud89bPcBjDXfVlozJXO29tATpo-fWKBL-TbR2jJ4K6oY05fcrWrRH1HHkl768vi5p.hpTbSP2tf.cmQYjdAeqfCiAW.p67Miz-rpedeuyeu0sYpxuH4karHpcAwPStDTMz6D5lLtS8Od8c-hBC1NI8JNESl8MEpzMIFOg8IwMok1nLpUEPn4aytxiJ8y1B8Bco8N9G-cUlkldYylJCRZVmVV82ZCELT-NYOoNnTGd9PYM9aBEYZRmFec.glP5ls5kEq-QWE2Qx.OACdrmFB.SlYHqmEZ5P7s3Pj1vD4FCJyHzaBWsFB48BbMWNinOkPvx21i8XzewUfyZsUHaFlmJbvty1K3.VFuivTRCLjstuk4qIMk04s15bTeXyPhPrOTF.wjDh3iIpjbp567fk8Kn5kLoooKW5eMt9SWSGzl4s8agvxIorqagZhMD1mEikaUZspnsFRdBKIsbD7KEWY1q6.BCvsdwB6GTTZIWTuJwD3h0hk73jeh9BR7icRy1nOrQumkrQuZnHTGWSofadvcOjv0Bm2X0hX5Tg1x86gWUzLtGuIm4cbFjsjpJpvcYsZ2w00OcWU4J-U13H3J-76rLmrioXQEJ703Ml-JOy43d-O2aeG4PL0QaD0m1V5YhPauWSukVB06GpvuqOFUdSyrHrPPMOQPUsp9JcuVSEIDCRtAggGkMuYe7SM2yNK1JYY8.govMRvRZJAjqXz0YtsDwooreJbspccq2qoF-wyVpaJydYoAUs5RYnk0C80DNIO6grGR6vJDurtDGe1CPzwsklhXYe7nUL8Vv8GStpzSvgMOBtm7iZz2VJiaZdYEHmhJI4I6lPaffKwEguFBgvkegKIddbjO8MzPX0O80fEnr-b.dahim-nUTbmtcs.LSu.4QRjJNlOItJqmGmyYwSql0jXLbDVJNG4-xHVo8qgbzyTSuAoRtwQB42algjdCOFSUFs-hAeX6HkhsiR6FAKMDCe6OdO-BQdE8DN8.WWuznPhWoK7kiCLLWCXXb93GJerUHH8KtK2l4bQCD6BO2cM9u6vF0gy2mueUFo0NjE-A5zgHSvvzOWLBMZBF0OPDsblHLaVtZZZwY0o39G4rGENDlwVutH993GTOgKor4hrH1Ng-TA8PQUpfKIBQD.7S1doiwCVWGQdgHaoblRiy3067i-LgYLg3HVY.cnhcDNh9jZbkgRYS6m4SbryIE44lTB954GKI5gg4j2uI2dS9iZOmnL1U1a8TefR3Etf4lxhog0P77NKl-4RXUZxM3uqmKeg91.SeeXurFG9Ii9xfJbQtIDLeKwfvxEhlZGQDfl9w-BLsddQhNhNWg__\";\r\n\r\nfunction getFlashVer() {\r\n var i,a,o,p,s=\"Shockwave\",f=\"Flash\",t=\" 2.0\",u=s+\" \"+f,v=s+f+\".\",rSW=RegExp(\"^\"+u+\" (\\\\d+)\");\r\n\r\n if ((o=navigator.plugins) && (p=o[u]||o[u+t]) && (a=p.description.match(rSW))) {\r\n return a[1];\r\n }\r\n else if (!!(window.ActiveXObject)) {\r\n for (i=10; i>0; i--) {\r\n try {\r\n if (!!(new ActiveXObject(v+v+i)))\r\n return i\r\n }\r\n catch(e) {\r\n }\r\n }\r\n }\r\n return 0;\r\n}\r\n\r\nfunction get3pPixed() {\r\n var code = \'\';\r\n return code;\r\n}\r\n\r\nfunction getFlashVarsStr() {\r\n var str = \"clickTag=\" + escape(\"http://aax-us-east.amazon-adsystem.com/x/c/tYnbsGMinSLJxPX6Pjw4jA/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWk.na3z2jqBwQw9NNQMesXtAoreYqOodPtVRkbfabIR-dG9.rSfdWAVKAPSqYeqlKUSHEKwXBx5yF0UUOqTa7x-BHEz75-LJemQsxCCLHY2gACxUk2YpZqHMmEpQFAhvkV0D8NFIPCL6l0rOsTO6.D6UMoVdKE5tsFS5hUXJBsTUNSH73ZCFyMm0SsBR2alWyWPyTx8zmGKAPQenH8QsCWCjqXh4TIhQ3dTzvaFhou6I03vzNuwskGjv65jLVJOwCMNm3sjyC-9op.ipHfudTT0KUijEBsZKSct.32GIReeMOLDnsWRsdKh3i-Vyvy0Xs0QeZuT-522fL9Nk21UtBuWb-HvMxks6Gk78X-fQBdvFjZ.Uya9LxmD..04yUKW.g-V4XqNoXRcecIUa3atNHHlpMX.9DeKRGC0tg489NExFwDtbBBLIcYlXoXeShfdkbrTx9uxQTRjudXiFjB31s00ZvOq42tpc3hHUN330TC-jGgwbadiyVY8YrxcMJtC2mFUhNRuivB339Tyg2Fzfi46JDOjn8rh7MpJpPxVANOCFxM0fwJdGNgTYwUoQpQ4Yk.ceWocwBMDh7vq2.jFSUt8DEclOurUoYMYr6rcosC9tGGl6DAlZky3y63-Te9tCL9i97CPPpBzReweHNbHfOISb.1fYVxiHpnXVI.9PNPTscC-tqJsJzylTUKoHLvEFimf1L6CLjnMP1yx64xZDxaEqHCJe37oiu3faCTlfQvy-Pw3vXESmtyAeah8DzsL.FU4pK6YTjp0z0p3w3.j3pCwQZ7Ot7sgSuTQ8G5r6e0wSuOojyAOnOFKTqIjOVWwGUCNORBQmy4nRfRXZ2XSHu-.-OyhETLdhzfEITnA7uXNzA-pDOypxJxVTs1DHzquABOlRx.yzz9WZvHOoUuHJXHOXoT.c1MhLsMC-Y.UjedGIBxMkVH2o4VOUNrpUQlM-oIfu7TWNJ1B6dy9hG4uJrHCQ868XP3-rHNxVM0ZT1SB-WMtRVVsIiFONMEMMbPS4MYrDx9s86D3pj8hZV9ft7WE2LI0ZWGbIAbOc2ZS70Y6DJyw1i66MDDtuFaEhIA2ExDpkb99dVw.kyzz.-BIckxREpic0bkkyQkyXCSYUZ5wgAnbFn8DQkoOaEwHKYvwBiZNWpWNm.TQCNxl3O9O.t8LRuYJDiw1osSO-Zpvil62ayiYfjt0WU-68diOHgV-VCgp3NJj5XsgIEyB-ibqig8fbb05Vpkf1bYVytKm5Rt9qC.CUHC7P0e0J5aeV2cJr8fJA-B6vHCMhnMRHMG8qKNi1Ye2QwlCCU8BiIR0cT5Prtwm63s7cI3bGEKMDogUZ7A__\");\r\n return str;\r\n}\r\n\r\nvar adcode;\r\nif ((0+6) <= getFlashVer()) {\r\n var flashVars = getFlashVarsStr();\r\n adcode = get3pPixed();\r\n adcode += \'<OBJECT classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" ID=FLASH_AD WIDTH=\"300\" HEIGHT=\"250\"><PARAM NAME=movie VALUE=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341567019/KOLL_A.swf\"><param name=\"flashvars\" value=\"\'+ flashVars + \'\"><PARAM NAME=quality VALUE=high><PARAM NAME=bgcolor VALUE=#FFFFFF><PARAM NAME=wmode VALUE=opaque><PARAM NAME=\"AllowScriptAccess\" VALUE=\"always\"><EMBED src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341567019/KOLL_A.swf?\' + flashVars + \'\" quality=high wmode=opaque swLiveConnect=TRUE WIDTH=\"300\" HEIGHT=\"250\" bgcolor=#FFFFFF TYPE=\"application/x-shockwave-flash\" AllowScriptAccess=\"always\"></EMBED></OBJECT>\';\r\n document.write(adcode);\r\n}\r\nelse {\r\n adcode = get3pPixed();\r\n adcode += \'<A TARGET=\"_blank\" HREF=\"\' + clickURL + \'\"><IMG SRC=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341567118/KOLL_A.jpg\" alt=\"\" width=\"300\" height=\"250\" BORDER=0></A>\';\r\n document.write(adcode);\r\n}\r\n<\/script>\r\n<noscript>\r\n <a target=\"_blank\" href=\"http://aax-us-east.amazon-adsystem.com/x/c/tYnbsGMinSLJxPX6Pjw4jA/http://pda-bes.amazon.com/c?i=1$AgAAAAAAAAAEAAAAAAAAAAIAAAAArjFRWr5qnNFHN6tM3dnDiGJ-4Ke.E99EbsgvPZQT85mi7Max-z.Hyih1B3U42--2q.3yYfjPRUEG0XkssPUkqmwk02KilJfceQjkt-utSOOZKHKit0XVs8ki22Q1rKDH5whiAMQM74xbznMr6VNOAoJdLUb.RVMh36xKXHeyEp70sJwTcSNi8Luofj6DWxkHncDIZky1J6GK58UVojRZQx-v4LiEyOXaDGERekvj1SiRL7QCgnIQhV6e-XcMY8EGPH7VNk0hFV5tglj6nOraE3xejBDat4B0bFDnbZQK8MA10ek25QEOp8wmCYOgiDXnu.KiVCgCaTquAdjqW59ptkK-s8FcqmfItemgbXle.hJ9KDmLMy-JX6oPDKq4Pld0W6C9vabfPSoFsBfFGM0.kNu4M5CxGetbxtYiBhfhQGzj.S4cKbDL8QHa6QLkcMLNbL3hmGG4MGulFn2K0hQgpmwX3PbVr6AC9dE53GOj556dOqoBCz39ZbnpHjge6K6gV6h6ShPtIVBl2jtOcyGaquHzkQMcs32QGBRo3zgJBOQVrY7ZklvhgjupVscg9-Y0.Lr5d-hQ32fq80Zo3A7pGAhoCebTfeme4gmCYAzhcYiY0P5FZs1iCaD3gguh2Bf27LnOeoG9u0mstw2OvLrh4AV4hTkgcOMimJiduBfxjms9KFag8zQo9S7ygOQkFfhc7jroNP7iI2ptcX9IJs7rrs8AhSYfGsKZeA2QjPRkXgNJQxux9cRWxTYJoelO3ChTA75uGU.x3VjtuKbn4Bo2S6SyiLolC7d5VMrr8rTymYV1K6vUFpdnaqGeG0brAthcepD3yYsm-Z5STLvEabZPJNHpg6bueFYu0Xmw6zKTDADBtYZ1Obmha5tYAl1YTsWPWSn0.YQ6BlUxdLi4laKc6qDrkjhvJZdpCYKjZCnDwhA5SFTEQOsy9jiE8Hf9VLz6uaL4tNXub0dxFixPxFm0sQSeVb7PnC8NMdNgtTaijP3Mmjvmhx.FUrsvr1Lbi.kjDsX-8rcYRR.QlI6Xs4Yr8Fuc7tOUoaHK5HQ0i2.bQ4lsRGGxi.tMRZFsajYh.jIC2U9qdMfdNoolSnTxDV1GL-wHQuynTuEF30j5PonQM4LgtjsezfDjODczHp5HmOOGrziceAp7RO-GddPY6UblZBA5xix7XighREEsG9w0E4MZg2wa-lG7txroXOlfAKoPaBIRWgNpsJjMfvafHqUooEahkNSO-HIqPC69.j5pfXcznTMMYZXYpMfeh7B-rgndSt29aYFUFTUM2gARpEHr3jJvGl276AiD4HAKJOY8ut9XII6iM5pktUROhFLKAmTQSLSKTA__\"><img src=\"//d2o307dm5mqftz.cloudfront.net/1505855001/1357341567118/KOLL_A.jpg\" alt=\"\" width=\"300\" height=\"250\" border=\"0\"></a>\r\n</noscript><\!-- creativeModDate = 1362094184000 --\>\n <div id=\"top_rhs_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=79556ff7-9f47-49a1-b387-98d09e87a477&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
 }, "ad_utils not defined, skipping punt ad data setup.");
 </script>
 <script>
 doWithAds(function(){
-ad_utils.register_punt_ad("top_ad","728","90"," <!DOCTYPE html><html><body><\!-- Include the creative.css file from the local template --\><style>body{margin:0;font-family:sans-serif}#ad{position:relative;overflow:hidden}#ad,#link,#lazy{width:728px;height:90px}#link,#lazy{position:absolute}#link{cursor:pointer;background-repeat:no-repeat}.ac{display:block;position:absolute;overflow:hidden;width:19px;height:15px;z-index:9;background:url(https://images-na.ssl-images-amazon.com/images/G/01/da/adchoices/ac-topright-sprite.png)}.ac:hover{width:77px;background-position:-19px 0}.position{top:0;right:0}.hide{display:none!important}#box a:hover{text-decoration:underline}#box{display:none;position:absolute;font-family:arial,sans-serif}#infoBorder{padding:0;background:transparent}.coupon #infoBorder{padding:2px;border-radius:6px;background:#fff}.fallback #infoBorder{padding:0;background:transparent}#info{padding:6px 8px 8px;border-radius:6px;background:#fff;border:1px solid #999;overflow:hidden;position:relative;zoom:1}.coupon #info{border:1px dashed #8dc63f}.bi #info{border-width:5px;padding:1px 3px 3px}#disclaimer{padding:2px 0;font-size:10px;color:#666;display:none}#headline{font-size:20px;font-weight:700;color:#F90;display:none;word-wrap:break-word;overflow-wrap:break-word;text-decoration:none}a:hover{text-decoration:underline}.coupon #button{margin-top:4px;width:130px;height:22px;float:none;margin-left:0}.fallback #button{margin-left:0}.fallback #title{margin-bottom:6px}.aap #box{bottom:8px}#title{display:block;color:#004b91;text-decoration:none;font-size:12px;zoom:1}#title:hover{color:#e47911;text-decoration:underline}#button{display:block;width:130px;height:22px}#logo{height:15px;padding:8px 0 0;display:none}.fallback #title{margin-bottom:6px}.fallback .po #button{width:130px;height:22px}.fallback .po #title{margin:0}.po #selector,.singleAsin .po #prices{width:110px}#button{margin-left:7px;float:left}#selector{width:128px;float:left;margin-bottom:0}.singleAsin #prices{float:left;margin:2px 0 0;width:128px}.po #button{width:149px;height:22px}.fallback .po #selector{float:left;width:128px}.fallback .po #button{float:right}.fallback .singleAsin .po #button{float:none;margin-left:0}#ratingInfo{font-size:12px;margin-top:4px}.fallback #ratingInfo{margin-top:-3px;margin-bottom:5px}.fallback .singleAsin #ratingInfo{margin-bottom:8px}#ratingCount{color:#004b91;text-decoration:none}#ratingCount:hover{color:#e47911;text-decoration:underline}#ratingAverage{display:inline-block;margin:0;padding:0;position:relative;overflow:hidden;vertical-align:middle;width:65px;height:13px}#ratingInfo .s_star_0_0{background-position:-66px 0}#ratingInfo .s_star_0_5{background-position:-53px -20px}#ratingInfo .s_star_1_0{background-position:-53px 0}#ratingInfo .s_star_1_5{background-position:-40px -20px}#ratingInfo .s_star_2_0{background-position:-40px 0}#ratingInfo .s_star_2_5{background-position:-27px -20px}#ratingInfo .s_star_3_0{background-position:-27px 0}#ratingInfo .s_star_3_5{background-position:-14px -20px}#ratingInfo .s_star_4_0{background-position:-14px 0}#ratingInfo .s_star_4_5{background-position:-1px -20px}#ratingInfo .s_star_5_0{background-position:-1px 0}@-webkit-keyframes bounceIn{0%{ opacity:0;-webkit-transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05)}70%{-webkit-transform:scale(.9)}100%{-webkit-transform:scale(1)}}@-moz-keyframes bounceIn{0%{ opacity:0;-moz-transform:scale(.3)}50%{opacity:1;-moz-transform:scale(1.05)}70%{-moz-transform:scale(.9)}100%{-moz-transform:scale(1)}}@-o-keyframes bounceIn{0%{ opacity:0;-o-transform:scale(.3)}50%{opacity:1;-o-transform:scale(1.05)}70%{-o-transform:scale(.9)}100%{-o-transform:scale(1)}}@keyframes bounceIn{0%{ opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1.05)}70%{transform:scale(.9)}100%{transform:scale(1)}}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body{background:#eee;margin:0;font:13px arial,sans-serif;color:#333;-webkit-font-smoothing:antialiased;-ms-text-size-adjust:none;-webkit-text-size-adjust:none}a{color:#007eb9;text-decoration:none}#ad,#link,#lazy{display:block;height:90px;width:728px}#link,#lazy{position:absolute}#link{cursor:pointer;background-repeat:no-repeat;z-index:1}#logo,#image,#cta{position:absolute}a{font-size:1.4em;color:#79b131;text-decoration:underline}#cta{font-size:1.4em;top:10px;left:279px;width:100%}#title{font-family:Helvetica Neue,Arial,sans-serif;font-size:1.4em;font-size:;font-weight:lighter;color:#5d5d5d;display:inline-block;letter-spacing:.9;line-height:1.15em;margin:1em 0 .5em 0}#logo{background:none!important;display:block;height:auto;padding:0;top:28px;left:28px;width:14%}#image{height:88px;width:88px;left:163px;top:1px}#shopNow{font-family:\'FrutigerLTStd-BoldCn\',Helvetica,Arial,sans-serif;line-height:1;position:relative;font-size:1.2em;display:inline-block;margin-left:30px;text-decoration:underline}#shopNow .arrow{background:url(http://g-ecx.images-amazon.com/images/G/01/da/creatives/arrow-1.png) 0 0 no-repeat;height:10px;width:10px;display:block;background-size:50%;float:left;margin-top:4px}.image{box-shadow:0 0 25px rgba(0,0,0,.6);-moz-box-shadow:0 0 25px rgba(0,0,0,.6);-webkit-box-shadow:0 0 25px rgba(0,0,0,.6);max-width:100%;opacity:0}.image-loaded .image{opacity:1;-webkit-animation:bounceIn 500ms;-moz-animation:bounceIn 500ms;-o-animation:bounceIn 500ms;animation:bounceIn 500ms}</style><div id=\"ad\"><a id=\"link\" class=\"ad\" href=\'\'></a><div id=\"cta\"><\!-- Handlebars reference to the title basic text input in the form template --\><h3 id=\"title\">Top hits from <i>Marc Anthony</i></h3><a id=\"shopNow\" href=\"http://www.amazon.com/dp/{{asin}}\"><span class=\"arrow\"></span>Shop now</a></div><img alt=\"app logo\" id=\"image\" class=\"image\" /><img id=\"logo\" width=\"\" src=\"http://g-ecx.images-amazon.com/images/G/01/da/creatives/amazon-mp3-logo-1-300x250._V379913631_.png\" /><a id=\"aapInfo\" target=\"_blank\" class=\"hide ac position\" href=\"http://amazon.com/gp/dra/info/ref=cs_aap_7299752007727\"></a></div><script>document.ad={aid:\"4702374248572\",cid:\"7299752007727\",w:728,h:90,template:\"House Ad-1.360\"},window.aanResponse={adId:document.ad.aid,creativeId:document.ad.cid,adNetwork:\"pda\",shazamStage:\"prod\",shazamId:\"3028\"};try{parent&&parent.ad_utils&&parent.ad_utils.expand_ad(frameElement)}catch(e){}setTimeout(function(){(function(e,t,n){var a=/\\.amazon\\.com(:.*)?$/,o=\"undefined\"!=typeof IS_3P&&IS_3P,i=!1;if(!o){try{i=a.test(n.location.host)}catch(r){}var c=t.referrer;if(!i&&c){var s=/^((?:https?:)\\/\\/)?([\\w\\-\\.]+(?::[0-9]+)?)\\/?(.*)$/,l=c.match(s),u=l[2];i=a.test(u)}}var d=!o&&!i,a=/\\.amazon\\.com(:.*)?$/,o=\"undefined\"!=typeof IS_3P&&IS_3P,i=!1;if(!o){try{i=a.test(n.location.host)}catch(r){}var c=t.referrer;if(!i&&c){var s=/^((?:https?:)\\/\\/)?([\\w\\-\\.]+(?::[0-9]+)?)\\/?(.*)$/,l=c.match(s),u=l[2];i=a.test(u)}}var f,d=!o&&!i,m=function(){},p=function(e){return/s/.test(e.protocol)},g=function(e,t){for(var n=0,a=e.length;a>n;n++)t(e[n],n,e)},v=function(e){return t.getElementById(e)},h=function(e,t){var n=[];for(var a in e)n.push(a+\"=\"+e[a]);var o=n.join(\"&\");return t?encodeURIComponent(o):o},y=25,b=300,I=function(e,t,n,a){e.style.visibility=\"visible\";var o=new Date;f=f||o,a=a||b;var i=Math.min((o-f)/a,1);t||(i=1-i),k(e,i),t&&1>i||!t&&i>0?setTimeout(function(){I(e,t,n,a)},y):(f=null,e.style.filter=\"\",n&&n())},k=function(e,t){var n=e.style;n.display=\"block\",n.opacity=n.mozOpacity=t,n.filter=\"alpha(opacity=\"+100*t+\")\"},w=function(e,t){e.style.backgroundImage=\"url(\"+t+\")\"},S=function(e,t){e.href=t,e.target=o||d?\"_blank\":\"_top\"},_=function(e,t){return e.className.match(RegExp(\"(\\\\s|^)\"+t+\"(\\\\s|$)\"))},C=function(e,t){_(e,t)||(e.className+=\" \"+t)},T=function(e,t){if(_(e,t)){var n=RegExp(\"(\\\\s|^)\"+t+\"(\\\\s|$)\");e.className=e.className.replace(n,\" \")}},E=function(e){T(e,\"hide\")},x=function(n,a,o,i,r,c,s){var l=\"serviceCallback\";a.JSONCallBack=l,e[l]=function(t){o=-1,s=e[l]=m,c(t)},function u(){if(o>0){var e=t.createElement(\"script\");e.src=\"//\"+n+\"?\"+h(a),t.body.appendChild(e),o--,setTimeout(u,i),i*=r}else!o&&s&&s()}()},R=\"adBackgroundClick\",A=\"adTitleClick\",D=\"shopNowClick\",M=\"ANY\",P=\"s.amazon-adsystem.com\",L=(\"ANY\"===M?location.protocol:M)+\"//\"+P+\"/click\",O=\"\",z=\"4702374248572\",B=\"7299752007727\",N=\"pda\",H=\'wvv6yfB4L6Z6.nHqG2sA-A\',$=function(e,t){var n={i:H,e:e,a:z,c:B,s:N},a=L+\"?\"+h({d:\"forester-did\",\"ex-fargs\":encodeURIComponent(\"?\"+h(n)),\"ex-fch\":416719,rd:encodeURIComponent(t),cb:(new Date).getTime()});return a},U=function(e,t,n){S(e,$(t,n))},F=(p(location)?\"//images-na.ssl-\":\"//g-ecx.\")+\"images-amazon.com/images/G/01/\",V=F+\"da/creatives/sn130.png\",G=\"\",j=\"d3l3lkinz3f56t.cloudfront.net/aan/us\";p(location)?\"\":\"\";var J=F+\"da/creatives/logo_orangeblack._V390083514_.png\",W=\"\",K=[[\"B00DRDVHA4\"]][0]||[];[{asin:K[0]}];var Y={B00DRDVHA4:{title:\"3.0\",label:\"\",properties:{imageUrl:\"http://ecx.images-amazon.com/images/I/51jNXwIXRZL.jpg\",imageSecureUrl:\"https://images-na.ssl-images-amazon.com/images/I/51jNXwIXRZL.jpg\"}}},X=!1,Q=!1,q=!1;v(\"selector\");var Z=v(\"button\"),et=v(\"logo\"),tt=v(\"box\");v(\"preorder\"),v(\"info\"),v(\"listPrice\"),v(\"buyingPrice\");var nt=v(\"title\");v(\"headline\"),v(\"disclaimer\");var at,ot,it,rt,ct,st=v(\"aapInfo\");try{var lt=n.sim;lt&&(at=lt.aap,o=at||o,ot=lt.atc,it=lt.oos,rt=lt.ratings,ct=lt.switchCouponState)}catch(r){}if(o||d){var ut=et.style;ut.display=\"block\",-1!=navigator.userAgent.indexOf(\"MSIE 6\")&&(J=J.replace(/png$/,\"gif\")),ut.background=\"url(\"+J+\") no-repeat center bottom\"}st&&o&&E(st),at&&S(st,\"http://amazon.com/gp/dra/info\"),g(K,function(e,t){Y[e]||(Y[e]={}),Y[e].index=t});var dt=v(\"ratingAverage\");dt&&(dt.style.backgroundImage=\"url(\"+F+\"da/creatives/star-ratings.png)\",dt.style.backgroundRepeat=\"no-repeat\");var ft,mt=function(){q&&X&&I(tt,!0)},pt=function(e,t){C(tt,\"fallback\"),w(Z,V),U(Z,D,t),U(et,R,t),U(nt,A,t),nt.innerHTML=e,\"function\"==typeof afterFallback&&afterFallback(t)},gt=1,vt=1e3,ht=1,yt=1500,bt={Operation:\"GetDecoratedOffers\",attributes:\"promotionInformation\",couponToken:G,ContentType:\"JSON\"},It=function(){if(!X&&!Q){Q=!0;var e,t;e=W,t=O||COUPON_LANDING_PAGE_URL,e&&(pt(e||\"\",t||\"\"),I(tt,!0))}},kt=function(e){T(tt,\"fallback\");try{var t=e.GetDecoratedOffersResponse;t&&(offers=t.GetDecoratedOffersResult.offers)&&offers.length?(X=!0,ft=offers,mt()):It()}catch(n){console.log(\"Error\",n),console.log(\"Error Message\",n.message),X=!1,It()}};setTimeout(function(){X||It()},yt),x(j,bt,gt+1,vt,ht,kt,It);var wt=v(\"ad\"),St=v(\"cta\"),_t=v(\"link\"),Ct=v(\"image\"),et=v(\"logo\"),Tt=v(\"shopNow\"),nt=v(\"title\");HTMLElement.prototype.dynamicSize=function(e){switch(!0){case this.innerHTML.length>e.defaultLength:this.style.marginTop=\"1.3em\",this.style.fontSize=e.smallSize()+\"px\",Tt.style.fontSize=e.smallSize()+\"px\";break;case this.innerHTML.length<e.defaultLength:this.style.marginTop=\"0.9em\",this.style.fontSize=e.largeSize()+\"px\",Tt.style.fontSize=e.largeSize()+\"px\"}},nt.dynamicSize({defaultSize:22,defaultLength:21,smallSize:function(){return this.defaultSize-4},largeSize:function(){return this.defaultSize}});var Et=!1;try{n.sim&&(Et=!0)}catch(r){}C(wt,\"coupon\");var F=(p(location)?\"//images-na.ssl-\":\"//g-ecx.\")+\"images-amazon.com/images/G/01/\";t.body.style.backgroundImage=\"url(\'\"+F+\"/da/creatives/tmp-grad-2.jpg\')\",setTimeout(function(){Ct.style.display=Ct.src?\"block\":\"none\"},100);var xt=\"\".split(\",\"),Rt=\"\".split(\",\"),At=\"\".split(\",\"),Dt=\"\".split(\",\");St.style.left=xt[0],St.style.top=xt[1],Tt.style.left=Rt[0],Tt.style.top=Rt[1],et.style.left=At[0],et.style.top=At[1],Ct.style.left=Dt[0],Ct.style.top=Dt[1],et.src=F+\"da/creatives/amazon-mp3-logo-1-300x250._V1373064160_.png\";var Mt=\"\".replace(/x.*$/,\"\"),Pt=\"http://www.amazon.com/dp/B00DRDVHA4\",Lt=$(R,Pt);S(_t,Lt),Ct.src=p(location)?\"https://images-na.ssl-images-amazon.com/images/I/51jNXwIXRZL.jpg\".replace(\".jpg\",\"._SL\"+Mt+\"_.jpg\"):\"http://ecx.images-amazon.com/images/I/51jNXwIXRZL.jpg\".replace(\".jpg\",\"._SL\"+Mt+\"_.jpg\"),0==Ct.width?Ct.onload=function(){C(wt,\"image-loaded\")}:C(wt,\"image-loaded\"),o&&C(wt,\"aap\"),e.onbeforeunload=m})(window,document,parent)},0);<\/script></body></html><\!-- creativeModDate = 1377036334000 --\>\n <div id=\"top_ad_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=9f02784c-1dca-4290-8244-4919f2d918c7&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
+ad_utils.register_punt_ad("top_ad","728","90"," <!DOCTYPE html><html><body><\!-- Include the creative.css file from the local template --\><style>body{margin:0;font-family:sans-serif}#ad{position:relative;overflow:hidden}#ad,#link,#lazy{width:728px;height:90px}#link,#lazy{position:absolute}#link{cursor:pointer;background-repeat:no-repeat}.ac{display:block;position:absolute;overflow:hidden;width:19px;height:15px;z-index:9;background:url(https://images-na.ssl-images-amazon.com/images/G/01/da/adchoices/ac-topright-sprite.png)}.ac:hover{width:77px;background-position:-19px 0}.position{top:0;right:0}.hide{display:none!important}#box a:hover{text-decoration:underline}#box{display:none;position:absolute;font-family:arial,sans-serif}#infoBorder{padding:0;background:transparent}.coupon #infoBorder{padding:2px;border-radius:6px;background:#fff}.fallback #infoBorder{padding:0;background:transparent}#info{padding:6px 8px 8px;border-radius:6px;background:#fff;border:1px solid #999;overflow:hidden;position:relative;zoom:1}.coupon #info{border:1px dashed #8dc63f}.bi #info{border-width:5px;padding:1px 3px 3px}#disclaimer{padding:2px 0;font-size:10px;color:#666;display:none}#headline{font-size:20px;font-weight:700;color:#F90;display:none;word-wrap:break-word;overflow-wrap:break-word;text-decoration:none}a:hover{text-decoration:underline}.coupon #button{margin-top:4px;width:130px;height:22px;float:none;margin-left:0}.fallback #button{margin-left:0}.fallback #title{margin-bottom:6px}.aap #box{bottom:8px}#title{display:block;color:#004b91;text-decoration:none;font-size:12px;zoom:1}#title:hover{color:#e47911;text-decoration:underline}#button{display:block;width:130px;height:22px}#logo{height:15px;padding:8px 0 0;display:none}.fallback #title{margin-bottom:6px}.fallback .po #button{width:130px;height:22px}.fallback .po #title{margin:0}.po #selector,.singleAsin .po #prices{width:110px}#button{margin-left:7px;float:left}#selector{width:128px;float:left;margin-bottom:0}.singleAsin #prices{float:left;margin:2px 0 0;width:128px}.po #button{width:149px;height:22px}.fallback .po #selector{float:left;width:128px}.fallback .po #button{float:right}.fallback .singleAsin .po #button{float:none;margin-left:0}#ratingInfo{font-size:12px;margin-top:4px}.fallback #ratingInfo{margin-top:-3px;margin-bottom:5px}.fallback .singleAsin #ratingInfo{margin-bottom:8px}#ratingCount{color:#004b91;text-decoration:none}#ratingCount:hover{color:#e47911;text-decoration:underline}#ratingAverage{display:inline-block;margin:0;padding:0;position:relative;overflow:hidden;vertical-align:middle;width:65px;height:13px}#ratingInfo .s_star_0_0{background-position:-66px 0}#ratingInfo .s_star_0_5{background-position:-53px -20px}#ratingInfo .s_star_1_0{background-position:-53px 0}#ratingInfo .s_star_1_5{background-position:-40px -20px}#ratingInfo .s_star_2_0{background-position:-40px 0}#ratingInfo .s_star_2_5{background-position:-27px -20px}#ratingInfo .s_star_3_0{background-position:-27px 0}#ratingInfo .s_star_3_5{background-position:-14px -20px}#ratingInfo .s_star_4_0{background-position:-14px 0}#ratingInfo .s_star_4_5{background-position:-1px -20px}#ratingInfo .s_star_5_0{background-position:-1px 0}@-webkit-keyframes bounceIn{0%{ opacity:0;-webkit-transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05)}70%{-webkit-transform:scale(.9)}100%{-webkit-transform:scale(1)}}@-moz-keyframes bounceIn{0%{ opacity:0;-moz-transform:scale(.3)}50%{opacity:1;-moz-transform:scale(1.05)}70%{-moz-transform:scale(.9)}100%{-moz-transform:scale(1)}}@-o-keyframes bounceIn{0%{ opacity:0;-o-transform:scale(.3)}50%{opacity:1;-o-transform:scale(1.05)}70%{-o-transform:scale(.9)}100%{-o-transform:scale(1)}}@keyframes bounceIn{0%{ opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1.05)}70%{transform:scale(.9)}100%{transform:scale(1)}}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body{background:#eee;margin:0;font:13px arial,sans-serif;color:#333;-webkit-font-smoothing:antialiased;-ms-text-size-adjust:none;-webkit-text-size-adjust:none}a{color:#007eb9;text-decoration:none}#ad,#link,#lazy{display:block;height:90px;width:728px}#link,#lazy{position:absolute}#link{cursor:pointer;background-repeat:no-repeat;z-index:1}#logo,#image,#cta{position:absolute}a{font-size:1.4em;color:#79b131;text-decoration:underline}#cta{font-size:1.4em;top:10px;left:279px;width:100%}#title{font-family:Helvetica Neue,Arial,sans-serif;font-size:1.4em;font-size:;font-weight:lighter;color:#5d5d5d;display:inline-block;letter-spacing:.9;line-height:1.15em;margin:1em 0 .5em 0}#logo{background:none!important;display:block;height:auto;padding:0;top:28px;left:28px;width:14%}#image{height:88px;width:88px;left:163px;top:1px}#shopNow{font-family:\'FrutigerLTStd-BoldCn\',Helvetica,Arial,sans-serif;line-height:1;position:relative;font-size:1.2em;display:inline-block;margin-left:30px;text-decoration:underline}#shopNow .arrow{background:url(http://g-ecx.images-amazon.com/images/G/01/da/creatives/arrow-1.png) 0 0 no-repeat;height:10px;width:10px;display:block;background-size:50%;float:left;margin-top:4px}.image{box-shadow:0 0 25px rgba(0,0,0,.6);-moz-box-shadow:0 0 25px rgba(0,0,0,.6);-webkit-box-shadow:0 0 25px rgba(0,0,0,.6);max-width:100%;opacity:0}.image-loaded .image{opacity:1;-webkit-animation:bounceIn 500ms;-moz-animation:bounceIn 500ms;-o-animation:bounceIn 500ms;animation:bounceIn 500ms}</style><div id=\"ad\"><a id=\"link\" class=\"ad\" href=\'\'></a><div id=\"cta\"><\!-- Handlebars reference to the title basic text input in the form template --\><h3 id=\"title\">Top hits from <i>Robin Thicke</i></h3><a id=\"shopNow\" href=\"http://www.amazon.com/dp/{{asin}}\"><span class=\"arrow\"></span>Shop now</a></div><img alt=\"app logo\" id=\"image\" class=\"image\" /><img id=\"logo\" width=\"\" src=\"http://g-ecx.images-amazon.com/images/G/01/da/creatives/amazon-mp3-logo-1-300x250._V379913631_.png\" /><a id=\"aapInfo\" target=\"_blank\" class=\"hide ac position\" href=\"http://amazon.com/gp/dra/info/ref=cs_aap_6468860972625\"></a></div><script>document.ad={aid:\"4702374248572\",cid:\"6468860972625\",w:728,h:90,template:\"House Ad-1.360\"},window.aanResponse={adId:document.ad.aid,creativeId:document.ad.cid,adNetwork:\"pda\",shazamStage:\"prod\",shazamId:\"3024\"};try{parent&&parent.ad_utils&&parent.ad_utils.expand_ad(frameElement)}catch(e){}setTimeout(function(){(function(e,t,n){var a=/\\.amazon\\.com(:.*)?$/,o=\"undefined\"!=typeof IS_3P&&IS_3P,i=!1;if(!o){try{i=a.test(n.location.host)}catch(r){}var c=t.referrer;if(!i&&c){var s=/^((?:https?:)\\/\\/)?([\\w\\-\\.]+(?::[0-9]+)?)\\/?(.*)$/,l=c.match(s),u=l[2];i=a.test(u)}}var d=!o&&!i,a=/\\.amazon\\.com(:.*)?$/,o=\"undefined\"!=typeof IS_3P&&IS_3P,i=!1;if(!o){try{i=a.test(n.location.host)}catch(r){}var c=t.referrer;if(!i&&c){var s=/^((?:https?:)\\/\\/)?([\\w\\-\\.]+(?::[0-9]+)?)\\/?(.*)$/,l=c.match(s),u=l[2];i=a.test(u)}}var f,d=!o&&!i,m=function(){},p=function(e){return/s/.test(e.protocol)},g=function(e,t){for(var n=0,a=e.length;a>n;n++)t(e[n],n,e)},v=function(e){return t.getElementById(e)},h=function(e,t){var n=[];for(var a in e)n.push(a+\"=\"+e[a]);var o=n.join(\"&\");return t?encodeURIComponent(o):o},y=25,b=300,k=function(e,t,n,a){e.style.visibility=\"visible\";var o=new Date;f=f||o,a=a||b;var i=Math.min((o-f)/a,1);t||(i=1-i),I(e,i),t&&1>i||!t&&i>0?setTimeout(function(){k(e,t,n,a)},y):(f=null,e.style.filter=\"\",n&&n())},I=function(e,t){var n=e.style;n.display=\"block\",n.opacity=n.mozOpacity=t,n.filter=\"alpha(opacity=\"+100*t+\")\"},w=function(e,t){e.style.backgroundImage=\"url(\"+t+\")\"},S=function(e,t){e.href=t,e.target=o||d?\"_blank\":\"_top\"},_=function(e,t){return e.className.match(RegExp(\"(\\\\s|^)\"+t+\"(\\\\s|$)\"))},C=function(e,t){_(e,t)||(e.className+=\" \"+t)},E=function(e,t){if(_(e,t)){var n=RegExp(\"(\\\\s|^)\"+t+\"(\\\\s|$)\");e.className=e.className.replace(n,\" \")}},T=function(e){E(e,\"hide\")},x=function(n,a,o,i,r,c,s){var l=\"serviceCallback\";a.JSONCallBack=l,e[l]=function(t){o=-1,s=e[l]=m,c(t)},function u(){if(o>0){var e=t.createElement(\"script\");e.src=\"//\"+n+\"?\"+h(a),t.body.appendChild(e),o--,setTimeout(u,i),i*=r}else!o&&s&&s()}()},R=\"adBackgroundClick\",A=\"adTitleClick\",P=\"shopNowClick\",D=\"ANY\",M=\"s.amazon-adsystem.com\",L=(\"ANY\"===D?location.protocol:D)+\"//\"+M+\"/click\",z=\"\",O=\"4702374248572\",B=\"6468860972625\",N=\"pda\",H=\'vD33IxAdeFb5KMWVOe74Tg\',$=function(e,t){var n={i:H,e:e,a:O,c:B,s:N},a=L+\"?\"+h({d:\"forester-did\",\"ex-fargs\":encodeURIComponent(\"?\"+h(n)),\"ex-fch\":416719,rd:encodeURIComponent(t),cb:(new Date).getTime()});return a},U=function(e,t,n){S(e,$(t,n))},V=(p(location)?\"//images-na.ssl-\":\"//g-ecx.\")+\"images-amazon.com/images/G/01/\",F=V+\"da/creatives/sn130.png\",G=\"\",j=\"d3l3lkinz3f56t.cloudfront.net/aan/us\";p(location)?\"\":\"\";var J=V+\"da/creatives/logo_orangeblack._V390083514_.png\",Y=\"\",W=[[\"B00DYLUBYW\"]][0]||[];[{asin:W[0]}];var K={B00DYLUBYW:{title:\"Blurred Lines (Deluxe) [Explicit]\",label:\"Blurred Lines (Deluxe) [Explicit]\",properties:{imageUrl:\"http://ecx.images-amazon.com/images/I/61zrRQmr4FL.jpg\",imageSecureUrl:\"https://images-na.ssl-images-amazon.com/images/I/61zrRQmr4FL.jpg\"}}},Q=!1,X=!1,Z=!1;v(\"selector\");var q=v(\"button\"),et=v(\"logo\"),tt=v(\"box\");v(\"preorder\"),v(\"info\"),v(\"listPrice\"),v(\"buyingPrice\");var nt=v(\"title\");v(\"headline\"),v(\"disclaimer\");var at,ot,it,rt,ct,st=v(\"aapInfo\");try{var lt=n.sim;lt&&(at=lt.aap,o=at||o,ot=lt.atc,it=lt.oos,rt=lt.ratings,ct=lt.switchCouponState)}catch(r){}if(o||d){var ut=et.style;ut.display=\"block\",-1!=navigator.userAgent.indexOf(\"MSIE 6\")&&(J=J.replace(/png$/,\"gif\")),ut.background=\"url(\"+J+\") no-repeat center bottom\"}st&&o&&T(st),at&&S(st,\"http://amazon.com/gp/dra/info\"),g(W,function(e,t){K[e]||(K[e]={}),K[e].index=t});var dt=v(\"ratingAverage\");dt&&(dt.style.backgroundImage=\"url(\"+V+\"da/creatives/star-ratings.png)\",dt.style.backgroundRepeat=\"no-repeat\");var ft,mt=function(){Z&&Q&&k(tt,!0)},pt=function(e,t){C(tt,\"fallback\"),w(q,F),U(q,P,t),U(et,R,t),U(nt,A,t),nt.innerHTML=e,\"function\"==typeof afterFallback&&afterFallback(t)},gt=1,vt=1e3,ht=1,yt=1500,bt={Operation:\"GetDecoratedOffers\",attributes:\"promotionInformation\",couponToken:G,ContentType:\"JSON\"},kt=function(){if(!Q&&!X){X=!0;var e,t;e=Y,t=z||COUPON_LANDING_PAGE_URL,e&&(pt(e||\"\",t||\"\"),k(tt,!0))}},It=function(e){E(tt,\"fallback\");try{var t=e.GetDecoratedOffersResponse;t&&(offers=t.GetDecoratedOffersResult.offers)&&offers.length?(Q=!0,ft=offers,mt()):kt()}catch(n){console.log(\"Error\",n),console.log(\"Error Message\",n.message),Q=!1,kt()}};setTimeout(function(){Q||kt()},yt),x(j,bt,gt+1,vt,ht,It,kt);var wt=v(\"ad\"),St=v(\"cta\"),_t=v(\"link\"),Ct=v(\"image\"),et=v(\"logo\"),Et=v(\"shopNow\"),nt=v(\"title\");HTMLElement.prototype.dynamicSize=function(e){switch(!0){case this.innerHTML.length>e.defaultLength:this.style.marginTop=\"1.3em\",this.style.fontSize=e.smallSize()+\"px\",Et.style.fontSize=e.smallSize()+\"px\";break;case this.innerHTML.length<e.defaultLength:this.style.marginTop=\"0.9em\",this.style.fontSize=e.largeSize()+\"px\",Et.style.fontSize=e.largeSize()+\"px\"}},nt.dynamicSize({defaultSize:22,defaultLength:21,smallSize:function(){return this.defaultSize-4},largeSize:function(){return this.defaultSize}});var Tt=!1;try{n.sim&&(Tt=!0)}catch(r){}C(wt,\"coupon\");var V=(p(location)?\"//images-na.ssl-\":\"//g-ecx.\")+\"images-amazon.com/images/G/01/\";t.body.style.backgroundImage=\"url(\'\"+V+\"/da/creatives/tmp-grad-2.jpg\')\",setTimeout(function(){Ct.style.display=Ct.src?\"block\":\"none\"},100);var xt=\"\".split(\",\"),Rt=\"\".split(\",\"),At=\"\".split(\",\"),Pt=\"\".split(\",\");St.style.left=xt[0],St.style.top=xt[1],Et.style.left=Rt[0],Et.style.top=Rt[1],et.style.left=At[0],et.style.top=At[1],Ct.style.left=Pt[0],Ct.style.top=Pt[1],et.src=V+\"da/creatives/amazon-mp3-logo-1-300x250._V1373064160_.png\";var Dt=\"\".replace(/x.*$/,\"\"),Mt=\"http://www.amazon.com/dp/B00DYLUBYW\",Lt=$(R,Mt);S(_t,Lt),Ct.src=p(location)?\"https://images-na.ssl-images-amazon.com/images/I/61zrRQmr4FL.jpg\".replace(\".jpg\",\"._SL\"+Dt+\"_.jpg\"):\"http://ecx.images-amazon.com/images/I/61zrRQmr4FL.jpg\".replace(\".jpg\",\"._SL\"+Dt+\"_.jpg\"),0==Ct.width?Ct.onload=function(){C(wt,\"image-loaded\")}:C(wt,\"image-loaded\"),o&&C(wt,\"aap\"),e.onbeforeunload=m})(window,document,parent)},0);<\/script></body></html><\!-- creativeModDate = 1377317401000 --\>\n <div id=\"top_ad_webbug\" style=\"display:none;\">\n <img src=\"http://aax-us-east.amazon-adsystem.com/e/loi/imp?b=4581af4a-c644-4004-a682-97a811905532&pj=[PUNT_ORIGIN]\" border=\"0\" height=\"1\" width=\"1\" alt=\"\"/>\n </div>\n");
 }, "ad_utils not defined, skipping punt ad data setup.");
 </script>
 <script>
@@ -188,8 +188,8 @@ doWithAds(function(){
 ad_utils.register_ad('top_ad');
 });
 </script>
-<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_ad" name="top_ad" class="yesScript" width="0" height="0" data-original-width="0" data-original-height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" border="0" alt="advertisement" /></a></noscript>
+<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_ad" name="top_ad" class="yesScript" width="0" height="0" data-original-width="0" data-original-height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=2;sz=728x90,1008x150,1008x200,1008x30,970x250,1008x400,9x1;p=top;p=t;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="top_ad_reflow_helper"></div>
 <script>
@@ -478,7 +478,7 @@ href="/r/tt_moviemeter_why/title/tt0245429"
     <div class="star-box-rating-widget">
             <span class="star-box-rating-label">Your rating:</span>
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0245429|imdb|0|0|title-maindetails" data-ga-identifier=""
-title="Users rated this 8.6/10 (232,778 votes) - click stars to rate" >
+title="Users rated this 8.6/10 (232,918 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 0px">&nbsp;</span>
 <span class="rating-stars">
@@ -499,7 +499,7 @@ title="Users rated this 8.6/10 (232,778 votes) - click stars to rate" >
     </div> 
     <div class="star-box-details" itemtype="http://schema.org/AggregateRating" itemscope itemprop="aggregateRating">
             Ratings:
-<strong><span itemprop="ratingValue">8.6</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="232,778 IMDb users have given a weighted average vote of 8.6/10" > <span itemprop="ratingCount">232,778</span> users
+<strong><span itemprop="ratingValue">8.6</span></strong><span class="mellow">/<span itemprop="bestRating">10</span></span>            from <a href="ratings?ref_=tt_ov_rt" title="232,917 IMDb users have given a weighted average vote of 8.6/10" > <span itemprop="ratingCount">232,917</span> users
 </a>&nbsp;
             Metascore: <a href="criticreviews?ref_=tt_ov_rt" title="94 review excerpts provided by Metacritic.com" > 94/100
 </a>            <br/>
@@ -605,7 +605,7 @@ href="https://secure.imdb.com/register-imdb/sharing?ref=tt_checkin_share"
             </div>
         </div>
     </div>
-    <input type="hidden" name="49e6c" value="d522">
+    <input type="hidden" name="49e6c" value="ff42">
 </div>
 </div>
 <span class="btn2_wrapper"><a onclick='' class="btn2 large btn2_text_on launch-share-popover"><span class="btn2_glyph">0</span><span class="btn2_text">Share...</span></a></span><div id="share-popover">
@@ -708,8 +708,8 @@ doWithAds(function(){
 ad_utils.register_ad('top_rhs');
 });
 </script>
-<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_rhs" name="top_rhs" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" border="0" alt="advertisement" /></a></noscript>
+<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_rhs" name="top_rhs" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=1;sz=300x250,300x600,300x300,11x1;p=tr;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="top_rhs_reflow_helper"></div>
 <script>
@@ -1000,16 +1000,16 @@ ad_utils.render_ad_fast('top_rhs');
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/title/tt0245429/news?ref_=tt_nwr_1#ni56087059" >Japanese animator under fire for film tribute to warplane designer</a>
+                            <a href="/title/tt0245429/news?ref_=tt_nwr_1#ni56090672" >A Sequel To Miyazaki's "Nausicaa" Coming?</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  7 hours ago
+                                  13 hours ago
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000680?ref_=tt_nwr_1" >The Guardian - Film News</a>
+                                        <a href="/news/ns0000799?ref_=tt_nwr_1" >Dark Horizons</a>
                                 </span>
                         </small>
                     </div>
@@ -1018,16 +1018,16 @@ ad_utils.render_ad_fast('top_rhs');
                     
                     <div class="news_item even" >
                         <span itemprop="headline" >
-                            <a href="/title/tt0245429/news?ref_=tt_nwr_2#ni56084988" >28 Moments That Will Transport You To The Early 2000s</a>
+                            <a href="/title/tt0245429/news?ref_=tt_nwr_2#ni56087059" >Japanese animator under fire for film tribute to warplane designer</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  15 hours ago
+                                  23 August 2013 7:49 AM, +08:00
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000218?ref_=tt_nwr_2" >Huffington Post</a>
+                                        <a href="/news/ns0000680?ref_=tt_nwr_2" >The Guardian - Film News</a>
                                 </span>
                         </small>
                     </div>
@@ -1036,22 +1036,22 @@ ad_utils.render_ad_fast('top_rhs');
                     
                     <div class="news_item odd" >
                         <span itemprop="headline" >
-                            <a href="/title/tt0245429/news?ref_=tt_nwr_3#ni56082644" >Win a Blu-ray Copy of Studio Ghibli's "From Up on Poppy Hill"</a>
+                            <a href="/title/tt0245429/news?ref_=tt_nwr_3#ni56084988" >28 Moments That Will Transport You To The Early 2000s</a>
                         </span>
                         
                         <br /><small>
                                 <span itemprop="datePublished">
-                                  22 August 2013 12:03 PM, +08:00
+                                  22 August 2013 11:14 PM, +08:00
                                 </span>
                             
                                 <span class="ghost">|</span><span itemprop="provider" >
-                                        <a href="/news/ns0000086?ref_=tt_nwr_3" >JustPressPlay.net</a>
+                                        <a href="/news/ns0000218?ref_=tt_nwr_3" >Huffington Post</a>
                                 </span>
                         </small>
                     </div>
        
             <div class="see-more">
-                <a href="/title/tt0245429/news?ref_=tt_nwr_sm" >See all 494 related articles</a>&nbsp;&raquo;
+                <a href="/title/tt0245429/news?ref_=tt_nwr_sm" >See all 495 related articles</a>&nbsp;&raquo;
             </div>
 
       </div>
@@ -1095,101 +1095,101 @@ ad_utils.render_ad_fast('top_rhs');
                 
                     <div class="list-preview even">
                         <div class="list-preview-item-narrow">
-<a href="/list/s4JyOcbf-44/?ref_=tt_rls_1" >
+<a href="/list/a05Tvu43lE4/?ref_=tt_rls_1" >
 <img height="86" width="86" alt="list image" title="list image"
 src="/images/nopicture/medium/film.png"
-class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BNjg3ODQyNTIyN15BMl5BanBnXkFtZTcwMjUzNzM5NQ@@._V1_SX86_CR0,0,86,86_.jpg" />
+class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMzI1MjI5MDQyOV5BMl5BanBnXkFtZTcwNzE4Mjg3NA@@._V1_SX86_CR0,0,86,86_.jpg" />
 <noscript>
 <img height="86" width="86" alt="list image" title="list image"
-src="http://ia.media-imdb.com/images/M/MV5BNjg3ODQyNTIyN15BMl5BanBnXkFtZTcwMjUzNzM5NQ@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
+src="http://ia.media-imdb.com/images/M/MV5BMzI1MjI5MDQyOV5BMl5BanBnXkFtZTcwNzE4Mjg3NA@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
 </noscript>
 </a>                        </div>
                         <div class="list_name">
-                            <b><a href="/list/s4JyOcbf-44/?ref_=tt_rls_1" >E&amp;E</a></b>
+                            <b><a href="/list/a05Tvu43lE4/?ref_=tt_rls_1" >My Favorite Films</a></b>
+                        </div>
+                        <div class="list_meta">
+                            a list of 28 titles 
+                             created 06&nbsp;Nov&nbsp;2011
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                    <div class="list-preview odd">
+                        <div class="list-preview-item-narrow">
+<a href="/list/7CLV54q8BB8/?ref_=tt_rls_2" >
+<img height="86" width="86" alt="list image" title="list image"
+src="/images/nopicture/medium/film.png"
+class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SX86_CR0,0,86,86_.jpg" />
+<noscript>
+<img height="86" width="86" alt="list image" title="list image"
+src="http://ia.media-imdb.com/images/M/MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
+</noscript>
+</a>                        </div>
+                        <div class="list_name">
+                            <b><a href="/list/7CLV54q8BB8/?ref_=tt_rls_2" >all time best movies</a></b>
+                        </div>
+                        <div class="list_meta">
+                            a list of 23 titles 
+                             created 03&nbsp;Jun&nbsp;2012
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                    <div class="list-preview even">
+                        <div class="list-preview-item-narrow">
+<a href="/list/xlMNRqV6nIQ/?ref_=tt_rls_3" >
+<img height="86" width="86" alt="list image" title="list image"
+src="/images/nopicture/medium/film.png"
+class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SX86_CR0,0,86,86_.jpg" />
+<noscript>
+<img height="86" width="86" alt="list image" title="list image"
+src="http://ia.media-imdb.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
+</noscript>
+</a>                        </div>
+                        <div class="list_name">
+                            <b><a href="/list/xlMNRqV6nIQ/?ref_=tt_rls_3" >Especiales</a></b>
                         </div>
                         <div class="list_meta">
                             a list of 34 titles 
-                             created 11&nbsp;months&nbsp;ago
+                             created 7&nbsp;months&nbsp;ago
                         </div>
                         <div class="clear">&nbsp;</div>
                     </div>
                     <div class="list-preview odd">
                         <div class="list-preview-item-narrow">
-<a href="/list/RRHIGCt5BPo/?ref_=tt_rls_2" >
+<a href="/list/3gVP-LzSsx4/?ref_=tt_rls_4" >
 <img height="86" width="86" alt="list image" title="list image"
 src="/images/nopicture/medium/film.png"
-class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX86_CR0,0,86,86_.jpg" />
+class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX86_CR0,0,86,86_.jpg" />
 <noscript>
 <img height="86" width="86" alt="list image" title="list image"
-src="http://ia.media-imdb.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
+src="http://ia.media-imdb.com/images/M/MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
 </noscript>
 </a>                        </div>
                         <div class="list_name">
-                            <b><a href="/list/RRHIGCt5BPo/?ref_=tt_rls_2" >Asian movies</a></b>
+                            <b><a href="/list/3gVP-LzSsx4/?ref_=tt_rls_4" >Watchedlist</a></b>
                         </div>
                         <div class="list_meta">
-                            a list of 47 titles 
-                             created 4&nbsp;months&nbsp;ago
+                            a list of 31 titles 
+                             created 21&nbsp;Aug&nbsp;2012
                         </div>
                         <div class="clear">&nbsp;</div>
                     </div>
                     <div class="list-preview even">
                         <div class="list-preview-item-narrow">
-<a href="/list/1EqAJnlsYjg/?ref_=tt_rls_3" >
+<a href="/list/nQsZYwjk5mE/?ref_=tt_rls_5" >
 <img height="86" width="86" alt="list image" title="list image"
 src="/images/nopicture/medium/film.png"
-class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMjIyOTU3MjUxOF5BMl5BanBnXkFtZTcwMTQ0NjYzMw@@._V1_SX86_CR0,0,86,86_.jpg" />
+class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTg4NTYwNDc0MF5BMl5BanBnXkFtZTcwNDg1NzM5NA@@._V1_SX86_CR0,0,86,86_.jpg" />
 <noscript>
 <img height="86" width="86" alt="list image" title="list image"
-src="http://ia.media-imdb.com/images/M/MV5BMjIyOTU3MjUxOF5BMl5BanBnXkFtZTcwMTQ0NjYzMw@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
+src="http://ia.media-imdb.com/images/M/MV5BMTg4NTYwNDc0MF5BMl5BanBnXkFtZTcwNDg1NzM5NA@@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
 </noscript>
 </a>                        </div>
                         <div class="list_name">
-                            <b><a href="/list/1EqAJnlsYjg/?ref_=tt_rls_3" >Favs</a></b>
+                            <b><a href="/list/nQsZYwjk5mE/?ref_=tt_rls_5" >Movie's i have seen</a></b>
                         </div>
                         <div class="list_meta">
-                            a list of 40 titles 
-                             created 27&nbsp;Apr&nbsp;2012
-                        </div>
-                        <div class="clear">&nbsp;</div>
-                    </div>
-                    <div class="list-preview odd">
-                        <div class="list-preview-item-narrow">
-<a href="/list/aROlnbv2UV8/?ref_=tt_rls_4" >
-<img height="86" width="86" alt="list image" title="list image"
-src="/images/nopicture/medium/film.png"
-class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTAzMzI0NTMzNDBeQTJeQWpwZ15BbWU3MDM3NTAyOTM@._V1_SX86_CR0,0,86,86_.jpg" />
-<noscript>
-<img height="86" width="86" alt="list image" title="list image"
-src="http://ia.media-imdb.com/images/M/MV5BMTAzMzI0NTMzNDBeQTJeQWpwZ15BbWU3MDM3NTAyOTM@._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
-</noscript>
-</a>                        </div>
-                        <div class="list_name">
-                            <b><a href="/list/aROlnbv2UV8/?ref_=tt_rls_4" >Top Twenty Five Movies On Earth.</a></b>
-                        </div>
-                        <div class="list_meta">
-                            a list of 25 titles 
-                             created 15&nbsp;Apr&nbsp;2012
-                        </div>
-                        <div class="clear">&nbsp;</div>
-                    </div>
-                    <div class="list-preview even">
-                        <div class="list-preview-item-narrow">
-<a href="/list/9foNtNoizvE/?ref_=tt_rls_5" >
-<img height="86" width="86" alt="list image" title="list image"
-src="/images/nopicture/medium/film.png"
-class="loadlate hidden rec_poster_img" loadlate="http://ia.media-imdb.com/images/M/MV5BMTY0NjcyOTUxNV5BMl5BanBnXkFtZTYwNjMxNjc2._V1_SX86_CR0,0,86,86_.jpg" />
-<noscript>
-<img height="86" width="86" alt="list image" title="list image"
-src="http://ia.media-imdb.com/images/M/MV5BMTY0NjcyOTUxNV5BMl5BanBnXkFtZTYwNjMxNjc2._V1_SX86_CR0,0,86,86_.jpg" class="rec_poster_img" />
-</noscript>
-</a>                        </div>
-                        <div class="list_name">
-                            <b><a href="/list/9foNtNoizvE/?ref_=tt_rls_5" >Seen</a></b>
-                        </div>
-                        <div class="list_meta">
-                            a list of 39 titles 
-                             created 17&nbsp;Mar&nbsp;2012
+                            a list of 537 titles 
+                             created 31&nbsp;Oct&nbsp;2011
                         </div>
                         <div class="clear">&nbsp;</div>
                     </div>
@@ -1342,8 +1342,8 @@ doWithAds(function(){
 ad_utils.register_ad('btf_rhs2');
 });
 </script>
-<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="btf_rhs2" name="btf_rhs2" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" border="0" alt="advertisement" /></a></noscript>
+<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="btf_rhs2" name="btf_rhs2" class="yesScript" width="300" height="250" data-original-width="300" data-original-height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=3;sz=300x250,16x1;p=br2;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="btf_rhs2_reflow_helper"></div>
 <script>
@@ -1396,7 +1396,7 @@ ad_utils.render_ad_fast('btf_rhs2');
   </script>
         
           <div class="article highlighted" id="titleAwardsRanks">
-<a href="/chart/top?tt0245429&ref_=tt_awd" ><strong>Top 250 #42</strong></a> 
+<a href="/chart/top?tt0245429&ref_=tt_awd" ><strong>Top 250 #41</strong></a> 
             
                     |
              
@@ -1476,11 +1476,11 @@ ad_utils.render_ad_fast('btf_rhs2');
                     <h2>Photos</h2>
         <div class="mediastrip">
                 
-<a href="/media/rm2845749248/tt0245429?ref_=tt_pv_md_1" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMzI1NDk0MzEzN15BMl5BanBnXkFtZTcwOTE0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm1854839040/tt0245429?ref_=tt_pv_md_2" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM4NzI3MDE3NV5BMl5BanBnXkFtZTYwMDg2MDU3._V1_SY105_CR45,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm2828972032/tt0245429?ref_=tt_pv_md_3" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcxMTcxMDE4MV5BMl5BanBnXkFtZTcwMDI0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm3080630272/tt0245429?ref_=tt_pv_md_4" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjA2NDMzNDA1NV5BMl5BanBnXkFtZTcwMTI0MjIyNw@@._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
-<a href="/media/rm3063853056/tt0245429?ref_=tt_pv_md_5" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTA2OTU4NF5BMl5BanBnXkFtZTcwMjI0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>        </div>
+<a href="/media/rm3080630272/tt0245429?ref_=tt_pv_md_1" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMjA2NDMzNDA1NV5BMl5BanBnXkFtZTcwMTI0MjIyNw@@._V1_SX105_CR0,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm2828972032/tt0245429?ref_=tt_pv_md_2" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcxMTcxMDE4MV5BMl5BanBnXkFtZTcwMDI0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm1854839040/tt0245429?ref_=tt_pv_md_3" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTM4NzI3MDE3NV5BMl5BanBnXkFtZTYwMDg2MDU3._V1_SY105_CR45,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm3063853056/tt0245429?ref_=tt_pv_md_4" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMTcyNTA2OTU4NF5BMl5BanBnXkFtZTcwMjI0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>                
+<a href="/media/rm2845749248/tt0245429?ref_=tt_pv_md_5" itemprop='thumbnailUrl'><img height="105" width="105" alt="Sen to Chihiro no kamikakushi" title="Sen to Chihiro no kamikakushi"src="http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._V379391227_.png"class="loadlate hidden " loadlate="http://ia.media-imdb.com/images/M/MV5BMzI1NDk0MzEzN15BMl5BanBnXkFtZTcwOTE0MjIyNw@@._V1_SY105_CR44,0,105,105_.jpg" itemprop='image' /></a>        </div>
                 </div>
             <div class="combined-see-more see-more">
 <a href="/title/tt0245429/mediaindex?ref_=tt_pv_mi_sm" ><span class="titlePageSprite showAllVidsAndPics"></span></a>
@@ -1488,7 +1488,7 @@ ad_utils.render_ad_fast('btf_rhs2');
 <span class="ghost">|</span>        
 <a href="/title/tt0245429/videogallery?ref_=tt_pv_vi_sm" >1 video</a>                
 <span class="ghost">|</span>        
-<a href="/title/tt0245429/news?ref_=tt_pv_nw_sm" >494 news articles</a> &raquo;            </div>
+<a href="/title/tt0245429/news?ref_=tt_pv_nw_sm" >495 news articles</a> &raquo;            </div>
         </div>
       </div>  
   <script>
@@ -1732,7 +1732,7 @@ ad_utils.render_ad_fast('btf_rhs2');
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -1772,7 +1772,7 @@ ad_utils.render_ad_fast('btf_rhs2');
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0119698|imdb|8.4|8.4|p13nsims-title" data-ga-identifier=""
-title="Users rated this 8.4/10 (128,863 votes) - click stars to rate" >
+title="Users rated this 8.4/10 (128,916 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 117.6px">&nbsp;</span>
 <span class="rating-stars">
@@ -1851,7 +1851,7 @@ YÃ»ko Tanaka</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -1887,7 +1887,7 @@ YÃ»ko Tanaka</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0096283|imdb|8.2|8.2|p13nsims-title" data-ga-identifier=""
-title="Users rated this 8.2/10 (83,272 votes) - click stars to rate" >
+title="Users rated this 8.2/10 (83,343 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 114.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -1966,7 +1966,7 @@ Toshiyuki Amagasa</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2002,7 +2002,7 @@ Toshiyuki Amagasa</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0097814|imdb|7.8|7.8|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.8/10 (42,298 votes) - click stars to rate" >
+title="Users rated this 7.8/10 (42,323 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 109.2px">&nbsp;</span>
 <span class="rating-stars">
@@ -2081,7 +2081,7 @@ Rei Sakuma</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2117,7 +2117,7 @@ Rei Sakuma</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0876563|imdb|7.7|7.7|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.7/10 (49,656 votes) - click stars to rate" >
+title="Users rated this 7.7/10 (49,691 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 107.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -2196,7 +2196,7 @@ Liam Neeson</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2236,7 +2236,7 @@ Liam Neeson</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0347618|imdb|7.2|7.2|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.2/10 (17,020 votes) - click stars to rate" >
+title="Users rated this 7.2/10 (17,051 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 100.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -2315,7 +2315,7 @@ Aki Maeda</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2355,7 +2355,7 @@ Aki Maeda</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0327597|imdb|7.7|7.7|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.7/10 (95,885 votes) - click stars to rate" >
+title="Users rated this 7.7/10 (95,929 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 107.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -2434,7 +2434,7 @@ John Hodgman</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2470,7 +2470,7 @@ John Hodgman</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0328880|imdb|6.6|6.6|p13nsims-title" data-ga-identifier=""
-title="Users rated this 6.6/10 (39,444 votes) - click stars to rate" >
+title="Users rated this 6.6/10 (39,477 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 92.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -2550,7 +2550,7 @@ Rick Moranis</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2586,7 +2586,7 @@ Rick Moranis</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0057546|imdb|7.1|7.1|p13nsims-title" data-ga-identifier=""
-title="Users rated this 7.1/10 (38,906 votes) - click stars to rate" >
+title="Users rated this 7.1/10 (38,935 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 99.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -2665,7 +2665,7 @@ Karl Swenson</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2705,7 +2705,7 @@ Karl Swenson</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0165982|imdb|6.5|6.5|p13nsims-title" data-ga-identifier=""
-title="Users rated this 6.5/10 (22,559 votes) - click stars to rate" >
+title="Users rated this 6.5/10 (22,590 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 91px">&nbsp;</span>
 <span class="rating-stars">
@@ -2785,7 +2785,7 @@ Joseph Fiennes</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2821,7 +2821,7 @@ Joseph Fiennes</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0338348|imdb|6.5|6.5|p13nsims-title" data-ga-identifier=""
-title="Users rated this 6.5/10 (72,767 votes) - click stars to rate" >
+title="Users rated this 6.5/10 (72,807 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 91px">&nbsp;</span>
 <span class="rating-stars">
@@ -2900,7 +2900,7 @@ Michael Jeter</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -2940,7 +2940,7 @@ Michael Jeter</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0944834|imdb|6.6|6.6|p13nsims-title" data-ga-identifier=""
-title="Users rated this 6.6/10 (8,208 votes) - click stars to rate" >
+title="Users rated this 6.6/10 (8,210 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 92.4px">&nbsp;</span>
 <span class="rating-stars">
@@ -3020,7 +3020,7 @@ Philippe Nahon</span></div>
              </a>
            </span>
          </div>         
-             <input type="hidden" name="49e6c" value="d522">
+             <input type="hidden" name="49e6c" value="ff42">
        </div>
        
        <div class="rec_details">
@@ -3060,7 +3060,7 @@ Philippe Nahon</span></div>
 
   
 <div class="rating rating-list" data-starbar-class="rating-list" data-auth="" data-user="" id="tt0892769|imdb|8.2|8.2|p13nsims-title" data-ga-identifier=""
-title="Users rated this 8.2/10 (237,685 votes) - click stars to rate" >
+title="Users rated this 8.2/10 (237,879 votes) - click stars to rate" >
 <span class="rating-bg">&nbsp;</span>
 <span class="rating-imdb " style="width: 114.8px">&nbsp;</span>
 <span class="rating-stars">
@@ -3732,12 +3732,12 @@ itemprop='url'>IMDbPro</a>&nbsp;&raquo;
         <h4>Trivia</h4>
 
 
-Chi and Sen both use the same Japanese Kanji, which means 1,000 but are different readings of the same character. The name Sen is also a play on the name Chihiro.        <a href="trivia?ref_=tt_trv_trv" class="nobr" >See more</a>  &raquo;
+First Studio Ghibli film in Dolby Digital EX 6.1 and DTS-ES 6.1 sound.        <a href="trivia?ref_=tt_trv_trv" class="nobr" >See more</a>  &raquo;
     </div>
                 <hr />
      <div id="goofs"  class="txt-block">
         <h4>Goofs</h4>
-The smudge on Chihiro's face changes shape, switches sides, and disappears at random during the first 40 minutes of the movie.        <a href="trivia?tab=gf&ref_=tt_trv_gf" class="nobr" >See more</a>  &raquo;
+When Kamajii bangs the wheel to alert the Mushi-balls, a chopstick clearly falls down from the bowls. However, when he is cleaning off the dust only a minute later, there are two chopsticks again.        <a href="trivia?tab=gf&ref_=tt_trv_gf" class="nobr" >See more</a>  &raquo;
     </div>   
                 <hr />
     <div id="quotes" class="text-block">
@@ -3756,7 +3756,7 @@ The credits have a series of still images from the film. The last image before t
                 <hr />
     <div id="connections" class="text-block">
         <h4>Connections</h4>
-        Referenced in <a href="/title/tt2173287/?ref_=tt_trv_cnn">Hewy's Animated Movie Reviews: Ponyo</a>&nbsp;(2009)
+        References <a href="/title/tt0088846/?ref_=tt_trv_cnn">Brazil</a>&nbsp;(1985)
 
 
         <a href="trivia?tab=mc&ref_=tt_trv_cnn" class="nobr" >See more</a> &raquo;
@@ -3764,8 +3764,8 @@ The credits have a series of still images from the film. The last image before t
                 <hr />
     <div id="soundtracks" class="text-block">
         <h4>Soundtracks</h4>
-Kamisama-tachi<br />
-("The Procession of the Spirits")<br />
+Boiraa-Mushi<br />
+("Sootballs")<br />
 Composed by <a href="/name/nm0386749/?ref_=tt_trv_snd">Joe Hisaishi</a><br />        <a href="soundtrack?ref_=tt_trv_snd" class="nobr" >See more</a> &raquo;
     </div>
     </div>
@@ -3805,15 +3805,15 @@ Composed by <a href="/name/nm0386749/?ref_=tt_trv_snd">Joe Hisaishi</a><br />   
             <div class="faq" >
                     <div class="odd">
                     <b>Q:</b>
-<a href="/title/tt0245429/faq?ref_=tt_faq_1#.2.1.1" > What are the ages of the characters?</a>
+<a href="/title/tt0245429/faq?ref_=tt_faq_1#.2.1.9" > Is this movie based on a novel?</a>
                     </div>
                     <div class="even">
                     <b>Q:</b>
-<a href="/title/tt0245429/faq?ref_=tt_faq_2#.2.1.4" > Does Chihiro remember her experience?</a>
+<a href="/title/tt0245429/faq?ref_=tt_faq_2#.2.1.5" > Does Chihiro become a better person because of her experience?</a>
                     </div>
                     <div class="odd">
                     <b>Q:</b>
-<a href="/title/tt0245429/faq?ref_=tt_faq_3#.2.1.6" > What do the workers at the bathhouse represent?</a>
+<a href="/title/tt0245429/faq?ref_=tt_faq_3#.2.1.8" > How much sex, violence, and profanity are in this movie</a>
                     </div>
             </div>
         
@@ -3850,32 +3850,29 @@ Composed by <a href="/name/nm0386749/?ref_=tt_trv_snd">Joe Hisaishi</a><br />   
     <div class="article" id="titleUserReviewsTeaser">
         <h2>User Reviews</h2>
         <div class="user-comments">
-                    <div class="tinystarbar" title="10/10">
-                        <div style="width: 100px;">&nbsp;</div>
-                    </div>
                 <span itemprop="review" itemscope itemtype="http://schema.org/Review">  
-                    <strong itemprop="name">Best animated film I have seen!</strong>
+                    <strong itemprop="name">A Fantastic Film (most literally)</strong>
                     <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                         <meta itemprop="worstRating" content = "1" />
-                        <meta itemprop="ratingValue" content="10" />
+                        <meta itemprop="ratingValue" content="0" />
                         <meta itemprop="bestRating" content="10" />
                     </span>
                     <div class="comment-meta">
-                        2 April 2004 | by <a href="/user/ur0975530/?ref_=tt_urv" ><span itemprop="author">Thomas Jolliffe (supertom-3)</span></a>
-                        <meta itemprop="datePublished" content="2004-04-02" />
-                              (Marlow, England)
-                        &ndash; <a href="/user/ur0975530/comments?ref_=tt_urv" >See all my reviews</a>
+                        4 October 2002 | by <a href="/user/ur1957479/?ref_=tt_urv" ><span itemprop="author">kraley (kraley@houston.rr.com)</span></a>
+                        <meta itemprop="datePublished" content="2002-10-04" />
+                              (Houston, TX)
+                        &ndash; <a href="/user/ur1957479/comments?ref_=tt_urv" >See all my reviews</a>
                     </div>
                     <div>
-                        <p itemprop="reviewBody"> This is a wonderfully imaginative and fantastical children's fantasy. It is easy to see why it was perhaps the critical hit of 2002. The film is glorious to look at. It is a testament to old fashioned animation techniques that seem to be resigned to foreign animations. Of course there is some use of computer imagery for certain shots but they blend seamlessly and the overall artistry involved is superlative.<br /><br />This is the first Hayao Miyazaki film I have seen and I will certainly watch his others. The story plays on many elements successful with kids films, that transport you back to your own childhood and also allows the young audience to connect with the themes in the movie too. The story centres around Chihiro, a young girl about to move into a new place and who feels insecure about the new environment she will be living in. These fears become a part of her encounter with a strange abandoned amusement park that she and her parents find when they reach a dead end in their car. At the park they find that their is a stall that is seemingly open, with glorious displays of mouth watering food. There are no people about but Chihiros parents decide to gorge themselves on this bounty and pay later. As Chihioro explores she comes across a strange boy who warns her to get out before dark. It is too late however, because as night falls, ghosts are awakened, and then by the time she gets back to her parents they are turned into pigs. She then finds that the route she came from is gone and she is now trapped in this place, her only allie being the boy she met earlier. She is told to get a job at the centre piece of the park, a bath house run by Yubaba, an evil power mad witch. This is a bath house for the spirits and Chihiro has to find a job there before she is found and turned into an animal herself, then unable to save her parents.<br /><br />The story is imaginative and the characters and animations endlessly unique and strange. This is just so much more creative than Hollywood. The characters are likeable and we become engrossed with Chihiros adventures inside this bathhouse, and the characters she comes into contact with as she tries to get her parents back as humans and whilst trying to get back to the human world. What I also loved in this film is that the animation gives it a real sense of cinematography, the drawing makes the film stand out in a way that American animations rarely do. Another film I think of that looked really good was Bellville Rendezvous. Another great point in fact the best part of it, is the fantastic score. It really is uplifting and very original. This is just great film making. ***** <br /><br /> </p>
+                        <p itemprop="reviewBody"> Good morning. Last night I was able to catch the Disney US Release of Spirited Away ( originally The Spiriting Away of Sen and Chihiro). This is another  Disney purchase of a Japanese hit. For those that don't know, Disney has a nasty habit of importing titles from Japan and then changing the story when dubbing films or creatively editing the endings or plot to &quot;suit American audiences&quot;. Personally I think that's a travesty. So  whenever you go see the Disney release of a foreign film, realize the film you are watching may not be the 'same film' the rest of the world sees.<br /><br />OK, that aside, was it a good film? I deliberately did no research before seeing this film as I prefer to go into films with little or no expectations. All I knew was that the film was directed and written by Hayao Miyazaki, the same man responsible for Princess Mononoke ( a film released a few years back that I also enjoyed). In the case of Spirited away, I'm glad I did not know what I was getting myself into, otherwise I might not have come (and surprisingly, not for the reasons you likely assume).<br /><br />The film concerns a young girl and her parents who find an odd tunnel in the side of a hill while moving to their new home. Upon investigating the tunnel, they find a strange &quot;theme park&quot; on the other side devoid of inhabitants. Upon investigating the theme park, things are obviously very &quot;wrong&quot; (at least to the little girl- her parents seem woefully oblivious) and as it gets closer to sunset, things just get worse. Unfortunately, this is all the plot I am able to reveal without spoiling the uniqueness of this film.<br /><br />This is an 'adult-oriented' movie. It has some rather disturbing images and ranks among the weirdest films I have seen in my life. It's a bizarre amalgam of Wizard of Oz,The Neverending Story, Alice in Wonderland, My Friend Totoro, Chitty Chitty Bang Bang and The City of Lost Children (just to name a few). This film is interesting from beginning to end even though the plot advances rather slowly. There is always some new thing to see or some truly bizarre thing to witness. The animation is above average but not as impressive as Mononoke (and even features several gratuitous CGI sequences).<br /><br />There is a great story and some great humor. I laughed more in this film than I have at any Hollywood 'comedy' in the last 5 years (and Spirited Away is not a comedy, it just has several good comedic breaks). No nudity. No Profanity. No 'gratuitous' violence. Some rather disturbing scenes of characters getting eaten alive (and some threats thereof) but even the eaten characters return unharmed later in the film.<br /><br />This is not really a 'family film' (and definitely NOT a &quot;kiddee film&quot;) but it is something you can take the whole family to. Smaller children will not understand the story, but they'll like the visuals and enjoy the humor. Mid-teens might be a bit &quot;weirded out&quot; by the subject matter and the visuals and older teens and adults may be too jaded by American cinema to enjoy the film for what it is- a lavish fairytale from a foreign country. This film runs about 2 hours so leave the &quot;kidney-buster&quot; sodas at the snack bar. If you have to take a bathroom break, you WILL miss something and I assure you no friend nor helpful audience member will likely be able to adequately convey what it is you DID just miss.<br /><br />If you enjoy Anime or the bizarre, make an effort to see this film. Even if you don't normally like &quot;cartoon movies&quot;, you might give this one a chance. It is not a 'casual moviegoer' film by any means and does rely on some thought from the audience to enjoy it. It will also likely be the oddest film you'll see this decade and you'll be sure to remember this film long after all the other 'disposable movies' have faded from your recollection. This film is receiving almost no advertising. I didn't even know it existed until I saw the poster tucked away in a corner at the theatre earlier this week. I hope Disney puts a little more effort into advertising this film's release because it is truly an original film and worthy of a large audience. Hopefully positive word-of-mouth will get this film the attendance it deserves. </p>
                     </div>
                 </span>
                 <hr />
-                <div class="yn" id="ynd_727544">
-                    127 of 150 people found this review helpful.&nbsp;
+                <div class="yn" id="ynd_727207">
+                    140 of 177 people found this review helpful.&nbsp;
                     Was this review helpful to you?
-                    <button class="btn small" value="Yes" name="ynb_727544_yes" onclick="CS.TMD.user_review_vote(727544, 'tt0245429', 'yes');" >Yes</button>
-                    <button class="btn small" value="No" name="ynb_727544_no" onclick="CS.TMD.user_review_vote(727544, 'tt0245429', 'no');" >No</button>
+                    <button class="btn small" value="Yes" name="ynb_727207_yes" onclick="CS.TMD.user_review_vote(727207, 'tt0245429', 'yes');" >Yes</button>
+                    <button class="btn small" value="No" name="ynb_727207_no" onclick="CS.TMD.user_review_vote(727207, 'tt0245429', 'no');" >No</button>
                 </div>
             <div class="see-more">
                 
@@ -4303,8 +4300,8 @@ doWithAds(function(){
 ad_utils.register_ad('bottom_ad');
 });
 </script>
-<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="bottom_ad" name="bottom_ad" class="yesScript" width="728" height="90" data-original-width="728" data-original-height="90" data-config-width="728" data-config-height="90" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
-<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=d;bpx=1;s=3074;s=3075;s=32;ord=417952900403?" border="0" alt="advertisement" /></a></noscript>
+<iframe data-dart-params="#imdb2.consumer.title/maindetails;!TILE!;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;oe=utf-8;[CLIENT_SIDE_KEYVALUES];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="bottom_ad" name="bottom_ad" class="yesScript" width="728" height="90" data-original-width="728" data-original-height="90" data-config-width="728" data-config-height="90" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });"></iframe>
+<noscript><a href="http://ad.doubleclick.net/N4215/jump/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" target="_blank"><img src="http://ad.doubleclick.net/N4215/ad/imdb2.consumer.title/maindetails;tile=4;sz=728x90,2x1;p=b;g=f;g=fm;g=an;g=ad;tt=f;m=PG;mh=PG;ml=PG;coo=jp;b=t250;fv=1;id=tt0245429;ab=b;bpx=1;s=3074;s=3075;s=32;ord=286368807342?" border="0" alt="advertisement" /></a></noscript>
 </div>
 <div id="bottom_ad_reflow_helper"></div>
 <script>
@@ -4337,13 +4334,13 @@ jQuery(document).ready(function(){
             params_sis3 = [
               "d=imdb.com",
               "a1=",
-              "a2=010166fb936fe8b6bba640296a6fec291dce4363a8edf3a7eb80b8bd78d2c6c7a04c",
+              "a2=0101275f3cc76bf05297439a925da026f609bff293e9ef637a3c330dbd736342a8f7",
               "pId=tt0245429",
               "r=1",
               "rP=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0245429%2F",
               "ex-hargs=v=1.0;c=IMDB;p=tt0245429;t=imdb_title_view;",
               "encoding=server",
-              "cb=417952900403"  
+              "cb=286368807342"  
             ];
         (document.getElementById('sis_pixel_3')).src = url_sis3 + params_sis3.join('&');
       }
@@ -4409,7 +4406,7 @@ c15:""
 </script>
 <!-- end ads footer -->
 
-<div id="servertime" time="281"/>
+<div id="servertime" time="108"/>
 
 
 

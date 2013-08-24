@@ -1,7 +1,7 @@
 #slider-stage {
 	width: 248px;
 	overflow:hidden;
-	height: 125px;
+	height: 140px;
 	margin-left:1px;
 	float:left;
 	position:relative;
@@ -67,7 +67,7 @@
 	display:block
 }
 #sliderBloc {
-	height:120px;
+	height:140px;
 	/*margin:0 auto;*/
 	width:294px;
 	overflow:hidden;

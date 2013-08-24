@@ -468,11 +468,11 @@ $responseBody = $response->getBody();
     if ($this->page["Title"] == "") {
 	$this->openpage ("Title");
     }
-    $rate_s = strpos ($this->page["Title"], "User Rating:");
+    $rate_s = strpos ($this->page["Title"], "Ratings:");
 #    $rate_s = strpos ($this->page["Title"], '/ratings">');
     if ( $rate_s == 0 )	return FALSE;
     if (strpos ($this->page["Title"], "awaiting 5 votes")) return false;
-    $rate_s = strpos ($this->page["Title"], "<b>", $rate_s);
+    $rate_s = strpos ($this->page["Title"], 'class="rating">');
     $rate_e = strpos ($this->page["Title"], "/", $rate_s);
     $this->main_rating = substr ($this->page["Title"], $rate_s + 3, $rate_e - $rate_s - 3);
     if ($rate_e - $rate_s > 7) $this->main_rating = "";
@@ -529,7 +529,7 @@ $responseBody = $response->getBody();
   function language () {
    if ($this->main_language == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $lang_s = strpos ($this->page["Title"], "/Sections/Languages/");
+    $lang_s = strpos ($this->page["Title"], "/language/");
     if ( $lang_s == 0) return FALSE;
     $lang_s = strpos ($this->page["Title"], ">", $lang_s);
     $lang_e = strpos ($this->page["Title"], "<", $lang_s);
@@ -949,7 +949,7 @@ $responseBody = $response->getBody();
    if ($this->main_photo == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
 #    $tag_s = strpos ($this->page["Title"], "<img border=\"0\" alt=\"cover\"");
-    $tag_s = strpos ($this->page["Title"], "<a name=\"poster\"");
+    $tag_s = strpos ($this->page["Title"], "class=\"image\"");
     if ($tag_s == 0) return FALSE;
 #    $tag_s = strpos ($this->page["Title"], "http://ia.imdb.com/media",$tag_s);
     $tag_s = strpos ($this->page["Title"], "http://",$tag_s);
@@ -1005,34 +1005,44 @@ $responseBody = $response->getBody();
    * @method country
    * @return array country (array[0..n] of string)
    */
-  function country () 
-  {
-   if ($this->main_country == "") 
-   {
+  // function country () 
+  // {
+  //  if ($this->main_country == "") 
+  //  {
+  //   if ($this->page["Title"] == "") $this->openpage ("Title");
+  //   $this->main_country = array();
+  //   $country_s = strpos($this->page["Title"],"/country/") -5;
+  //   if ($country_s === FALSE) return array(); // no country found
+  //   if ($country_s < 0) return array(); // no country found
+		// //print($country_s);
+		// //print($this->page["Title"]);
+  //   $country_e = strpos($this->page["Title"],"</div>",$country_s);
+  //   $block = substr($this->page["Title"],$country_s,$country_e-$country_s);
+  //   $country_s = 0;
+  //   $country_e = 0;
+  //   $i = 0;
+  //   while (strpos ($block, "/Sections/Countries/", $country_e) > $country_s) 
+  //   {
+		// 	$country_s = strpos ($block, "/Sections/Countries/", $country_s);
+		// 	$country_s = strpos ($block, ">", $country_s);
+		// 	$country_e = strpos ($block, "<", $country_s);
+		// 	$this->main_country[$i] = substr ($block, $country_s + 1, $country_e - $country_s - 1);
+		// 	$i++;
+  //   }
+  //  }
+  //  return $this->main_country;
+  // }
+  function country () {
+   if ($this->main_country == "") {
     if ($this->page["Title"] == "") $this->openpage ("Title");
-    $this->main_country = array();
-    $country_s = strpos($this->page["Title"],"/Sections/Countries/") -5;
-    if ($country_s === FALSE) return array(); // no country found
-    if ($country_s < 0) return array(); // no country found
-		//print($country_s);
-		//print($this->page["Title"]);
-    $country_e = strpos($this->page["Title"],"</div>",$country_s);
-    $block = substr($this->page["Title"],$country_s,$country_e-$country_s);
-    $country_s = 0;
-    $country_e = 0;
-    $i = 0;
-    while (strpos ($block, "/Sections/Countries/", $country_e) > $country_s) 
-    {
-			$country_s = strpos ($block, "/Sections/Countries/", $country_s);
-			$country_s = strpos ($block, ">", $country_s);
-			$country_e = strpos ($block, "<", $country_s);
-			$this->main_country[$i] = substr ($block, $country_s + 1, $country_e - $country_s - 1);
-			$i++;
-    }
+    $country_s = strpos ($this->page["Title"], "/country/");
+    if ( $country_s == 0) return FALSE;
+    $country_s = strpos ($this->page["Title"], ">", $country_s);
+    $country_e = strpos ($this->page["Title"], "<", $country_s);
+    $this->main_country = substr ($this->page["Title"], $country_s + 1, $country_e);
    }
    return $this->main_country;
   }
-
   /** Get movies alternative names
    * @method alsoknow
    * @return array aka (array[0..n] of strings)

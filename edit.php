@@ -165,6 +165,7 @@ else {
 			"<option" . (($row["picktype"] == "classic") ? " selected=\"selected\"" : "" ) . " value=\"2\">".$lang_edit['select_classic']."</option>" .
 			"<option" . (($row["picktype"] == "recommended") ? " selected=\"selected\"" : "" ) . " value=\"3\">".$lang_edit['select_recommended']."</option>" .
 			"</select>";
+			//"</select>&nbsp;&nbsp;&nbsp;<b>".$lang_edit['row_torrent_position_time'].":&nbsp;</b><input type=\"text\" name=\"picktime\" size=3 maxlength=3 /><b>天(留空不修改，-1为永久)<input type=\"text\" name=\"picktime\" size=2 maxlength=2 />小时，当前至$row[picktime]</b><br />";
 		}
 		tr($lang_edit['row_pick'], $pickcontent, 1);
 	}

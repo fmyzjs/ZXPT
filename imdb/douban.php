@@ -2,11 +2,11 @@
 class douban {
 	var $doubanxml,$dbarray;
 	var $dbinfo;
-	var $cachepath = "",$siteurl = "",$apikey = "";
+	var $cachepath = "",$siteurl = "",$apikey = "",$secret = "";
 	function __construct() {
 		$this->cachepath = "./imdb/cache/";
 		$this->imagepath = "./imdb/images/";
-		$this->apikey = "03aa7b16be6307e40aff71443b2917ac";
+		$this->apikey = "0022e42002ad5ae10068ac60080810a3";
    	}
 
 	function __destruct() {

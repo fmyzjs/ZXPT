@@ -9,7 +9,7 @@ $lang_index = array
 	'std_option_unselected' => "请选择项目。",
 	'text_news_page' => "发布",
 	'text_recent_news' => "最近消息",
-	'text_not_ipv6' => "您当前正在使用IPV4访问,<a href=http://pt.nwsuaf6.edu.cn>点击进入IPV6通道</a>",
+	'text_not_ipv6' => "您当前正在使用IPV4访问,<a href=http://v6.idefs.com>点击进入IPV6通道</a>",
 	'text_is_ipv6' => "您当前正在使用IPV6地址:",
 	'text_visit_here' => "访问本站",
 	'text_e' => "编辑",
