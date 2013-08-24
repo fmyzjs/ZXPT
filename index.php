@@ -165,23 +165,22 @@ echo $Cache->next_row();
 // ------------- end: recent news ------------------//
 // ------------- start: hot and classic movies ------------------//
 ?>
-<link rel="stylesheet" href="jquerylib/jquery.infinite-carousel.css" type="text/css" media="screen" />
-<script type="text/javascript" src="jquerylib/jquery.infinite-carousel.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(){
-	jQuery('#slider-stage').carousel('#previous', '#next');
-	jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
-});
-jQuery(document).ready(function(){
-	jQuery('#slider-stage2').carousel('#previous2', '#next2');
-	jQuery('#viewport2').carousel('#simplePrevious2', '#simpleNext2');  
-});
-</script>
+		<link rel="stylesheet" href="jquerylib/jquery.infinite-carousel.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="jquerylib/jquery.infinite-carousel.js">
+		</script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery('#slider-stage').carousel('#previous', '#next');
+				jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
+			});
+		</script>
 <?
+// ------------- start: hot and classic movies ------------------//
 if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies['classic'] == "yes"))
 {
 	$type = array('hot', 'classic');
-	foreach($type as $type_each)
+	//foreach($type as $type_each)
+	$type_each = 'hot';
 	{
 		if($showmovies[$type_each] == 'yes' && (!isset($CURUSER) || $CURUSER['show' . $type_each] == 'yes'))
 		{
@@ -191,11 +190,12 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 				$Cache->add_whole_row();
 
 				$imdbcfg = new imdb_config();
-				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND url != '' ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
+				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND dburl != '' ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
 				if (mysql_num_rows($res) > 0)
 				{
 					$movies_list = "";
 					$count = 0;
+					$allDouban = array();
 					$allImdb = array();
 					while($array = mysql_fetch_array($res))
 					{
@@ -212,25 +212,139 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 								$thumbnail = "<img width=\"101\" height=\"140\" src=\"".$photo_url."\" border=\"0\" alt=\"poster\" />";
 							else continue;
 						}
+						
+						elseif ($douban_id = parse_douban_id($array["dburl"]))
+						{
+							if (array_search($douban_id, $allDouban) !== false) { //a torrent with the same Douban url already exists
+								continue;
+							}
+							$allDouban[]=$douban_id;
+							$photo_url = $imdbcfg->photodir . $douban_id. $imdbcfg->imageext;
+
+							if (file_exists($photo_url))
+								$thumbnail = "<img width=\"101\" height=\"140\" src=\"".$photo_url."\" border=\"0\" alt=\"poster\" />&nbsp;&nbsp;";
+							else continue;
+						}
 						else continue;
-						$thumbnail = "<a href=\"details.php?id=" . $array['id'] . "&amp;hit=1\" onmouseover=\"domTT_activate(this, event, 'content', '" . htmlspecialchars("<font class=\'big\'><b>" . (addslashes($array['name'] . $pro_torrent)) . "</b></font><br /><font class=\'medium\'>".(addslashes($array['small_descr'])) ."</font>"). "', 'trail', true, 'delay', 0,'lifetime',5000,'styleClass','niceTitle','maxWidth', 600);\">" . $thumbnail . "</a>";
+						$thumbnail = "<a class=\"theme\" href=\"details.php?id=" . $array['id'] . "&amp;hit=1\" onmouseover=\"domTT_activate(this, event, 'content', '" . htmlspecialchars("<font class=\'big\'><b>" . (addslashes($array['name'] . $pro_torrent)) . "</b></font><br /><font class=\'medium\'>".(addslashes($array['small_descr'])) ."</font>"). "', 'trail', true, 'delay', 0,'lifetime',5000,'styleClass','niceTitle','maxWidth', 600);\">" . $thumbnail . "</a>";
 						$movies_list .= $thumbnail;
 						$count++;
-						if ($count >= 9)
+						if ($count >= 30) // >=9
 							break;
 					}
 ?>
 <h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
-<table width="100%" border="1" cellspacing="0" cellpadding="5">
-<tr>
-<td class="text ">
+<table width="100%" border="1" cellspacing="0" cellpadding="5"><tr><td class="text">
 <div class="demo">
-<div style="width: 100%;" id="sliderBloc">
-<a id="previous">Previous</a>
-<div style="width: 95%;" id="slider-stage">
-<div style="width: 100%;" id="slider-list">
-<?php echo $movies_list ?></a></div>
-</div><a id="next">Next</a></div></td></tr></table>
+<?php
+	if($count > 9) 
+	{
+
+	print("<div style=\"width: 100%;\" id=\"sliderBloc\">");
+	print("<a id=\"previous\">Previous</a>");
+	print("<div style=\"width: 88%;\" id=\"slider-stage\">");
+	print("<div style=\"width: 100%;\" id=\"slider-list\">");
+	}
+?>
+<?php echo $movies_list ?>
+<?php
+	if($count > 9) 
+	{
+	print("</div>");
+	print("</div>");
+	print("<a id=\"next\">Next</a>");
+	print("</div>");
+	
+	}
+?>
+</div></td></tr></table>
+<?php
+				}
+				$Cache->end_whole_row();
+				$Cache->cache_page();
+			}
+			echo $Cache->next_row();
+		}
+	}
+	$type_each = 'classic';
+	{
+		if($showmovies[$type_each] == 'yes' && (!isset($CURUSER) || $CURUSER['show' . $type_each] == 'yes'))
+		{
+			$Cache->new_page($type_each.'_resources', 900, true);
+			if (!$Cache->get_page())
+			{
+				$Cache->add_whole_row();
+
+				$imdbcfg = new imdb_config();
+				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND dburl != '' ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
+				if (mysql_num_rows($res) > 0)
+				{
+					$movies_list = "";
+					$count = 0;
+					$allDouban = array();
+					$allImdb = array();
+					while($array = mysql_fetch_array($res))
+					{
+						$pro_torrent = get_torrent_promotion_append($array[sp_state],'word');
+						if ($imdb_id = parse_imdb_id($array["url"]))
+						{
+							if (array_search($imdb_id, $allImdb) !== false) { //a torrent with the same IMDb url already exists
+								continue;
+							}
+							$allImdb[]=$imdb_id;
+							$photo_url = $imdbcfg->photodir . $imdb_id. $imdbcfg->imageext;
+
+							if (file_exists($photo_url))
+								$thumbnail = "<img width=\"101\" height=\"140\" src=\"".$photo_url."\" border=\"0\" alt=\"poster\" />";
+							else continue;
+						}
+
+						elseif ($douban_id = parse_douban_id($array["dburl"]))
+						{
+							if (array_search($douban_id, $allDouban) !== false) { //a torrent with the same Douban url already exists
+								continue;
+							}
+							$allDouban[]=$douban_id;
+							$photo_url = $imdbcfg->photodir . $douban_id. $imdbcfg->imageext;
+
+							if (file_exists($photo_url))
+								$thumbnail = "<img width=\"101\" height=\"140\" src=\"".$photo_url."\" border=\"0\" alt=\"poster\" />&nbsp;&nbsp;";
+							else continue;
+						}
+						
+						else continue;
+						$thumbnail = "<a class=\"theme\" href=\"details.php?id=" . $array['id'] . "&amp;hit=1\" onmouseover=\"domTT_activate(this, event, 'content', '" . htmlspecialchars("<font class=\'big\'><b>" . (addslashes($array['name'] . $pro_torrent)) . "</b></font><br /><font class=\'medium\'>".(addslashes($array['small_descr'])) ."</font>"). "', 'trail', true, 'delay', 0,'lifetime',5000,'styleClass','niceTitle','maxWidth', 600);\">" . $thumbnail . "</a>";
+						$movies_list .= $thumbnail;
+						$count++;
+						if ($count >= 30) // >=9
+							break;
+					}
+?>
+<h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
+<table width="100%" border="1" cellspacing="0" cellpadding="5"><tr>
+	<td class="text">
+		<div class="demo">"
+<?php
+	if($count > 9) 
+	{
+	
+	print("<div style=\"width: 100%;\" id=\"sliderBloc\">");
+	print("<a id=\"previous\">Previous</a>");
+	print("<div style=\"width: 88%;\" id=\"slider-stage\">");
+	print("<div style=\"width: 100%;\" id=\"slider-list\">");
+	}
+?>
+<?php echo $movies_list ?>
+<?php
+	if($count > 9) 
+	{
+	print("</div>");
+	print("</div>");
+	print("<a id=\"next\">Next</a>");
+	print("</div>");
+	}
+?>
+</div></td></tr></table>
 <?php
 				}
 				$Cache->end_whole_row();
@@ -240,6 +354,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 		}
 	}
 }
+// ------------- end: hot and classic movies ------------------//
 
 
 // ------------- end: hot and classic movies ------------------//

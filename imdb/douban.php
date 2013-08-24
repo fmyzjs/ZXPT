@@ -2,7 +2,7 @@
 class douban {
 	var $doubanxml,$dbarray;
 	var $dbinfo;
-	var $cachepath = "",$siteurl = "",$apikey = "",$secret = "";
+	var $cachepath = "",$siteurl = "",$apikey = "";
 	function __construct() {
 		$this->cachepath = "./imdb/cache/";
 		$this->imagepath = "./imdb/images/";
@@ -129,6 +129,7 @@ class douban {
 			$this->doubanxml = file_get_contents($this->cachepath.$imdb_id.".xml");
 		}else{
 			$this->doubanxml = file_get_contents($this->siteurl.$imdb_id."?apikey=".$this->apikey);
+			$this->change_spic_to_mpic();
 			file_put_contents($this->cachepath.$imdb_id.".xml",$this->doubanxml);
 		}
 		$xmlparser = xml_parser_create();
@@ -136,6 +137,11 @@ class douban {
 		$this->init();
 		file_put_contents($this->cachepath.$imdb_id.".page",$this->prinfo());
 		@ copy($this->dbinfo[link][image],$this->imagepath.$imdb_id.".jpg");
+	}
+	function change_spic_to_mpic()
+	{
+		$pattern = '/(\shref=.*\/)spic\//i';
+		$this->doubanxml = preg_replace($pattern, "$1"."mpic/", $this->doubanxml);	
 	}
 }
 ?>

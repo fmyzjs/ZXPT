@@ -1,6 +1,6 @@
 div.niceTitle
 {
-	background-color: #55aa55;
+	background-color: #cfcfcc;
 	color: #000000;
 	font-size: 13px;
 	left: 0;
@@ -33,7 +33,7 @@ div.smilies table
 }
 div.smilies td
 {
-	background-color: #55aa55;
+	background-color: #cfcfcc;
 	color: #000000;
 	border: none;
 	font-size: 13px;
@@ -51,19 +51,6 @@ div.niceTitle .contents
 	-moz-opacity: 1;
 	-khtml-opacity: 1;
 	opacity: 1;
-}
-div.attach .contents
-{
-	width: 130px;
-	background:#FFFFFF none repeat scroll 0 0;
-	border:1px solid #E6E7E1;
-	font-size:12px;
-	padding:5px;
-}
-div.attach .contents a
-{
-	color:#0099CC;
-	text-decoration:none;
 }
 div.attach .contents
 {

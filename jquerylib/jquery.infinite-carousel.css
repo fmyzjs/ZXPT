@@ -25,10 +25,10 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	margin-right:8px;
+	margin-right:10px;
 	float: left;
-	width: 100px;
-	height: 120px;
+	width: 101px;
+	height: 140px;
 	position:relative;
 	cursor:pointer;
 	text-decoration:none;
@@ -45,7 +45,12 @@
 	font-size:10px;
 }
 #slider-list a.theme:hover span.nameVignette {
-	color:#494947;
+	position:absolute;
+	left:4px;
+	bottom:0px;
+	color:#a0a09b;
+	padding:3px;
+	font-size:10px;
 }
 #slider-list a.theme span.changeTheme {
 	background:#363636;
