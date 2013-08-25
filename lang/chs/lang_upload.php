@@ -4,7 +4,7 @@ $lang_upload = array
 (
 	'head_upload' => "发布",
 	'std_sorry' =>  "对不起...",
-	'text_search_offer_note' => "<font size=+2 color=red>为避免重复发种，请务必提前搜索种子是否已经存在，确定无重复方可添加，否则请保种，违者重罚(根据用户等级处以扣1000至4000萝卜处罚，举报有奖)：</font>",
+    'text_search_offer_note' => "<font size=+1 color=pink>为避免重复发种，请务必搜索种子是否存在，确定无重复方可添加，否则请保种，违者重罚（举报有奖)：</font>",
 	'submit_search' => "给我搜",
 	'std_unauthorized_to_upload' => "你没有发布种子的权限。请阅读(<a class=\"faqlink\" href=\"messages.php\">收件箱</a>)",
 	'std_please_offer' => "你没有发布种子的权限。如果你是普通会员，请到<a class=\"faqlink\" href=\"offers.php\">候选区</a>提交你的发布请求（请查看常见问题中的<a class=\"faqlink\" href=\"faq.php#id36\"><b>“发布”</b></a>）部分<br />",
@@ -14,7 +14,7 @@ $lang_upload = array
 	'text_notice' => "<font size=+1>不会做种？快看<a href=guide2.html target=_blank>教程Ⅰ</a>,PT客户端推荐使用<a href=uTorrent221.zip>μTorrent</a></font>",
 	'row_torrent_file' => "种子文件",
 	'row_torrent_name' => "标题",
-	'text_torrent_name_note' => "(<b>必须规范填写</b>，如：<b><span id='gstishi'>[大陆][2000][鬼子死光了][Devils All Dead Off][喜剧][中文字幕][MKV]</span></b>   <a href=rules.php target=_blank><font color=brown>点击阅读详细命名规则</font></a>",
+    'text_torrent_name_note' => "(<b>必须规范填写</b>，如：<b><span id='gstishi'>[大陆][2000][鬼子死光了][Devils All Dead Off][喜剧][中文字幕][MKV]</span></b>   <a href=rules.php#guize target=_blank><font color=brown>点击阅读详细命名规则</font></a>",
 	'row_small_description' => "副标题",
 	'text_small_description_note' => "(将在种子页面种子标题下显示。如<i>720p @ 4615 kbps - DTS 5.1 @ 1536 kbps</i>)",
 	'text_description_note' => "请完善种子简介，可到<a href=http://www.verycd.com/search/ target=_blank>VeryCD</a>上搜索，简介太简单种子将被直接删除。",

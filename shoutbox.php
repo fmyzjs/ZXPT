@@ -176,9 +176,11 @@ else
 <script type="text/javascript" src="jquerylib/jquery-1.5.2.min.js"></script>
 <script type="text/javascript">
 	function retuser(value){
-		$("#shbox_text", window.parent.document).val("[To][b]"+value+"[/b]：");
+		//$("#shbox_text", window.parent.document).val("[To][b]"+value+"[/b]：");
+		$("#shbox_text", window.parent.document).val("@[b]"+value+"[/b]:");
 		$("#shbox_text", window.parent.document).focus();
-		$("#hbtext", window.parent.document).val("[To][b]"+value+"[/b]：");
+		//$("#hbtext", window.parent.document).val("[To][b]"+value+"[/b]：");
+		$("#hbtext", window.parent.document).val("@[b]"+value+"[/b]:");
 		$("#hbtext", window.parent.document).focus();
 	}
 </script>
@@ -219,7 +221,7 @@ else
 
 
 print("<div class=\"shoutrow\"> <img class=\"shoutbox_avatar\" src=".($arr2["avatar"] ? "'$arr2[avatar]'" : "'" . get_protocol_prefix() . $BASEURL . "/pic/default_avatar.png'")." ><h3 class=\"shoutbox_main\">  <span class=\"shoutbox_del\"> ".
-$del ." </span>  ". $username." : <span class=\"shoutbox_content\"> " . format_comment($messtext,true,false,true,true,600,true,false)." </span><br> <span class='date'>[".$time."]</span> <span class=\"shoutbox_reply\" > <a onclick=\"retuser('".$arr2["username"]."');\" style=\"cursor:pointer;\" >[Re]</a></span></h3></div>\n");
+$del ." </span>  ". $username." : <span class=\"shoutbox_content\"> " . format_comment($messtext,true,false,true,true,600,true,false)." </span><br> <span class='date'>[".$time."]</span> <span class=\"shoutbox_reply\" > <a onclick=\"retuser('".$arr2["username"]."');\" style=\"cursor:pointer;\" >[@]</a></span></h3></div>\n");
 		$i++;
 	}
 		print("</table>");

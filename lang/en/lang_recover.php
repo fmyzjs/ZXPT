@@ -23,7 +23,7 @@ $lang_recover = array
 	'mail_here' => "HERE",
 	
 	'mail_title' => " password reset confirmation",
-	'mail_one' => "Hi,<br /><br />Someone, hopefully you, requested that the password for the account<br />associated with this email address ",
+    'mail_one' => "Hi,<br /><br />Someone, hopefully you, requested that the password for the account<br />associated with this username ",
 	'mail_two' => " be reset.<br /><br />The request originated from ",
 	'mail_three' => ".<br /><br />If you did not do this ignore this email. Please do not reply.<br /><br />Should you wish to confirm this request, please follow ",
 	'mail_four' => "<br />After you do this, your password will be reset and emailed back to you.<br /><br />------<br />Yours,<br />The ".$SITENAME." Team.",

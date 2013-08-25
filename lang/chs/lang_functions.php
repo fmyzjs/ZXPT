@@ -11,7 +11,8 @@ $lang_functions = array
 	'std_error' => "错误",
 	'text_unable_to_send_mail' => "无法发送邮件。请将该错误报告给管理员。",
 	'text_onlyauthor' => "回复仅作者可见",
-	'text_app' => "萝卜应用(开放测试)",
+	'text_app' => "萝卜应用",
+	'text_connectfaq' => "<b><p>您的<font color=red>可连接状态为\"否\"</font></p><p>他人可能会无法下载您的种子资源，影响您的上传量</p><p>详细解决方案请<a href=\"faq.php#id12\"><font color=red>[点击这里]</font></a>查看uTorrent配置方法，或<a href=\"uTorrent221.zip\"><font color=red>[右键另存为直接下载]</font></a>本站提供的客户端</p></b>",
 	'std_success' => "成功",
 	'std_confirmation_email_sent' => "验证邮件已经发至",
 	'std_please_wait' => "请等候邮件抵达。",
@@ -20,7 +21,8 @@ $lang_functions = array
 	'std_attempts_reached' => "次已到)",
 	'std_your_ip_banned' => "我们怀疑你在欺骗系统，因此禁用了你的IP地址！",
 	'std_login_failed' => "登录失败！",
-	'std_login_failed_note' => "<b>错误</b>: 用户名或密码不正确！或者你还没有通过验证<br /><br />忘记了密码？<b><a href=recover.php>找回</a></b>你的密码？",
+    'std_login_failed_note' => "<b>错误</b>: 用户名或密码不正确！-.-!<br /><br />忘记了密码？<b><a href=recover.php>找回</a></b>你的密码？",
+    'std_login_failed_note_bak' => "<b>错误</b>: 用户名或密码不正确！或者你还没有通过验证<br /><br />忘记了密码？<b><a href=recover.php>找回</a></b>你的密码？",
 	'std_failed' => "失败",
 	'std_sorry' => "对不起",
 	'std_oops' => "哦奥！",
@@ -53,6 +55,7 @@ $lang_functions = array
 	'text_rules' => "&nbsp;规&nbsp;&nbsp;则&nbsp;",
 	'text_faq' => "&nbsp;常见问题&nbsp;",
 	'text_staff' => "管&nbsp;理&nbsp;组",
+	'text_signin' => "签&nbsp;到",
 	'std_site_down_for_maintenance' => "站点关闭维护中，请稍后再访问...谢谢",
 	'text_click_view_full_image' => "点击这里查看完整图像",
 	'text_image_resized' => "图像被缩小，点击这里查看完整图像",
@@ -273,11 +276,12 @@ $lang_functions = array
 	'text_ultimate_user' => "出神入化",
 	'text_nexus_master' => "绝世神人",
 	'text_vip' => "贵宾",
+	'text_downloader' => "保种员",
 	'text_uploader' => "发布员",
 	'text_retiree' => "养老族",
 	'text_forum_moderator' => "论坛版主",
-	'text_moderators' => "发布管理员",
-	'text_administrators' => "管理员",
+	'text_moderators' => "管理员",
+	'text_administrators' => "站长",
 	'text_sysops' => "维护开发员",
 	'text_staff_leader' => "主管",
 	'text_short_year'=> "年",
@@ -296,7 +300,9 @@ $lang_functions = array
 	'text_thirty_percent_down' => "30%",
 	'text_please_download_something_within' => "请在",
 	'text_inactive_account_be_deleted' => "内做些下载。没有流量的用户会被删除账号。",
-	'text_about' => "站点设计与维护：<a href=http://www.iflab.org target=_blank>北京信息科技大学网络实践创新实践联盟</a><br />"
+	'text_about' => "站点设计与维护：<a href=http://www.iflab.org target=_blank>北京信息科技大学网络实践创新实践联盟</a><br />",
+    'text_utdown' => "<a href=\"/forums.php?action=viewtopic&forumid=13&topicid=4740\" target=\"_blank\" >本站资源不支持迅雷等软件下载,推荐使用utorrent：<img src=\"./pic/ut.png\" width=\"20px\" height=\"20px\" /></a><br />"
+
 );
 
 ?>

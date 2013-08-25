@@ -18,14 +18,15 @@ $lang_details = array
 	'text_half_down' => "50%",
 	'row_download' => "下载",
 	'row_download_method' => "下载方式",
-	'row_mouseclick' => "<font color=brown>↑ 鼠标右键“目标另存为”，注：首次下载本站种子请勿右键另存；然后用</font>",
-	'row_openfile' => "<font color=brown>打开种子文件进行下载</font>",
+	'row_mouseclick' => "<font color=brown>↑ 鼠标右键“目标另存为”，或单击((注：首次下载本站种子请勿右键另存)；然后用</font>",	'row_openfile' => "<font color=brown>打开种子文件进行下载</font>",
 	'text_downloading_not_allowed' => "你被禁止下载。",
 	'row_small_description' => "副标题",
 	'row_info_hash' => "Hash码",
 	'row_description' => "简介",
 	'text_nfo' => "NFO",
+	'row_share' => "分享",
 	'text_view_nfo' => "[所有模式]",
+	'row_description_bot' => "<font color=#999999>[点击图片可放大]</font>",
 	'row_imdb_url' => "IMDb链接",
 	'row_subtitles' => "字幕",
 	'text_no_subtitles' => "该种子暂无字幕",
@@ -222,6 +223,7 @@ $lang_details = array
 	'row_uploader_bandwidth' => "发布者带宽",
 	'text_and_more' => "……（这里只显示最新记录。共",
 	'text_users_in_total' => "个用户表示了感谢）",
+	'bookmark'=>" 点击收藏",
 );
 
 ?>

@@ -2,8 +2,8 @@ body
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background: url(./bg.jpg) no-repeat center top;
-	background-color: #006633;
+	background:url(./bg1.jpg) repeat center top;
+	background-color: #55aa55;
 	color: #000000;
 	font-family: tahoma, arial, helvetica, sans-serif;
 }
@@ -17,14 +17,14 @@ table
 	border-right: none;
 	border-top: none;
 	border-left: none;
-	border-bottom: none;
+	border-bottom: hidden;
 	border-collapse: collapse;
 	background-color: #c6e3c6
 }
 table.head
 {
 	background: transparent;
-	height: 100px;
+	height: 140px;
 	width: 920px;
 }
 table.main
@@ -293,7 +293,7 @@ a:visited
 }
 a:hover
 {
-	color: #008c00
+	color: #008c00;
 }
 a.index
 {
@@ -323,13 +323,13 @@ a.altlink:hover
 a.faqlink:link
 {
 	font-weight: bold;
-	color: #008600;
+	color: #0000CC;
 	text-decoration: none
 }
 a.faqlink:visited
 {
 	font-weight: bold;
-	color: #008600;
+	color: #0000CC;
 	text-decoration: none
 }
 a.faqlink:hover
@@ -355,7 +355,7 @@ a.altlink_blue:hover
 a.altlink_green:link
 {
 	font-weight: bold;
-	color: #007800;
+	color: #006688;
 	text-decoration: none
 }
 a.altlink_green:visited
@@ -405,7 +405,7 @@ ul
 }
 img
 {
-	border: 0;
+	border: none;
 }
 img.border
 {
@@ -470,6 +470,7 @@ ul.menu
 	list-style-type: none;
 	white-space: nowrap;
 	text-align: center;
+	padding:0;
 }
 ul.menu li
 {
@@ -516,6 +517,7 @@ ul.menu li.selected a
 	background-image: none;
 	border: 1px solid #00aa00;
 	color: #ffffff;
+	font-size:1.3em;
 }
 ul.menu li.selected a:hover
 {
@@ -534,13 +536,13 @@ A.StaffLeader_Name:visited{color: #8b0000}
 A.SysOp_Name:link{color: #a0522d}
 A.SysOp_Name:visited{color: #a0522d}
 
-.Administrator_Name{color: #4b0082}
-A.Administrator_Name:link{color: #4b0082}
-A.Administrator_Name:visited{color: #4b0082}
+.Administrator_Name{color: #a0522d}
+A.Administrator_Name:link{color: #a0522d}
+A.Administrator_Name:visited{color: #a0522d}
 
-.Moderator_Name{color: #6495ED}
-A.Moderator_Name:link{color: #6495ED}
-A.Moderator_Name:visited{color: #6495ED}
+.Moderator_Name{color: #004B97}
+A.Moderator_Name:link{color: #004B97}
+A.Moderator_Name:visited{color: #004B97}
 
 .ForumModerator_Name{COLOR: #1cc6d5}
 A.ForumModerator_Name:link{COLOR: #1cc6d5}
@@ -549,6 +551,10 @@ A.ForumModerator_Name:visited{COLOR: #1cc6d5}
 .Retiree_Name{COLOR: #1cc6d5}
 A.Retiree_Name:link{COLOR: #1cc6d5}
 A.Retiree_Name:visited{COLOR: #1cc6d5}
+
+.Downloader_Name{color: #FF359A}
+A.Downloader_Name:link{color: #FF359A}
+A.Downloader_Name:visited{color: #FF359A}
 
 .Uploader_Name{color: #DC143C}
 A.Uploader_Name:link{color: #DC143C}

@@ -20,6 +20,7 @@ $lang_details = array
 	'row_download_method' => "下載方式",
 	'row_mouseclick' => "<font color=red>↑ 鼠標右鍵“目標另存為”，然後用</font>",
 	'row_openfile' => "<font color=red>打開種子文件進行下載</font>",
+	'row_share' => "分享",
 	'text_downloading_not_allowed' => "你被禁止下載。",
 	'row_small_description' => "副標題",
 	'row_info_hash' => "Hash碼",

@@ -25,7 +25,7 @@ $lang_offers = array
 	'select_type_select' => "(请选择)",
 	'row_type' => "类型",
 	'row_title' => "标题",
-	'text_title_note'=>"(<b>必须规范填写</b>，如：<b><span id=gstishi>[大陆][2000][鬼子来了][Devils on the Doorstep][剧情][中文字幕][MKV]</span></b> 。  <a href=rules.php target=_blank><font color=brown>点击阅读详细命名规则</font></a>",
+    'text_title_note'=>"(<b>必须规范填写</b>，如：<b><span id=gstishi>[大陆][2000][鬼子来了][Devils on the Doorstep][剧情][中文字幕][MKV]</span></b> 。  <a href=rules.php#guize target=_blank><font color=brown>点击阅读详细命名规则</font></a>",
 	'row_post_or_photo' => "海报或图片",
 	'text_link_to_picture' => "(图标的链接。不要加<a href=\"tags.php\" title=\"查看标签用法\">标签</a>代码! 显示在简介里)",
 	'row_description' => "简介",

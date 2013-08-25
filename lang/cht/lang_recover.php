@@ -23,8 +23,7 @@ $lang_recover = array
 	'mail_here' => "這裏",
 	
 	'mail_title' => " 網站密碼重置驗證",
-	'mail_one' => "你好,<br /><br />你請求重置你在".$SITENAME."網站賬戶的密碼。<br />該賬戶的郵箱地址為 ",
-	'mail_two' => " 。<br /><br />發送請求的IP地址為 ",
+	'mail_one' => "你好,<br /><br />你請求重置你在".$SITENAME."網站賬戶的密碼。<br />該賬戶為 ",	'mail_two' => " 。<br /><br />發送請求的IP地址為 ",
 	'mail_three' => ".<br /><br />如果你沒有發過該請求，請忽視本郵件。請勿回復本郵件。<br /><br />如果你的確發過該請求，請點擊這個鏈接來確認: ",
 	'mail_four' => "<br />確認後，你的密碼將被重置並通過另一封郵件發送給你。<br /><br />------<br />".$SITENAME." 網站",
 	

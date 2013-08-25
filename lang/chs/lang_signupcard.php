@@ -5,7 +5,7 @@ $lang_signup = array
 	'head_signup' => "注册",
 	'text_cookies_note' => "<b>注意</b>：你必须启用cookies才能注册或登录。",
 	'row_desired_username' => "账号",
-	'text_allowed_characters' => "只允许中文、字母、数字，4至14个字符",
+	'text_allowed_characters' => "只允许中文、字母、数字，4至14个字符<br /><b>注册后将不能修改，不要求与学号相同</b>",
 	'row_pick_a_password' => "密码",
 	'text_minimum_six_characters' => "密码至少六位。",
 	'text_weak_password' => "<a href=javascript:showTips();><u>为何密码不能过于简单？</u></a>",

@@ -6,7 +6,7 @@
 
 jQuery.fn.carousel = function(previous, next, options){
 	var sliderList = jQuery(this).children()[0];
-	
+	var ann;
 	if (sliderList) {
 		var increment = jQuery(sliderList).children().outerWidth("true"),
 		elmnts = jQuery(sliderList).children(),
@@ -21,7 +21,8 @@ jQuery.fn.carousel = function(previous, next, options){
 			jQuery(sliderList).append(jQuery(elmnts[i]).clone());
 		}
 		
-		jQuery(previous).click(function(event){
+		jQuery(previous).mouseover(function(event){
+			this.ann = setInterval(function(){
 			if (!isAnimating) {
 				if (firstElementOnViewPort == 1) {
 					jQuery(sliderList).css('left', "-" + numElmts * sizeFirstElmnt + "px");
@@ -38,10 +39,17 @@ jQuery.fn.carousel = function(previous, next, options){
 				}, "swing", function(){isAnimating = false;});
 				isAnimating = true;
 			}
-			
+			},500);
+		});
+		jQuery(previous).mouseout(function(event){
+			clearInterval(this.ann);	
 		});
 		
-		jQuery(next).click(function(event){
+		jQuery(next).mouseout(function(event){
+			clearInterval(this.ann);
+			});
+		jQuery(next).mouseover(function(event){
+			this.ann = setInterval(function(){
 			if (!isAnimating) {
 				if (firstElementOnViewPort > numElmts) {
 					firstElementOnViewPort = 2;
@@ -57,6 +65,7 @@ jQuery.fn.carousel = function(previous, next, options){
 				}, "swing", function(){isAnimating = false;});
 				isAnimating = true;
 			}
+			},500);
 		});
 	}
 };

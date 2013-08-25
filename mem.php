@@ -238,7 +238,7 @@ function getMemcacheStats($total=true){
 header("Cache-Control: no-store, no-cache, must-revalidate");  // HTTP/1.1
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");                                    // HTTP/1.0
-
+header("Content-type:text/html;charset=utf-8");// send utf8 bom
 function duration($ts) {
     global $time;
     $years = (int)((($time - $ts)/(7*86400))/52.177457);

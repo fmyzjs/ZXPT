@@ -23,7 +23,7 @@ $lang_recover = array
 	'mail_here' => "这里",
 	
 	'mail_title' => " 网站密码重置验证",
-	'mail_one' => "你好,<br /><br />你请求重置你在".$SITENAME."网站账户的密码。<br />该账户的邮箱地址为 ",
+	'mail_one' => "你好,<br /><br />你请求重置你在".$SITENAME."网站账户的密码。<br />该账户的用户名为 ",
 	'mail_two' => " 。<br /><br />发送请求的IP地址为 ",
 	'mail_three' => ".<br /><br />如果你没有发过该请求，请忽视本邮件。请勿回复本邮件。<br /><br />如果你的确发过该请求，请点击这个链接来确认: ",
 	'mail_four' => "<br />确认后，你的密码将被重置并通过另一封邮件发送给你。<br /><br />------<br />".$SITENAME." 网站",

@@ -2,7 +2,7 @@
 
 $lang_stats = array
 (
-	'head_uploader_stats' => "发布员状态",
+	'head_uploader_stats' => "会员发布状态",
 	'head_category_activity' => "种子分类状态",
 	'text_username' => "用户名",
 	'text_lastupload' => "最近发布",

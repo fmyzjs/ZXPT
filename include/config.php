@@ -60,8 +60,8 @@ if (file_exists('config/allconfig.php')) {
 }
 
 $SITENAME = $BASIC['SITENAME'];
-//$BASEURL = $BASIC['BASEURL'];
-$BASEURL = $_SERVER['HTTP_HOST'];
+$BASEURL = $BASIC['BASEURL'];
+//$BASEURL = $_SERVER['HTTP_HOST'];
 $announce_urls = array();
 $announce_urls[] = $BASIC['announce_url'];
 $mysql_host = $BASIC['mysql_host'];

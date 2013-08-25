@@ -68,7 +68,7 @@ class ADVERTISEMENT{
 
 	function get_validpos()
 	{
-		return array('header', 'footer', 'belownav', 'belowsearchbox', 'torrentdetail', 'comment', 'interoverforums', 'forumpost', 'popup');
+		return array('header', 'footer', 'belownav', 'belowsearchbox', 'torrentdetail', 'comment', 'interoverforums', 'forumpost', 'popup', 'shoutindex', 'shoutlogin');
 	}
 	function get_ad($pos)
 	{

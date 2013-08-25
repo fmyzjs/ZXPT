@@ -212,79 +212,80 @@ function initplay(){
 stdhead($lang_index['text_head']);
 begin_main_frame();
 ?>
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#startpark").click(function(){
-		jPrompt('魔力值:', '1', '请输入你要压多少魔力值', function(r) {
-    if( r )
-		if(r > 0 && r <= 100){
-			$("#mess").html("您压了"+r+"点魔力值");
-			$.getJSON("play21.php?action=init&bonus="+r+"&t="+new Date() ,function(data){ 
-			var $park = data['park'];
-			if($park=='start'){
-				jAlert('您已开局');
-			}else if($park=='no'){
-				jAlert('您的魔力值不足');
-			}
-				$("#computerpark").html(data['compark']);
-				$("#computernum").html(data['comnum']+"点");
-				$("#playpark").html(data['playpark']);
-				$("#playnum").html(data['playnum']+"点");
-					if(data['playnum'] == 21)
-						jAlert('黑杰克!');
-			});
-			}else{
-				jAlert("测试阶段，只允许使用1至100个魔力值");
-			}
-		});
-	});
-	$("#stoppark").click(function(){
-		$.getJSON("play21.php?action=stop&t="+new Date(),function(data){ 
-			var $park = data['park'];
-			if($park=='nostart'){
-				jAlert('还未开局');
-			}else{
-				$("#computerpark").html(data['compark']);
-				$("#computernum").html(data['comnum']+"点");
-				jAlert("你获得了："+data['playbonus']+"点魔力值");
-			}
-		});
-	});
-	$("#retpark").click(function(){
-		$.getJSON("play21.php?action=retpark&t="+new Date(),function(data){
-			var $park = data['park'];
-			var $playnum = data['playnum'];
-				if($park=='nostart'){
-					jAlert('还未开局');
-				}else{
-					$("#playpark").html(data['playpark']);
-					$("#playnum").html(data['playnum']+"点");
-					if($playnum > 21)
-						jAlert('您爆掉了');
-					if($playnum == 21)
-						jAlert('恭喜您获得了21点');
-				}
-		});
-	});
-	$(".has_children").click(function(){
-		$(".has_children:eq(1)>a:contains('c')").remove();
-		var $a1 = $("<a>zz</a>");
-		$(this).append($a1);			//添加控件
-	        $(this).siblings().removeClass("highlight")   //siblings选择同样控件
-        	        .children("a").slideUp().end();	//hide(),fadeOut()
-							//slow,normal,fast
-        	$(this).addClass("highlight")		//添加效果
-                	.children("a").slideDown().end();	//show(),fadeIn()
-		$(this).clone(true).appendTo("#menu2");  //克隆控件
-		$("#menu2>.has_children").css("opacity","0.5");	//不透明度
-	});
-	$("a").click(function(event){
-		//alert("a");
-		event.stopPropagation();    //停止事件冒泡
-	});
-})
+ <script type="text/javascript">
+// $(document).ready(function(){
+// 	$("#startpark").click(function(){
+// 		jPrompt('魔力值:', '1', '请输入你要压多少魔力值', function(r) {
+//     if( r )
+// 		if(r > 0 && r <= 100){
+// 			$("#mess").html("您压了"+r+"点魔力值");
+// 			$.getJSON("play21.php?action=init&bonus="+r+"&t="+new Date() ,function(data){ 
+// 			var $park = data['park'];
+// 			if($park=='start'){
+// 				jAlert('您已开局');
+// 			}else if($park=='no'){
+// 				jAlert('您的魔力值不足');
+// 			}
+// 				$("#computerpark").html(data['compark']);
+// 				$("#computernum").html(data['comnum']+"点");
+// 				$("#playpark").html(data['playpark']);
+// 				$("#playnum").html(data['playnum']+"点");
+// 					if(data['playnum'] == 21)
+// 						jAlert('黑杰克!');
+// 			});
+// 			}else{
+// 				jAlert("测试阶段，只允许使用1至100个魔力值");
+// 			}
+// 		});
+// 	});
+// 	$("#stoppark").click(function(){
+// 		$.getJSON("play21.php?action=stop&t="+new Date(),function(data){ 
+// 			var $park = data['park'];
+// 			if($park=='nostart'){
+// 				jAlert('还未开局');
+// 			}else{
+// 				$("#computerpark").html(data['compark']);
+// 				$("#computernum").html(data['comnum']+"点");
+// 				jAlert("你获得了："+data['playbonus']+"点魔力值");
+// 			}
+// 		});
+// 	});
+// 	$("#retpark").click(function(){
+// 		$.getJSON("play21.php?action=retpark&t="+new Date(),function(data){
+// 			var $park = data['park'];
+// 			var $playnum = data['playnum'];
+// 				if($park=='nostart'){
+// 					jAlert('还未开局');
+// 				}else{
+// 					$("#playpark").html(data['playpark']);
+// 					$("#playnum").html(data['playnum']+"点");
+// 					if($playnum > 21)
+// 						jAlert('您爆掉了');
+// 					if($playnum == 21)
+// 						jAlert('恭喜您获得了21点');
+// 				}
+// 		});
+// 	});
+// 	$(".has_children").click(function(){
+// 		$(".has_children:eq(1)>a:contains('c')").remove();
+// 		var $a1 = $("<a>zz</a>");
+// 		$(this).append($a1);			//添加控件
+// 	        $(this).siblings().removeClass("highlight")   //siblings选择同样控件
+//         	        .children("a").slideUp().end();	//hide(),fadeOut()
+// 							//slow,normal,fast
+//         	$(this).addClass("highlight")		//添加效果
+//                 	.children("a").slideDown().end();	//show(),fadeIn()
+// 		$(this).clone(true).appendTo("#menu2");  //克隆控件
+// 		$("#menu2>.has_children").css("opacity","0.5");	//不透明度
+// 	});
+// 	$("a").click(function(event){
+// 		//alert("a");
+// 		event.stopPropagation();    //停止事件冒泡
+// 	});
+// })
 
 </script>
+<script type="text/javascript" src="play21.js"></script>
 <h1 align="center">小游戏：21点(临时开放测试中，很多地方还不完善)</h1>
 <table align="center">
 <tr>

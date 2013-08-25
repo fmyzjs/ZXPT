@@ -267,6 +267,7 @@ $lang_functions = array
 	'text_ultimate_user' => "Ultimate User",
 	'text_nexus_master' => "Nexus Master",
 	'text_vip' => "VIP",
+	'text_downloader' => "Downloader",
 	'text_uploader' => "Uploader",
 	'text_retiree' => "Retiree",
 	'text_forum_moderator' => "Forum Moderator",

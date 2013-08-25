@@ -28,16 +28,16 @@ if (!$_GET['noname'])
 {
 	if (isset($_GET['namered']) && $_GET['namered']>=0 && $_GET['namered']<=255)
 		$namered = 0 + $_GET['namered'];
-	else $namered=255;
+	else $namered=150;
 	if (isset($_GET['namegreen']) && $_GET['namegreen']>=0 && $_GET['namegreen']<=255)
 		$namegreen = 0 + $_GET['namegreen'];
-	else $namegreen=255;
+	else $namegreen=20;
 	if (isset($_GET['nameblue']) && $_GET['nameblue']>=0 && $_GET['nameblue']<=255)
 		$nameblue = 0 + $_GET['nameblue'];
-	else $nameblue=255;
+	else $nameblue=220;
 	if (isset($_GET['namesize']) && $_GET['namesize']>=1 && $_GET['namesize']<=5)
 		$namesize = 0 + $_GET['namesize'];
-	else $namesize=10;
+	else $namesize=5;
 	if (isset($_GET['namex']) && $_GET['namex']>=0 && $_GET['namex']<=350)
 		$namex = 0 + $_GET['namex'];
 	else $namex=10;
@@ -60,22 +60,22 @@ if (!$_GET['noup'])
 {
 	if (isset($_GET['upred']) && $_GET['upred']>=0 && $_GET['upred']<=255)
 		$upred = 0 + $_GET['upred'];
-	else $upred=0;
+	else $upred=18;
 	if (isset($_GET['upgreen']) && $_GET['upgreen']>=0 && $_GET['upgreen']<=255)
 		$upgreen = 0 + $_GET['upgreen'];
-	else $upgreen=255;
+	else $upgreen=40;
 	if (isset($_GET['upblue']) && $_GET['upblue']>=0 && $_GET['upblue']<=255)
 		$upblue = 0 + $_GET['upblue'];
-	else $upblue=0;
+	else $upblue=248;
 	if (isset($_GET['upsize']) && $_GET['upsize']>=1 && $_GET['upsize']<=5)
 		$upsize = 0 + $_GET['upsize'];
 	else $upsize=3;
 	if (isset($_GET['upx']) && $_GET['upx']>=0 && $_GET['upx']<=350)
 		$upx = 0 + $_GET['upx'];
-	else $upx=140;
+	else $upx=80;
 	if (isset($_GET['upy']) && $_GET['upy']>=0 && $_GET['upy']<=19)
 		$upy = 0 + $_GET['upy'];
-	else $upy=3;
+	else $upy=5;
 	$up_colour = imagecolorallocate($my_img, $upred, $upgreen, $upblue);
 	imagestring($my_img, $upsize, $upx, $upy, $uploaded, $up_colour);
 }
@@ -96,10 +96,10 @@ if (!$_GET['nodown'])
 	else $downsize=3;
 	if (isset($_GET['downx']) && $_GET['downx']>=0 && $_GET['downx']<=350)
 		$downx = 0 + $_GET['downx'];
-	else $downx=210;
+	else $downx=155;
 	if (isset($_GET['downy']) && $_GET['downy']>=0 && $_GET['downy']<=19)
 		$downy = 0 + $_GET['downy'];
-	else $downy=3;
+	else $downy=20;
 	$down_colour = imagecolorallocate($my_img, $downred, $downgreen, $downblue);
 	imagestring($my_img, $downsize, $downx, $downy, $downloaded, $down_colour);
 }

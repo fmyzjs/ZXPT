@@ -18,6 +18,7 @@ $lang_details = array
 	'text_half_down' => "50%",
 	'row_download' => "Download",
 	'row_download_method' => "Method",
+	'row_share' => "Share",
 	'row_mouseclick' => "<font color=red>↑ The right mouse button 'Save Target As',then use</font>",
 	'row_openfile' => "<font color=red>to download.</font>",
 	'text_downloading_not_allowed' => "You are not allowed to download.",

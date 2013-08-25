@@ -4768,11 +4768,16 @@ if($in >= 0){
 		return $text;
 }
 
-function getOneCard($stuid,$cardpass)
+function getOneCard($stuid,$cardpass)//一卡通验证
 {
+$cardpass = md5(md5($cardpass)."]+yTi#Klq46%");
+$retinfo = file_get_contents("http://xxxx.edu.cn/".$stuid."&pwd=".$cardpass);
+$retinfo = json_decode($retinfo,true);
+	
+if($retinfo['lala'] == '1')
 
-//一卡通验证
 	return true;
-
+else
+	return false;
 }
 ?>
