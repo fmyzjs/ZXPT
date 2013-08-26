@@ -1,5 +1,9 @@
 pt source 
+
 based on mtpt
 based on nexusphp
+
 env:
   ubuntu/12.04.2  + nginx/1.4.1 +mysql  5.5.32 +php 5.5.1  +memcached
+
+sql: https://github.com/itxx00/mtpt/blob/master/mtpt.sql
