@@ -1,5 +1,6 @@
 <?php
 require_once("include/bittorrent.php");
+
 dbconn();
 
 $langid = 0 + $_GET['sitelanguage'];
@@ -62,9 +63,17 @@ $s .= "\n</select>";
 if ($type == 'invite')
 print("<input type=hidden name=type value='invite'><input type=hidden name=invitenumber value='".$code."'>");
 print("<div align=right valign=top>".$lang_signup['text_select_lang']. $s . "</div>");
+
+$app_key= "919fc0716ad8f931325ad9c0a483574e";
+$app_pass= "919fc0716ad8f931325ad9c0a483574e";
+$retinfo=file_get_contents("http://api.bistu.edu.cn/api/api_app.php?table=member&action=getloginkey&app_key=".$app_key."&app_pass=".$app_pass);
+$modulus = json_decode($retinfo,true); 
+
+
 ?>
 </form>
-<p>
+<sp>
+
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#cardsubmit").click(function(){
@@ -105,6 +114,7 @@ print("<div align=right valign=top>".$lang_signup['text_select_lang']. $s . "</d
 			else
 				 $("#genderspan").html(" ");
 			if(err)return false;
+
 		});
 	});
 </script>
@@ -119,8 +129,9 @@ print("<tr><td class=text align=center colspan=2>".$lang_signup['text_cookies_no
 <tr><td class=rowhead><?php echo $lang_signup['row_pick_a_password'] ?></td><td class=rowfollow align=left><input type="password" style="width: 200px" name="wantpassword" id="wantpassword" /><span id="passwordspan" style="color:red">&nbsp;</span><br />
 	<font class=small><?php echo $lang_signup['text_minimum_six_characters'] ?></font></td></tr>
 <tr><td class=rowhead><?php echo $lang_signup['row_enter_password_again'] ?></td><td class=rowfollow align=left><input type="password" style="width: 200px" name="passagain" id="passagain" /><span id="passagainspan" style="color:red"></span></td></tr>
-<? if(empty($_GET['invitenumber'])){ ?><tr><td class=rowhead><?php echo $lang_signup['row_enter_stuid'] ?></td><td class=rowfollow align=left><input type="text" style="width: 200px" name="stuid" id="stuid"/><span id="stuidspan" style="color:red">&nbsp;</span></td></tr>
+<? if(empty($_GET['invitenumber'])){ ?><tr><td class=rowhead><?php echo $lang_signup['row_enter_stuid'] ?></td><td class=rowfollow align=left><input type="text" style="width: 200px" name="stuid" id="stuid"  /><span id="stuidspan" style="color:red">&nbsp;</span></td></tr>
 <tr><td class=rowhead><?php echo $lang_signup['row_enter_cardpass'] ?></td><td class=rowfollow align=left><input name="cardpass" type="password" style="width: 200px" id="cardpass" /><span id="cardpassspan" style="color:red">&nbsp;</span></td></tr>
+
 <? } ?>
 <?php
 show_image_code ();

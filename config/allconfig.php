@@ -1,6 +1,5 @@
 <?php
-$ACCOUNT=array(
-	'neverdelete' => '6',
+$ACCOUNT=array(	'neverdelete' => '6',
 	'neverdeletepacked' => '3',
 	'deletepacked' => '400',
 	'deleteunpacked' => '150',
@@ -49,8 +48,7 @@ $ACCOUNT=array(
 	'nmdl' => '700',
 	'nmprratio' => '4.55',
 	'nmderatio' => '4.45',
-	'getInvitesByPromotion' => array(
-		'2' => '0',
+	'getInvitesByPromotion' => array(		'2' => '0',
 		'3' => '0',
 		'4' => '0',
 		'5' => '1',
@@ -60,8 +58,7 @@ $ACCOUNT=array(
 		'9' => '5',
 	),
 );
-$ADVERTISEMENT=array(
-	'enablead' => 'yes',
+$ADVERTISEMENT=array(	'enablead' => 'yes',
 	'enablenoad' => NULL,
 	'noad' => '14',
 	'enablebonusnoad' => NULL,
@@ -70,8 +67,7 @@ $ADVERTISEMENT=array(
 	'bonusnoadtime' => '15',
 	'adclickbonus' => '0',
 );
-$ATTACHMENT=array(
-	'enableattach' => 'yes',
+$ATTACHMENT=array(	'enableattach' => 'yes',
 	'classone' => '1',
 	'countone' => '40',
 	'sizeone' => '512',
@@ -102,8 +98,7 @@ $ATTACHMENT=array(
 	'altthumbwidth' => '360',
 	'altthumbheight' => '270',
 );
-$AUTHORITY=array(
-	'defaultclass' => '1',
+$AUTHORITY=array(	'defaultclass' => '1',
 	'staffmem' => '13',
 	'newsmanage' => '14',
 	'newfunitem' => '1',
@@ -149,8 +144,7 @@ $AUTHORITY=array(
 	'againstoffer' => '1',
 	'userbar' => '2',
 );
-$BASIC=array(
-	'SITENAME' => '竹轩 PT',
+$BASIC=array(	'SITENAME' => '竹轩 PT',
 	'BASEURL' => 'v6.idefs.com',
 	'announce_url' => 'v6.idefs.com/announce.php',
 	'mysql_host' => '127.0.0.1',
@@ -158,8 +152,7 @@ $BASIC=array(
 	'mysql_pass' => 'hzjstq',
 	'mysql_db' => 'pt',
 );
-$BONUS=array(
-	'donortimes' => '2',
+$BONUS=array(	'donortimes' => '2',
 	'perseeding' => '1',
 	'maxseeding' => '7',
 	'tzero' => '4',
@@ -191,14 +184,12 @@ $BONUS=array(
 	'prolinkpoint' => '20',
 	'prolinktime' => '600',
 );
-$CODE=array(
-	'mainversion' => 'ZXPT',
+$CODE=array(	'mainversion' => 'ZXPT',
 	'subversion' => 'Based on MTPT  v0.2',
 	'releasedate' => '2013-01-14',
 	'website' => '<a href="http://www.idefs.com">竹轩小站</a>',
 );
-$MAIN=array(
-	'site_online' => 'yes',
+$MAIN=array(	'site_online' => 'yes',
 	'max_torrent_size' => '2097152',
 	'announce_interval' => '840',
 	'annintertwoage' => '7',
@@ -234,7 +225,7 @@ $MAIN=array(
 	'invitesystem' => 'yes',
 	'loginadd' => 'yes',
 	'registration' => 'yes',
-	'cardreg' => 'no',
+	'cardreg' => 'yes',
 	'showhotmovies' => 'yes',
 	'showclassicmovies' => 'yes',
 	'showimdbinfo' => 'yes',
@@ -273,8 +264,7 @@ $MAIN=array(
 	'startsubid' => NULL,
 	'logo' => '',
 );
-$SECURITY=array(
-	'securelogin' => 'op',
+$SECURITY=array(	'securelogin' => 'op',
 	'securetracker' => 'op',
 	'https_announce_url' => '',
 	'iv' => 'no',
@@ -284,15 +274,13 @@ $SECURITY=array(
 	'cheaterdet' => '1',
 	'nodetect' => '11',
 );
-$SMTP=array(
-	'smtptype' => 'advanced',
+$SMTP=array(	'smtptype' => 'advanced',
 	'emailnotify' => 'no',
 	'smtp_host' => 'localhost',
 	'smtp_port' => '25',
 	'smtp_from' => NULL,
 );
-$TORRENT=array(
-	'prorules' => 'no',
+$TORRENT=array(	'prorules' => 'no',
 	'randomhalfleech' => '5',
 	'randomfree' => '2',
 	'randomtwoup' => '2',
@@ -320,8 +308,7 @@ $TORRENT=array(
 	'thirtypercentleechbecome' => '1',
 	'expirethirtypercentleech' => '30',
 );
-$TWEAK=array(
-	'where' => 'no',
+$TWEAK=array(	'where' => 'no',
 	'iplog1' => 'yes',
 	'bonus' => 'enable',
 	'datefounded' => '2010-08-19',

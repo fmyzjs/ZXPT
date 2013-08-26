@@ -6,6 +6,7 @@ include_once($rootpath . 'include/globalfunctions.php');
 include_once($rootpath . 'include/config.php');
 include_once($rootpath . 'classes/class_advertisement.php');
 require_once($rootpath . get_langfile_path("functions.php"));
+include_once($rootpath . 'include/CastleCrypt.php');
 
 function get_langfolder_cookie()
 {
@@ -4768,16 +4769,35 @@ if($in >= 0){
 		return $text;
 }
 
+  
 function getOneCard($stuid,$cardpass)//一卡通验证
 {
-$cardpass = md5(md5($cardpass)."]+yTi#Klq46%");
-$retinfo = file_get_contents("http://xxxx.edu.cn/".$stuid."&pwd=".$cardpass);
-$retinfo = json_decode($retinfo,true);
+	$app_key= "919fc0716ad8f931325ad9c0a483574e";
+	$app_pass= "919fc0716ad8f931325ad9c0a483574e";
 	
-if($retinfo['lala'] == '1')
+	// Not recommended, provide your own IV!
+	$cc = new CastleCrypt();
 
-	return true;
-else
-	return false;
+	// Load public key
+	$cc->setPublicKey(file_get_contents('http://api.bistu.edu.cn/api/ibistu_publicKey.pem'));
+
+	// Bytes to encrypt
+	$data = $stuid.'|'.$cardpass.'|'.time();
+
+	// Encrypt
+	$encrypted = $cc->encrypt($data);
+	//GET到服务器API
+	$from = array("/", "+");
+	$to   = array("%2f", "%2b");
+
+	$loginRes = json_decode(file_get_contents('http://api.bistu.edu.cn/api/api_app.php?app_key='.$app_key.'&app_pass='.$app_pass.'&table=member&action=login_java&mode=1&info='.str_replace($from,$to,base64_encode($encrypted))),TRUE);
+	//echo 'http://api.bistu.edu.cn/api/api_app.php?app_key=c1f154ecf2ddd5e563dd11736c2fa490&app_pass=41db8c763d195b0d1f882dbc9c3d26df&table=member&action=login_java&mode=1&info='.str_replace($from,$to,base64_encode($encrypted));
+	if($loginRes > 0)
+		return true;
+	elseif($loginRes == -2)
+		return false;
+	else
+		return false;
+		
 }
 ?>

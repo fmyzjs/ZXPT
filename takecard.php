@@ -1,5 +1,6 @@
 <?php
 require_once("include/bittorrent.php");
+
 dbconn();
 require_once(get_langfile_path("", false, get_langfolder_cookie()));
 cur_user_check ();

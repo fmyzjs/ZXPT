@@ -11,7 +11,7 @@ $lang_signup = array
 	'text_weak_password' => "<a href=javascript:showTips();><u>为何密码不能过于简单？</u></a>",
 	'row_enter_password_again' => "确认密码",
 	'row_enter_stuid' => "学号/工号",
-	'row_enter_cardpass' => "校园信息平台密码<br />(锐捷密码)",
+	'row_enter_cardpass' => "校园信息平台密码<br />(身份证后8位)",
 	'row_question' => "密码丢失问题",
 	'row_enter_hint_answer' => "输入答案",
 	'text_hint_note' => "用于找回忘记的密码,至少6个字符。",
