@@ -1178,6 +1178,7 @@ elseif($inclbookmarked == 2)
 
 if ($count) {
 	print($pagertop);
+	print("<p align=\"center\"> ".$lang_functions['text_promoted_torrents_note']."</p>\n");  //此处是在搜索箱下部位置插入
 	if ($sectiontype == $browsecatmode)
 		torrenttable($res, "torrents");
 	elseif ($sectiontype == $specialcatmode) 

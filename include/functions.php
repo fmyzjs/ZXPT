@@ -3324,8 +3324,12 @@ else $displaysmalldescr = true;
 while ($row = mysql_fetch_assoc($res))
 {
 	$id = $row["id"];
-	$sphighlight = get_torrent_bg_color($row['sp_state']);
+	if ($row['pos_state'] == 'sticky' && $CURUSER['appendsticky'] == 'yes') {
+	$sphighlight = " class='twoupfree_bg'";
+	}
+	else $sphighlight = get_torrent_bg_color($row['sp_state']);
 	print("<tr" . $sphighlight . ">\n");
+	
  	if(get_user_class() > $torrentmanage_class)
  	print("<td class=\"rowfollow nowrap\" valign=\"middle\" style='padding: 0px'><input id='box' onclick=\"ChkSonClick('box[]','box');torrentbycheck();\" class=box type=checkbox name=box[] value=".$id."></td>");
 
