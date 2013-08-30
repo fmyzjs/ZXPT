@@ -25,7 +25,7 @@ $lang_signup = array
 	'row_verification' => "确认",
 	'checkbox_read_rules' => "我已阅读并同意遵守站点<a href=rules.php><u>规则</u></a>。",
 	'checkbox_read_faq' => "我会在提问前先查看<a href=faq.php><u>常见问题</u></a>。",
-	'checkbox_age' => "我同意遵守农林科大校规校纪。",
+	'checkbox_age' => "我同意遵守北信科大校规校纪。",
 	'text_all_fields_required' => "所有项目都必须填写！",
 	'submit_sign_up' => "注册！(只需点击一次)",
 	'submit_invite' => "提交进入注册！(只需点击一次)",
