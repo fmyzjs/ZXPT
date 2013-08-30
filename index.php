@@ -109,10 +109,10 @@ if($Days == 1){
 }}
 
 
-//------if(!ipv6ip(findip()))-------------//判断IP地址。
-  //----print("<div align=center>".$lang_index['text_not_ipv6']."</div>");
-//------else
- // -----print("<div align=center>".$lang_index['text_is_ipv6'].findip().$lang_index['text_visit_here']."</div>");
+if(!ipv6ip(findip()))//判断IP地址。
+	print("<div align=center>".$lang_index['text_not_ipv6']."</div>");
+else
+	print("<div align=center>".$lang_index['text_is_ipv6'].findip().$lang_index['text_visit_here']."</div>");
 
 
 // ------------- start: recent news ------------------//

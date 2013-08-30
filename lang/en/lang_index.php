@@ -8,7 +8,7 @@ $lang_index = array
 	'std_option_unselected' => "Please select an option.",
 	'text_news_page' => "New",
 	'text_recent_news' => "Recent news",
-	'text_not_ipv6' => "You are now using IPV4,<a href=http://pt.nwsuaf6.edu.cn>Click to go to IPV6 channel</a>",
+	'text_not_ipv6' => "You are now using IPV4,<a href=http://v6.idefs.com>Click to go to IPV6 channel</a>",
 	'text_is_ipv6' => "You are currently using IPV6 address:",
 	'text_visit_here' => "visit this site",
 	'text_e' => "Edit",

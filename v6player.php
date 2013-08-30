@@ -29,7 +29,6 @@ if(!isset($_GET['id'])|| !isset($_GET['u'])){
 <?php 
 
 $domain=$_SERVER['HTTP_HOST'];
-// 将 www.yy.org 替换为你自己站点 地址
 header("Refresh: 3; url=v6player://$id&ty=1&ro=2&id=$id&ua=$u&url=$domain");?>
 </div>
 </body>
