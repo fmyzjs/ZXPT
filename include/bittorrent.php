@@ -1,9 +1,9 @@
 <?php
 session_start();
 define('IN_TRACKER', true);
-define("PROJECTNAME","ZXPT");
-define("NEXUSPHPURL","http://pt.nwsuaf6.edu.cn");
-define("NEXUSWIKIURL","http://pt.nwsuaf6.edu.cn");
+define("PROJECTNAME","QXPT");
+define("NEXUSPHPURL","http://pt.bistu.edu.cn");
+define("NEXUSWIKIURL","http://pt.bistu.edu.cn");
 define("VERSION","Powered by <a href=\"aboutnexus.php\">".PROJECTNAME."</a>");
 define("THISTRACKER","General");
 $showversion = " - Powered by ".PROJECTNAME;

@@ -300,7 +300,7 @@ $lang_functions = array
 	'text_thirty_percent_down' => "30%",
 	'text_please_download_something_within' => "请在",
 	'text_inactive_account_be_deleted' => "内做些下载。没有流量的用户会被删除账号。",
-	'text_about' => "站点设计与维护：<a href=http://www.iflab.org target=_blank>北京信息科技大学网络实践创新实践联盟</a><br />",
+	'text_about' => "站点设计与维护：<a href=http://www.iflab.org target=_blank>北京信息科技大学网络创新实践联盟</a><br />",
     'text_utdown' => "<a href=\"/forums.php?action=viewtopic&forumid=13&topicid=4740\" target=\"_blank\" >本站资源不支持迅雷等软件下载,推荐使用utorrent：<img src=\"./pic/ut.png\" width=\"20px\" height=\"20px\" /></a><br />"
 
 );
