@@ -226,6 +226,24 @@ if ($allowtorrents){
 				{
 					tr($lang_upload['row_show_uploader'], "<input type=\"checkbox\" name=\"uplver\" value=\"yes\" />".$lang_upload['checkbox_hide_uploader_note'], 1);
 				}
+				// if(get_user_class()>=$UC_UPLOADER)
+				// {
+				// 	$pickcontent .= "<b>".$lang_edit['row_special_torrent'].":&nbsp;</b>"."<select name=\"sel_spstate\" style=\"width: 100px;\">" .promotion_selection($row["sp_state"], 0). "</select>&nbsp;&nbsp;&nbsp;<b>".$lang_edit['row_special_torrent_time'].":&nbsp;</b><input type=\"text\" name=\"freetime\" size=3 maxlength=3 /><b>天(留空不修改，-1为永久)<input type=\"text\" name=\"freetimeh\" size=2 maxlength=2 />小时，当前至$row[endfree]</b><br />";
+				// 	$pickcontent .= "<b>".$lang_edit['row_torrent_position'].":&nbsp;</b>"."<select name=\"sel_posstate\" style=\"width: 100px;\">" .
+				// 	"<option" . (($row["pos_state"] == "normal") ? " selected=\"selected\"" : "" ) . " value=\"0\">".$lang_edit['select_normal']."</option>" .
+				// 	"<option" . (($row["pos_state"] == "sticky") ? " selected=\"selected\"" : "" ) . " value=\"1\">".$lang_edit['select_sticky']."</option>" .
+				// 	"</select>&nbsp;&nbsp;&nbsp;<b>".$lang_edit['row_torrent_position_time'].":&nbsp;</b><input type=\"text\" name=\"stickytime\" size=3 maxlength=3 /><b>天(留空不修改，-1为永久)<input type=\"text\" name=\"stickytimeh\" size=2 maxlength=2 />小时，当前至$row[endsticky]</b><br />";
+				// }
+				// if(get_user_class()>=$UC_UPLOADER)
+				// {
+				// 	$pickcontent .= "<b>".$lang_edit['row_recommended_movie'].":&nbsp;</b>"."<select name=\"sel_recmovie\" style=\"width: 100px;\">" .
+				// 	"<option" . (($row["picktype"] == "normal") ? " selected=\"selected\"" : "" ) . " value=\"0\">".$lang_edit['select_normal']."</option>" .
+				// 	"<option" . (($row["picktype"] == "hot") ? " selected=\"selected\"" : "" ) . " value=\"1\">".$lang_edit['select_hot']."</option>" .
+				// 	"<option" . (($row["picktype"] == "classic") ? " selected=\"selected\"" : "" ) . " value=\"2\">".$lang_edit['select_classic']."</option>" .
+				// 	"<option" . (($row["picktype"] == "recommended") ? " selected=\"selected\"" : "" ) . " value=\"3\">".$lang_edit['select_recommended']."</option>" .
+				// 	"</select>";
+				// 	//"</select>&nbsp;&nbsp;&nbsp;<b>".$lang_edit['row_torrent_position_time'].":&nbsp;</b><input type=\"text\" name=\"picktime\" size=3 maxlength=3 /><b>天(留空不修改，-1为永久)<input type=\"text\" name=\"picktime\" size=2 maxlength=2 />小时，当前至$row[picktime]</b><br />";
+				// }
 				?>
 				<tr><td class="toolbox" align="center" colspan="2"><input id="qr" type="submit" class="btn" value="<?php echo $lang_upload['submit_upload']?>" /></td></tr>	</table>
 	</form>

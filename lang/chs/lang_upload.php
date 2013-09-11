@@ -46,6 +46,31 @@ $lang_upload = array
 	'text_chinese_title' => "中文名:",
 	'text_english_title' => "英文名:",
 	'text_titles_note' => "(如果英文名不存在，使用拼音或不填写)",
+
+
+	// 'row_special_torrent' => "促销种子",
+	// 'select_use_global_setting' => "使用全局设置",
+	// 'row_special_torrent_time' => "促销时长",
+	// 'select_forever' => "永久",
+	// 'select_until' => "直到",
+	// 'text_keep_current' => "原设置",
+	// 'text_ie_for' => "时长",
+	// 'text_promotion_until_note' => "（时间格式为'年年年年-月月-日日 时时:分分:秒秒'）",
+	// 'select_normal' => "普通",
+	// 'select_free' => "免费",
+	// 'select_two_times_up' => "2x上传",
+	// 'select_free_two_times_up' => "免费&2x上传",
+	// 'select_half_down' => "50%下载",
+	// 'select_choose_torrent_state' => "设定种子的促销状态",
+	// 'row_torrent_position' => "种子位置",
+	// 'row_torrent_position_time' => "置顶时长",
+	// 'row_recommended_movie' => "推荐",
+	// 'select_choose_recommended_movie' => "选择图片是否在首页“推荐种子”或“推荐经典”中显示",
+	// 'select_hot' => "热门",
+	// 'select_classic' => "经典",
+	// 'select_recommended' => "推荐",
+	// 'select_sticky' => "置顶",
+	// 'select_choose_if_sticky' => "选择种子是否在种子页面置顶",
 );
 
 ?>

@@ -64,17 +64,17 @@ else {
 		}
 		$sp_torrent = get_torrent_promotion_append($row[sp_state],'word');
 
-		$count_dispname=mb_strlen($row["name"],"UTF-8");
-		if (!$displaysmalldescr || $row["small_descr"] == "")// maximum length of torrent name
-			$max_length_of_torrent_name = 100;
-		elseif ($CURUSER['fontsize'] == 'large')
-			$max_length_of_torrent_name = 40;
-		elseif ($CURUSER['fontsize'] == 'small')
-			$max_length_of_torrent_name = 40;
-		else $max_length_of_torrent_name = 40;
+		// $count_dispname=mb_strlen($row["name"],"UTF-8");
+		// if (!$displaysmalldescr || $row["small_descr"] == "")// maximum length of torrent name
+		// 	$max_length_of_torrent_name = 100;
+		// elseif ($CURUSER['fontsize'] == 'large')
+		// 	$max_length_of_torrent_name = 40;
+		// elseif ($CURUSER['fontsize'] == 'small')
+		// 	$max_length_of_torrent_name = 40;
+		// else $max_length_of_torrent_name = 40;
 
-		if($count_dispname > $max_length_of_torrent_name)
-			$row["name"]=mb_substr($row["name"], 0, $max_length_of_torrent_name-2,"UTF-8") . "..";
+		// if($count_dispname > $max_length_of_torrent_name)
+		// 	$row["name"]=mb_substr($row["name"], 0, $max_length_of_torrent_name-2,"UTF-8") . "..";
 
 		$s=htmlspecialchars($row["name"]).($sp_torrent ? "&nbsp;&nbsp;&nbsp;".$sp_torrent : "");
 		print("<h1 align=\"center\" id=\"top\">".$s."</h1>\n");
