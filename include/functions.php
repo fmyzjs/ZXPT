@@ -1458,7 +1458,7 @@ function sent_mail($to,$fromname,$fromemail,$subject,$body,$type = "confirmation
 		$mail->open($smtpaddress, $smtpport);
 		$mail->auth($accountname, $accountpassword);
 		//	$mail->bcc($multiplemail);
-		$mail->from($SITEEMAIL);
+		$mail->from($accountname);
 		if ($multiple)
 		{
 			$mail->multi_to_head($to);

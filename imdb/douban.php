@@ -67,7 +67,7 @@ class douban {
 		$page .="导　　演：";
 		$page .=$this->dbinfo['directors'][0]['name'];
 		$page .="<br />";
-		$page .="年   代：";
+		$page .="年　　代：";
 		$page .=$this->dbinfo['year'];
 		$page .="<br />";/*
 		$page .="电影时长：";
