@@ -1136,9 +1136,9 @@ function build_imdb_url($imdb_id)
 
 function parse_douban_id($url)
 {
-	if ($url != "" && preg_match("/[0-9]{7}/i", $url, $matches)) {
+	if ($url != "" && preg_match("/[0-9]{8}/i", $url, $matches)) {
 		return $matches[0];
-	} elseif ($url && is_numeric($url) && strlen($url) < 7) {
+	} elseif ($url && is_numeric($url) && strlen($url) < 8) {
 		return str_pad($url, 7, '0', STR_PAD_LEFT);
 	} else {
 		return false;
