@@ -109,7 +109,7 @@ else {
 	else $order.=" amount DESC";
 	
 	$rows=sql_query("SELECT * FROM req WHERE ".$limit."  ORDER BY $order $page") or sqlerr(__FILE__, __LINE__);
-	print("<h1 align=center><a href=viewrequest.php?action=new><input type=\"button\" value=\"".$lang_req['head_req']."\" onclick=\"window.location='viewrequest.php?action=new';\" style=\"font-weight: bold\"/></a> <a href=rules.php><input type=\"button\" value=\"规则\" onclick=\"window.location='forums.php?action=viewtopic&topicid=4770';\" style=\"color: red; font-weight: bold\"/></a></h1>");
+	print("<h1 align=center><a href=viewrequest.php?action=new><input type=\"button\" value=\"".$lang_req['head_req']."\" onclick=\"window.location='viewrequest.php?action=new';\" style=\"font-weight: bold\"/></a> <a href=rules.php><input type=\"button\" value=\"规则\" onclick=\"window.location='forums.php?action=viewtopic&forumid=8&topicid=4';\" style=\"color: red; font-weight: bold\"/></a></h1>");
 	print($pagertop);
 	print("<table width=940 border=1 cellspacing=0 cellpadding=5 style=border-collapse:collapse >\n");
 	if (get_user_class() >= 13)
@@ -229,7 +229,7 @@ else {
 		}
 	}
 		
-	if($arr["finish"]=="no")tr("追加悬赏","<form action=viewrequest.php method=post> <input type=hidden name=action value=addamount><input type=hidden name=reqid value=".$arr["id"]."><input size=6 name=amount value=1000 ><input type=submit value=提交 > 追加悬赏每次将扣减25个麦粒作为手续费".$amountadder."</form>",1);
+	if($arr["finish"]=="no")tr("追加悬赏","<form action=viewrequest.php method=post> <input type=hidden name=action value=addamount><input type=hidden name=reqid value=".$arr["id"]."><input size=6 name=amount value=50 ><input type=submit value=提交 > 追加悬赏每次将扣减15个胡萝卜作为手续费".$amountadder."</form>",1);
 	tr("介绍",format_comment(unesc($arr["introduce"])),1);
 	$limit = ($arr['finish']=="no"?"":" AND chosen = 'yes' ");
 	$res = sql_query("SELECT * FROM resreq WHERE reqid ='".$_GET["id"]."'".$limit) or sqlerr(__FILE__, __LINE__);
@@ -340,13 +340,13 @@ function quick_reply_to(username)
 		$select.="<option value=\"".$rows["id"]."\">".$rows["name"]."</option>";
 		}
 		$select.="</select>";
-		print("<h1 align=center><a href=viewrequest.php?action=new><input type=\"button\" value=\"".$lang_req['head_req']."\" onclick=\"window.location='viewrequest.php?action=new';\" style=\"font-weight: bold\"/></a> <a href=forums.php?action=viewtopic&topicid=4770><input type=\"button\" value=\"规则\" onclick=\"window.location='forums.php?action=viewtopic&topicid=4770';\" style=\"color: red; font-weight: bold\"/></a></h1>");
+		print("<h1 align=center><a href=viewrequest.php?action=new><input type=\"button\" value=\"".$lang_req['head_req']."\" onclick=\"window.location='viewrequest.php?action=new';\" style=\"font-weight: bold\"/></a> <a href=forums.php?action=viewtopic&forumid=8&topicid=4><input type=\"button\" value=\"规则\" onclick=\"window.location='forums.php?action=viewtopic&topicid=4770';\" style=\"color: red; font-weight: bold\"/></a></h1>");
 		print(
 		"<form id=edit method=post name=edit action=viewrequest.php >\n<input type=hidden name=action  value=takeadded >\n");
 		print("<table width=940 cellspacing=0 cellpadding=3><tr><td class=colhead align=center colspan=2>新增求种</td></tr>\n");
 		tr("类型：",$select, 1);
 		tr("标题：","<input name=name size=134><br/>", 1);
-		tr("悬赏：","<input name=amount size=11 value=2000>赏金不得低于1000根胡萝卜，每次求种将扣去100根胡萝卜作为手续费。<br/>", 1);
+		tr("悬赏：","<input name=amount size=11 value=50>赏金不得低于50根胡萝卜，每次求种将扣去15根胡萝卜作为手续费。<br/>", 1);
 		print("<tr><td class=rowhead align=right valign=top><b>介绍：</b></td><td class=rowfollow align=left>");
 		textbbcode("edit","introduce",$arr["introduce"]);
 		print("</td></tr>");
