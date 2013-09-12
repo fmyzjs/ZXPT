@@ -23,7 +23,7 @@ $lang_login = array
 	'text_restrict_ip' => "限制IP：",
 	'text_ssl' => "SSL (HTTPS)：",
 	'checkbox_auto_logout' => " 15分钟后自动登出",
-	'text_QQ' => "<font color='blue'size='2'face='verdana' ><b> 新手QQ群：期待</b></font> ",
+	'text_QQ' => "<font color='blue'size='2'face='verdana' ><b> 新手QQ群：42457548</b></font> ",
 	'checkbox_restrict_ip' => " 限制只能使用本IP登录",
 	'checkbox_ssl' => " 使用SSL数据加密协议浏览网站",
 	'checkbox_ssl_tracker' => " 使用SSL数据加密协议连接Tracker",

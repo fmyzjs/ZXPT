@@ -7,7 +7,7 @@ $lang_staff = array
 	'text_firstline_support' => "一线客服",
 	'text_firstline_support_note' => "普通问题请咨询以下用户。注意：他们帮助你所花的时间和精力都是无回报的，请对他们表示感谢！",
 	'text_movie_critics' => "美工/技术组",
-	'text_movie_critics_note' => "负责网站整体美工、功能的优化等，麦田的幕后支撑人员",	'text_general_staff' => "常规管理员",
+	'text_movie_critics_note' => "负责网站整体美工、功能的优化等，PT的幕后支撑人员",	'text_general_staff' => "常规管理员",
 	'text_general_staff' => "管理组",
 	'text_general_staff_note' => "所有软件和<a href=faq.php><b>常见问题</b></a>中已解答的问题将被无视。<br /><br />点击<a href=contactstaff.php><b>这里</b></a>发短讯给管理组。",
 	'text_username' => "用户名",
