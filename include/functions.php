@@ -158,7 +158,7 @@ function print_attachment($dlkey, $enableimage = true, $imageresizer = true)
 			if($imageresizer == true)
 				$onclick = " onclick=\"Previewurl('".$httpdirectory_attachment."/".$row['location']."')\"";
 			else $onclick = "";
-			$return = "<img id=\"attach".$id."\" alt=\"".htmlspecialchars($row['filename'])."\" src=\"".$url."\"". $onclick .  " onmouseover=\"domTT_activate(this, event, 'content', '".htmlspecialchars("<strong>".$lang_functions['text_size']."</strong>: ".mksize($row['filesize'])."<br />".gettime($row['added']))."', 'styleClass', 'attach', 'x', findPosition(this)[0], 'y', findPosition(this)[1]-58);\" />";
+			$return = "<img id=\"attach".$id."\" style=\"max-width:100%\" alt=\"".htmlspecialchars($row['filename'])."\" src=\"".$url."\"". $onclick .  " onmouseover=\"domTT_activate(this, event, 'content', '".htmlspecialchars("<strong>".$lang_functions['text_size']."</strong>: ".mksize($row['filesize'])."<br />".gettime($row['added']))."', 'styleClass', 'attach', 'x', findPosition(this)[0], 'y', findPosition(this)[1]-58);\" />";
 		}
 		else $return = "";
 	}

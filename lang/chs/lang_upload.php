@@ -11,7 +11,7 @@ $lang_upload = array
 	'text_red_star_required' => "红星号(<font color=\"red\">*</font>)标记的区域必须填写",
 	'text_tracker_url' => "<font color=green>Tracker服务器的URL是</font>",
 	'text_zhuyi' => "做种注意事项：",
-	'text_notice' => "<font size=+1>不会做种？快看<a href=guide2.html target=_blank>教程Ⅰ</a>,PT客户端推荐使用<a href=uTorrent221.zip>μTorrent</a></font>",
+	'text_notice' => "<font size=+1>不会做种？快看<a href=/forums.php?action=viewtopic&forumid=8&topicid=8 target=_blank>教程Ⅰ</a>,PT客户端推荐使用<a href=uTorrent221.zip>μTorrent</a></font>",
 	'row_torrent_file' => "种子文件",
 	'row_torrent_name' => "标题",
     'text_torrent_name_note' => "(<b>必须规范填写</b>，如：<b><span id='gstishi'>[大陆][2000][鬼子死光了][Devils All Dead Off][喜剧][中文字幕][MKV]</span></b>   <a href=rules.php#guize target=_blank><font color=brown>点击阅读详细命名规则</font></a>",

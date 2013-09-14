@@ -149,7 +149,7 @@ else {
 		// ---------------- start subtitle block -------------------//
 		$r = sql_query("SELECT subs.*, language.flagpic, language.lang_name FROM subs LEFT JOIN language ON subs.lang_id=language.id WHERE torrent_id = " . sqlesc($row["id"]). " ORDER BY subs.lang_id ASC") or sqlerr(__FILE__, __LINE__);
 		print("<tr><td class=\"rowhead\" valign=\"top\">".$lang_details['row_subtitles']."</td>");
-		print("<td class=\"rowfollow\" align=\"left\" valign=\"top\">");
+		print("<td class=\"rowfollow\"  width=\"87%\" align=\"left\" valign=\"top\">");
 		print("<table border=\"0\" cellspacing=\"0\">");
 		if (mysql_num_rows($r) > 0)
 		{
