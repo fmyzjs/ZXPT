@@ -190,7 +190,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 				$Cache->add_whole_row();
 
 				$imdbcfg = new imdb_config();
-				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND dburl != '' ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
+				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND (dburl != '' OR url != '') ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
 				if (mysql_num_rows($res) > 0)
 				{
 					$movies_list = "";
@@ -276,7 +276,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 				$Cache->add_whole_row();
 
 				$imdbcfg = new imdb_config();
-				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND dburl != '' ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
+				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND (dburl != '' OR url != '') ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
 				if (mysql_num_rows($res) > 0)
 				{
 					$movies_list = "";

@@ -26,7 +26,7 @@ $row = mysql_fetch_array($res);
 
 if($row['category'] == '401' || $row['category'] == '408' || $row['category'] == '405')
 {
-	$v6button = " |  "."<script type=\"text/javascript\">function play(){window.location.href='6xvod://{$id}&ty=1&ro=1&id={$id}&ua={$CURUSER['passkey']}';}</script>"."<img height='14px' src=\"pic/v6player.gif\"/>"."<a href=\"v6player.php?id={$id}&u={$CURUSER['passkey']}\" target=\"_blank\"><b><font class=\"small\">  直接播放</font></b></a>";}
+	$v6button = " |  "."<script type=\"text/javascript\">function play(){window.location.href='6xvod://{$id}&ty=1&ro=1&id={$id}&ua={$CURUSER['passkey']}';}</script>"."<img height='14px' src=\"pic/v6Speed16.png\"/>"."<a href=\"v6player.php?id={$id}&u={$CURUSER['passkey']}\" target=\"_blank\"><b><font class=\"small\">  直接播放</font></b></a>";}
 else {
 	$v6button = "";
 }
