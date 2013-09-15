@@ -173,6 +173,10 @@ echo $Cache->next_row();
 				jQuery('#slider-stage').carousel('#previous', '#next');
 				jQuery('#viewport').carousel('#simplePrevious', '#simpleNext');  
 			});
+			jQuery(document).ready(function(){
+			jQuery('#slider-stage2').carousel('#previous2', '#next2');
+			jQuery('#viewport2').carousel('#simplePrevious2', '#simpleNext2');  
+});
 		</script>
 <?
 // ------------- start: hot and classic movies ------------------//
@@ -215,10 +219,10 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 						
 						elseif ($douban_id = parse_douban_id($array["dburl"]))
 						{
-							if (array_search($douban_id, $allDouban) !== false) { //a torrent with the same Douban url already exists
+							if (array_search($douban_id, $allImdb) !== false) { //a torrent with the same Douban url already exists
 								continue;
 							}
-							$allDouban[]=$douban_id;
+							$allImdb[]=$douban_id;
 							$photo_url = $imdbcfg->photodir . $douban_id. $imdbcfg->imageext;
 
 							if (file_exists($photo_url))
@@ -235,25 +239,25 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 ?>
 <h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
 <table width="100%" border="1" cellspacing="0" cellpadding="5"><tr><td class="text">
-<div class="demo">
+<!-- <div class="demo"> -->
 <?php
-	if($count > 9) 
+	if($count >= 9) 
 	{
 
 	print("<div style=\"width: 100%;\" id=\"sliderBloc\">");
 	print("<a id=\"previous\">Previous</a>");
-	print("<div style=\"width: 88%;\" id=\"slider-stage\">");
+	print("<div style=\"width: 95%;\" id=\"slider-stage\">");
 	print("<div style=\"width: 100%;\" id=\"slider-list\">");
 	}
 ?>
 <?php echo $movies_list ?>
 <?php
-	if($count > 9) 
+	if($count >= 9) 
 	{
 	print("</div>");
 	print("</div>");
 	print("<a id=\"next\">Next</a>");
-	print("</div>");
+	//print("</div>");
 	
 	}
 ?>
@@ -301,10 +305,10 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 
 						elseif ($douban_id = parse_douban_id($array["dburl"]))
 						{
-							if (array_search($douban_id, $allDouban) !== false) { //a torrent with the same Douban url already exists
+							if (array_search($douban_id, $allImdb) !== false) { //a torrent with the same Douban url already exists
 								continue;
 							}
-							$allDouban[]=$douban_id;
+							$allImdb[]=$douban_id;
 							$photo_url = $imdbcfg->photodir . $douban_id. $imdbcfg->imageext;
 
 							if (file_exists($photo_url))
@@ -323,25 +327,25 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 <h2><?php echo $lang_index['text_' . $type_each . 'movies'] ?></h2>
 <table width="100%" border="1" cellspacing="0" cellpadding="5"><tr>
 	<td class="text">
-		<div class="demo">
+		<!-- <div class="demo"> -->
 <?php
-	if($count > 9) 
+	if($count >= 9) 
 	{
 	
-	print("<div style=\"width: 100%;\" id=\"sliderBloc\">");
-	print("<a id=\"previous\">Previous</a>");
-	print("<div style=\"width: 88%;\" id=\"slider-stage\">");
-	print("<div style=\"width: 100%;\" id=\"slider-list\">");
+	print("<div style=\"width: 100%;\" id=\"sliderBloc2\">");
+	print("<a id=\"previous2\">Previous2</a>");
+	print("<div style=\"width: 95%;\" id=\"slider-stage2\">");
+	print("<div style=\"width: 100%;\" id=\"slider-list2\">");
 	}
 ?>
 <?php echo $movies_list ?>
 <?php
-	if($count > 9) 
+	if($count >= 9) 
 	{
 	print("</div>");
 	print("</div>");
-	print("<a id=\"next\">Next</a>");
-	print("</div>");
+	print("<a id=\"next2\">Next2</a>");
+	//print("</div>");
 	}
 ?>
 </div></td></tr></table>
