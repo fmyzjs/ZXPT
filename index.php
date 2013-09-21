@@ -182,7 +182,7 @@ echo $Cache->next_row();
 // ------------- start: hot and classic movies ------------------//
 if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies['classic'] == "yes"))
 {
-	$type = array('hot', 'classic');
+	$type = array('hot', 'classic','recommended');
 	//foreach($type as $type_each)
 	$type_each = 'hot';
 	{
@@ -194,7 +194,7 @@ if ($showextinfo['imdb'] == 'yes' && ($showmovies['hot'] == "yes" || $showmovies
 				$Cache->add_whole_row();
 
 				$imdbcfg = new imdb_config();
-				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . " AND seeders > 0 AND (dburl != '' OR url != '') ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
+				$res = sql_query("SELECT * FROM torrents WHERE picktype = " . sqlesc($type_each) . "  AND seeders > 0 AND (dburl != '' OR url != '') ORDER BY id DESC LIMIT 30") or sqlerr(__FILE__, __LINE__);
 				if (mysql_num_rows($res) > 0)
 				{
 					$movies_list = "";
@@ -397,7 +397,7 @@ if ($showfunbox_main == "yes" && (!isset($CURUSER) || $CURUSER['showfb'] == "yes
 	print("</h2>");
 
 	print("<table width=\"100%\"><tr><td class=\"text\">");
-	print("<iframe src=\"fun.php?action=view\" width='900' height='300' frameborder='0' name='funbox' marginwidth='0' marginheight='0'></iframe><br /><br />\n");
+	print("<iframe src=\"fun.php?action=view\" width='900' height='525' frameborder='0' name='funbox' marginwidth='0' marginheight='0'></iframe><br /><br />\n");
 
 	if ($CURUSER)
 	{
